@@ -10,9 +10,11 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Build Shared Library Search Path.vi" Type="VI" URL="../Private/Build Shared Library Search Path.vi"/>
+		<Item Name="Manager.vi" Type="VI" URL="../Private/Manager.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Context.lvclass" Type="LVClass" URL="../Public/Context/Context.lvclass"/>
+		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
+		<Item Name="Shutdown.vi" Type="VI" URL="../Public/Shutdown.vi"/>
 	</Item>
 </Library>

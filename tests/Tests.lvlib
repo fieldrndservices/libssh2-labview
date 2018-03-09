@@ -12,6 +12,6 @@
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Create-Destroy.vi" Type="VI" URL="../Public/Create-Destroy.vi"/>
+		<Item Name="Initialize-Shutdown.vi" Type="VI" URL="../Public/Initialize-Shutdown.vi"/>
 	</Item>
 </Library>
