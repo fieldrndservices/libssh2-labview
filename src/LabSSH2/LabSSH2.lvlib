@@ -10,11 +10,13 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Build Shared Library Search Path.vi" Type="VI" URL="../Private/Build Shared Library Search Path.vi"/>
-		<Item Name="Manager.vi" Type="VI" URL="../Private/Manager.vi"/>
+		<Item Name="libssh2-x64.dll" Type="Document" URL="../Private/libssh2-x64.dll"/>
+		<Item Name="libssh2.dll" Type="Document" URL="../Private/libssh2.dll"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
+		<Item Name="Session.lvclass" Type="LVClass" URL="../Public/SSH/Session.lvclass"/>
 		<Item Name="Shutdown.vi" Type="VI" URL="../Public/Shutdown.vi"/>
 	</Item>
 </Library>
