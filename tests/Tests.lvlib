@@ -13,5 +13,6 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Initialize-Shutdown.vi" Type="VI" URL="../Public/Initialize-Shutdown.vi"/>
+		<Item Name="Session.lvlib" Type="Library" URL="../Public/Session/Session.lvlib"/>
 	</Item>
 </Library>
