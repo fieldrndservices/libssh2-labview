@@ -13,6 +13,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Connect-Disconnect.vi" Type="VI" URL="../Public/Connect-Disconnect.vi"/>
 		<Item Name="Create-Destroy.vi" Type="VI" URL="../Public/Create-Destroy.vi"/>
+		<Item Name="Host Key Hash.vi" Type="VI" URL="../Public/Host Key Hash.vi"/>
 		<Item Name="Mode.vi" Type="VI" URL="../Public/Mode.vi"/>
 		<Item Name="Run All.vi" Type="VI" URL="../Public/Run All.vi"/>
 	</Item>
