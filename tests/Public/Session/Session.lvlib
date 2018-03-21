@@ -17,5 +17,6 @@
 		<Item Name="Host Key Hash.vi" Type="VI" URL="../Public/Host Key Hash.vi"/>
 		<Item Name="Mode.vi" Type="VI" URL="../Public/Mode.vi"/>
 		<Item Name="Run All.vi" Type="VI" URL="../Public/Run All.vi"/>
+		<Item Name="User Authentication List.vi" Type="VI" URL="../Public/User Authentication List.vi"/>
 	</Item>
 </Library>
