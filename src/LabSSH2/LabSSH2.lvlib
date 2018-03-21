@@ -16,6 +16,7 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
+		<Item Name="KnownHost.lvclass" Type="LVClass" URL="../Public/KnownHost/KnownHost.lvclass"/>
 		<Item Name="Session.lvclass" Type="LVClass" URL="../Public/SSH/Session.lvclass"/>
 		<Item Name="Shutdown.vi" Type="VI" URL="../Public/Shutdown.vi"/>
 	</Item>
