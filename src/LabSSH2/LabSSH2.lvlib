@@ -10,6 +10,7 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Build Shared Library Search Path.vi" Type="VI" URL="../Private/Build Shared Library Search Path.vi"/>
+		<Item Name="Check Status.vi" Type="VI" URL="../Private/Check Status.vi"/>
 		<Item Name="labssh2-x64.dll" Type="Document" URL="../Private/labssh2-x64.dll"/>
 		<Item Name="labssh2.dll" Type="Document" URL="../Private/labssh2.dll"/>
 	</Item>
