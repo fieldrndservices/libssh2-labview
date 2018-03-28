@@ -100,6 +100,9 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Host Key Fingerprint.vi" Type="VI" URL="../src/LabSSH2/Public/Session/Public/Host Key Fingerprint.vi"/>
+			<Item Name="Host Key Hash.vi" Type="VI" URL="../src/LabSSH2/Public/Session/Public/Host Key Hash.vi"/>
+			<Item Name="User Authentication List.vi" Type="VI" URL="../src/LabSSH2/Public/Session/Public/User Authentication List.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
