@@ -10,7 +10,8 @@
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Initialize-Shutdown.vi" Type="VI" URL="../Public/Initialize-Shutdown.vi"/>
-	<Item Name="KnownHosts.lvlib" Type="Library" URL="../Public/KnownHosts/KnownHosts.lvlib"/>
-	<Item Name="Session.lvlib" Type="Library" URL="../Public/Session/Session.lvlib"/>
+	<Item Name="Initialize-Shutdown.vi" Type="VI" URL="../Initialize-Shutdown.vi"/>
+	<Item Name="KnownHosts.lvlib" Type="Library" URL="../KnownHosts/KnownHosts.lvlib"/>
+	<Item Name="Run All.vi" Type="VI" URL="../Run All.vi"/>
+	<Item Name="Session.lvlib" Type="Library" URL="../Session/Session.lvlib"/>
 </Library>
