@@ -31,7 +31,7 @@
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Typedefs" Type="Folder">
-			<Item Name="Host Name Types.ctl" Type="VI" URL="../Public/Typedefs/Host Name Types.ctl">
+			<Item Name="Host Name Types.ctl" Type="VI" URL="../API/Typedefs/Host Name Types.ctl">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"I!!!!!1"A!0(7W8Q-!!!!!QV-97*45UAS,GRW&lt;'FC%ENO&lt;X&gt;O3'^T&gt;(-O&lt;(:D&lt;'&amp;T=R.)&lt;X.U)%ZB&lt;75A6(FQ:8-O9X2M!#.!&amp;A!$"6"M97FO"&amp;.)14%'1X6T&gt;'^N!!25?8"F!!!"!!!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
@@ -40,7 +40,7 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 			</Item>
-			<Item Name="Key Algorithms.ctl" Type="VI" URL="../Public/Typedefs/Key Algorithms.ctl">
+			<Item Name="Key Algorithms.ctl" Type="VI" URL="../API/Typedefs/Key Algorithms.ctl">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"X!!!!!1"P!0(7W8^:!!!!!QV-97*45UAS,GRW&lt;'FC%ENO&lt;X&gt;O3'^T&gt;(-O&lt;(:D&lt;'&amp;T=R*,:8EA17RH&lt;X*J&gt;'BN=SZD&gt;'Q!-U!7!!1%5F."-1&gt;45UAA5F.""V.43#"%5V-(67ZL&lt;G^X&lt;A!!#5&amp;M:W^S;82I&lt;1!"!!!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
@@ -49,7 +49,7 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 			</Item>
-			<Item Name="Key Encodings.ctl" Type="VI" URL="../Public/Typedefs/Key Encodings.ctl">
+			<Item Name="Key Encodings.ctl" Type="VI" URL="../API/Typedefs/Key Encodings.ctl">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"E!!!!!1"=!0(7W8R1!!!!!QV-97*45UAS,GRW&lt;'FC%ENO&lt;X&gt;O3'^T&gt;(-O&lt;(:D&lt;'&amp;T=R&amp;,:8EA27ZD&lt;W2J&lt;G&gt;T,G.U&lt;!!B1"9!!A.398='1G&amp;T:49U!!!)27ZD&lt;W2J&lt;G=!!!%!!!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
@@ -59,7 +59,7 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 			</Item>
 		</Item>
-		<Item Name="Create.vi" Type="VI" URL="../Public/Create.vi">
+		<Item Name="Create.vi" Type="VI" URL="../API/Create.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%&lt;!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$B!=!!?!!!C$62P&lt;WRL;81O&lt;(:M;7)33WZP&gt;WZ)&lt;X.U=SZM&gt;G.M98.T!!!,3WZP&gt;WYA3'^T&gt;(-!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!$"!=!!?!!!@$62P&lt;WRL;81O&lt;(:M;7)05W6T=WFP&lt;CZM&gt;G.M98.T!!&gt;4:8.T;7^O!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -68,7 +68,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
-		<Item Name="Destroy.vi" Type="VI" URL="../Public/Destroy.vi">
+		<Item Name="Destroy.vi" Type="VI" URL="../API/Destroy.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$L!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!Y1(!!(A!!)AV5&lt;W^M;WFU,GRW&lt;'FC%ENO&lt;X&gt;O3'^T&gt;(-O&lt;(:D&lt;'&amp;T=Q!!#ENO&lt;X&gt;O3'^T&gt;(-!!&amp;1!]!!-!!-!"!!%!!1!"!!%!!1!"!!&amp;!!1!"!!'!Q!!?!!!$1A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!!!!%!"Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
