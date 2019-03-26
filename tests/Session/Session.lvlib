@@ -13,4 +13,5 @@
 	<Item Name="Create-Destroy.vi" Type="VI" URL="../Create-Destroy.vi"/>
 	<Item Name="Fingerprint Length.vi" Type="VI" URL="../Fingerprint Length.vi"/>
 	<Item Name="Fingerprint.vi" Type="VI" URL="../Fingerprint.vi"/>
+	<Item Name="Password Authentication.vi" Type="VI" URL="../Password Authentication.vi"/>
 </Library>
