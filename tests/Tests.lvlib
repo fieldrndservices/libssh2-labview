@@ -9,6 +9,8 @@
 </Property>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Login Credentials Dialog.vi" Type="VI" URL="../Support/Login Credentials Dialog.vi"/>
+		<Item Name="Username Dialog.vi" Type="VI" URL="../Support/Username Dialog.vi"/>
 	</Item>
 	<Item Name="Initialize-Shutdown.vi" Type="VI" URL="../Initialize-Shutdown.vi"/>
 	<Item Name="KnownHosts.lvlib" Type="Library" URL="../KnownHosts/KnownHosts.lvlib"/>
