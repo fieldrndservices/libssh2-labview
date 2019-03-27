@@ -11,7 +11,7 @@
 </Property>
 	<Item Name="Connect-Disconnect.vi" Type="VI" URL="../Connect-Disconnect.vi"/>
 	<Item Name="Create-Destroy.vi" Type="VI" URL="../Create-Destroy.vi"/>
-	<Item Name="Fingerprint Length.vi" Type="VI" URL="../Fingerprint Length.vi"/>
 	<Item Name="Fingerprint.vi" Type="VI" URL="../Fingerprint.vi"/>
 	<Item Name="Password Authentication.vi" Type="VI" URL="../Password Authentication.vi"/>
+	<Item Name="User Authentication Schemes.vi" Type="VI" URL="../User Authentication Schemes.vi"/>
 </Library>
