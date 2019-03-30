@@ -10,8 +10,12 @@
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Address Dialog.vi" Type="VI" URL="../Support/Address Dialog.vi"/>
-		<Item Name="Login Credentials Dialog.vi" Type="VI" URL="../Support/Login Credentials Dialog.vi"/>
+		<Item Name="Configuration.ctl" Type="VI" URL="../Support/Configuration.ctl"/>
+		<Item Name="Password Dialog.vi" Type="VI" URL="../Support/Password Dialog.vi"/>
 		<Item Name="Read Key File.vi" Type="VI" URL="../Support/Read Key File.vi"/>
+		<Item Name="Secret Types.ctl" Type="VI" URL="../Support/Secret Types.ctl"/>
+		<Item Name="Select Key File.vi" Type="VI" URL="../Support/Select Key File.vi"/>
+		<Item Name="Select Key Files.vi" Type="VI" URL="../Support/Select Key Files.vi"/>
 		<Item Name="SSH Key Types.ctl" Type="VI" URL="../Support/SSH Key Types.ctl"/>
 		<Item Name="Username Dialog.vi" Type="VI" URL="../Support/Username Dialog.vi"/>
 	</Item>
