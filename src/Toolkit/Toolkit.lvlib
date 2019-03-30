@@ -18,6 +18,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Build Shared Library Search Path.vi" Type="VI" URL="../Support/Build Shared Library Search Path.vi"/>
 		<Item Name="Check Status.vi" Type="VI" URL="../Support/Check Status.vi"/>
+		<Item Name="Initialize Shared Library.vi" Type="VI" URL="../Support/Initialize Shared Library.vi"/>
 		<Item Name="lv-libssh2-x64.dll" Type="Document" URL="../Support/lv-libssh2-x64.dll"/>
 		<Item Name="lv-libssh2.dll" Type="Document" URL="../Support/lv-libssh2.dll"/>
 	</Item>
