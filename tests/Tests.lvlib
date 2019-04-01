@@ -16,6 +16,7 @@
 		<Item Name="Secret Types.ctl" Type="VI" URL="../Support/Secret Types.ctl"/>
 		<Item Name="Select Key File.vi" Type="VI" URL="../Support/Select Key File.vi"/>
 		<Item Name="Select Key Files.vi" Type="VI" URL="../Support/Select Key Files.vi"/>
+		<Item Name="Select Known Hosts File.vi" Type="VI" URL="../Support/Select Known Hosts File.vi"/>
 		<Item Name="SSH Key Types.ctl" Type="VI" URL="../Support/SSH Key Types.ctl"/>
 		<Item Name="Username Dialog.vi" Type="VI" URL="../Support/Username Dialog.vi"/>
 	</Item>
