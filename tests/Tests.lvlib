@@ -21,6 +21,7 @@
 		<Item Name="Username Dialog.vi" Type="VI" URL="../Support/Username Dialog.vi"/>
 	</Item>
 	<Item Name="Initialize-Shutdown.vi" Type="VI" URL="../Initialize-Shutdown.vi"/>
+	<Item Name="KnownHost.lvlib" Type="Library" URL="../KnownHost/KnownHost.lvlib"/>
 	<Item Name="KnownHosts.lvlib" Type="Library" URL="../KnownHosts/KnownHosts.lvlib"/>
 	<Item Name="Run All.vi" Type="VI" URL="../Run All.vi"/>
 	<Item Name="Session.lvlib" Type="Library" URL="../Session/Session.lvlib"/>
