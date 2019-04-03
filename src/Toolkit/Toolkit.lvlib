@@ -13,6 +13,7 @@
 		<Item Name="KnownHost.lvclass" Type="LVClass" URL="../API/KnownHost/KnownHost.lvclass"/>
 		<Item Name="KnownHosts.lvclass" Type="LVClass" URL="../API/KnownHosts/KnownHosts.lvclass"/>
 		<Item Name="Session.lvclass" Type="LVClass" URL="../API/Session/Session.lvclass"/>
+		<Item Name="SFTP File.lvclass" Type="LVClass" URL="../API/SFTP File/SFTP File.lvclass"/>
 		<Item Name="SFTP.lvclass" Type="LVClass" URL="../API/SFTP/SFTP.lvclass"/>
 		<Item Name="Shutdown.vi" Type="VI" URL="../API/Shutdown.vi"/>
 	</Item>

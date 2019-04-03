@@ -13,6 +13,7 @@
 		<Item Name="Configuration.ctl" Type="VI" URL="../Support/Configuration.ctl"/>
 		<Item Name="Password Dialog.vi" Type="VI" URL="../Support/Password Dialog.vi"/>
 		<Item Name="Read Key File.vi" Type="VI" URL="../Support/Read Key File.vi"/>
+		<Item Name="Remote Path Dialog.vi" Type="VI" URL="../Support/Remote Path Dialog.vi"/>
 		<Item Name="Secret Types.ctl" Type="VI" URL="../Support/Secret Types.ctl"/>
 		<Item Name="Select Key File.vi" Type="VI" URL="../Support/Select Key File.vi"/>
 		<Item Name="Select Key Files.vi" Type="VI" URL="../Support/Select Key Files.vi"/>
@@ -25,5 +26,6 @@
 	<Item Name="KnownHosts.lvlib" Type="Library" URL="../KnownHosts/KnownHosts.lvlib"/>
 	<Item Name="Run All.vi" Type="VI" URL="../Run All.vi"/>
 	<Item Name="Session.lvlib" Type="Library" URL="../Session/Session.lvlib"/>
+	<Item Name="SFTP File.lvlib" Type="Library" URL="../SFTP File/SFTP File.lvlib"/>
 	<Item Name="SFTP.lvlib" Type="Library" URL="../SFTP/SFTP.lvlib"/>
 </Library>
