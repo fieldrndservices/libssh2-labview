@@ -21,7 +21,16 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Documentation" Type="Folder"/>
+		<Item Name="Configurations" Type="Folder"/>
+		<Item Name="Documentation" Type="Folder">
+			<Item Name="CHANGELOG.md" Type="Document" URL="../docs/CHANGELOG.md"/>
+			<Item Name="LICENSE-APACHE.txt" Type="Document" URL="../docs/LICENSE-APACHE.txt"/>
+			<Item Name="LICENSE-libssh2.txt" Type="Document" URL="../docs/LICENSE-libssh2.txt"/>
+			<Item Name="LICENSE-MIT.txt" Type="Document" URL="../docs/LICENSE-MIT.txt"/>
+			<Item Name="LICENSE-openssl.txt" Type="Document" URL="../docs/LICENSE-openssl.txt"/>
+			<Item Name="LICENSE.txt" Type="Document" URL="../docs/LICENSE.txt"/>
+			<Item Name="README.md" Type="Document" URL="../README.md"/>
+		</Item>
 		<Item Name="Examples" Type="Folder"/>
 		<Item Name="Tests.lvlib" Type="Library" URL="../tests/Tests.lvlib"/>
 		<Item Name="Toolkit.lvlib" Type="Library" URL="../src/Toolkit/Toolkit.lvlib"/>
@@ -362,6 +371,139 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Examples" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{47E9C591-DBA4-4706-A798-40FB9A5E8974}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Examples</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/17.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/D/Users/cfield/Documents/LabVIEW Data/2017(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Examples</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A13C7B79-8266-44FA-809C-460DB477EB2D}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Examples</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Examples/Support</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{366E09DA-4A19-434F-999B-77F3B8360E1C}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tests.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Documentation</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Configurations</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Toolkit.lvlib</Property>
+				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[5].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
+			</Item>
+			<Item Name="Toolkit" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F8E07E60-7587-49E9-92AB-8169B3AB3A45}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Toolkit</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[2].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">/C/ProgramData/National Instruments/InstCache/17.0</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">/D/Users/cfield/Documents/LabVIEW Data/2017(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Toolkit</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{514E7279-3394-4E67-B6FE-EF59C28E03DA}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Toolkit</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Toolkit/Support</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[2].destName" Type="Str">Application Programming Interface</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/Toolkit/API</Property>
+				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{366E09DA-4A19-434F-999B-77F3B8360E1C}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tests.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Toolkit.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Examples</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Configurations</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Documentation</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Toolkit.lvlib/API</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
