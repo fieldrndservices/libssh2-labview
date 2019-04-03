@@ -28,6 +28,7 @@
 </Property>
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="Toolkit.lvlib:KnownHosts.lvclass" Type="Friended Library" URL="../../KnownHosts/KnownHosts.lvclass"/>
+		<Item Name="Toolkit.lvlib:SFTP.lvclass" Type="Friended Library" URL="../../SFTP/SFTP.lvclass"/>
 	</Item>
 	<Item Name="Session.ctl" Type="Class Private Data" URL="Session.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -183,6 +184,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
+		<Item Name="Host Key.vi" Type="VI" URL="../API/Host Key.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'@!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!7A$RW-FK&gt;Q!!!!-.6'^P&lt;'NJ&gt;#ZM&gt;GRJ9A^4:8.T;7^O,GRW9WRB=X-33'^T&gt;#",:8EA6(FQ:8-O9X2M!#&amp;!&amp;A!$!V*411.%5V-(67ZL&lt;G^X&lt;A!%6(FQ:1!!"1!&amp;!!!71%!!!@````]!"1B)&lt;X.U)%NF?1!!.E"Q!"Y!!"].6'^P&lt;'NJ&gt;#ZM&gt;GRJ9A^4:8.T;7^O,GRW9WRB=X-!$&amp;.F=X.T;7^O)%^V&gt;!!!"!!!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!U1(!!(A!!(QV5&lt;W^M;WFU,GRW&lt;'FC$V.F=X.J&lt;WYO&lt;(:D&lt;'&amp;T=Q!+5W6T=WFP&lt;C"*&lt;A!!91$Q!!Q!!Q!%!!9!"Q!)!!A!#!!)!!E!#!!)!!I$!!"Y!!!.#!!!#1!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
 	</Item>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -289,14 +299,5 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 			</Item>
 		</Item>
-	</Item>
-	<Item Name="Host Key.vi" Type="VI" URL="../API/Host Key.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'@!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!7A$RW-FK&gt;Q!!!!-.6'^P&lt;'NJ&gt;#ZM&gt;GRJ9A^4:8.T;7^O,GRW9WRB=X-33'^T&gt;#",:8EA6(FQ:8-O9X2M!#&amp;!&amp;A!$!V*411.%5V-(67ZL&lt;G^X&lt;A!%6(FQ:1!!"1!&amp;!!!71%!!!@````]!"1B)&lt;X.U)%NF?1!!.E"Q!"Y!!"].6'^P&lt;'NJ&gt;#ZM&gt;GRJ9A^4:8.T;7^O,GRW9WRB=X-!$&amp;.F=X.T;7^O)%^V&gt;!!!"!!!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!U1(!!(A!!(QV5&lt;W^M;WFU,GRW&lt;'FC$V.F=X.J&lt;WYO&lt;(:D&lt;'&amp;T=Q!+5W6T=WFP&lt;C"*&lt;A!!91$Q!!Q!!Q!%!!9!"Q!)!!A!#!!)!!E!#!!)!!I$!!"Y!!!.#!!!#1!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 </LVClass>

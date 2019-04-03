@@ -25,4 +25,5 @@
 	<Item Name="KnownHosts.lvlib" Type="Library" URL="../KnownHosts/KnownHosts.lvlib"/>
 	<Item Name="Run All.vi" Type="VI" URL="../Run All.vi"/>
 	<Item Name="Session.lvlib" Type="Library" URL="../Session/Session.lvlib"/>
+	<Item Name="SFTP.lvlib" Type="Library" URL="../SFTP/SFTP.lvlib"/>
 </Library>
