@@ -18,4 +18,5 @@
 	<Item Name="Key.vi" Type="VI" URL="../Key.vi"/>
 	<Item Name="Magic.vi" Type="VI" URL="../Magic.vi"/>
 	<Item Name="Name.vi" Type="VI" URL="../Name.vi"/>
+	<Item Name="Type Mask.vi" Type="VI" URL="../Type Mask.vi"/>
 </Library>

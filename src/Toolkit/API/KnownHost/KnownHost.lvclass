@@ -59,7 +59,7 @@
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1082401302</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082401300</Property>
 			</Item>
 		</Item>
 		<Item Name="Name" Type="Property Definition">
@@ -74,6 +74,20 @@
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
+			</Item>
+		</Item>
+		<Item Name="Type Mask" Type="Property Definition">
+			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Type Mask</Property>
+			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Type Mask</Property>
+			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+			<Item Name="Read Type Mask.vi" Type="VI" URL="../API/Read Type Mask.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;"!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!^!!Q!*6(FQ:3".98.L!$J!=!!?!!!B$62P&lt;WRL;81O&lt;(:M;7)23WZP&gt;WZ)&lt;X.U,GRW9WRB=X-!$ENO&lt;X&gt;O)%BP=X1A4X6U!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!/%"Q!"Y!!#%.6'^P&lt;'NJ&gt;#ZM&gt;GRJ9B&amp;,&lt;G^X&lt;EBP=X1O&lt;(:D&lt;'&amp;T=Q!.3WZP&gt;WYA3'^T&gt;#"*&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 			</Item>
 		</Item>
 		<Item Name="Create.vi" Type="VI" URL="../API/Create.vi">
