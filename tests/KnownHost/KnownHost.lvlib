@@ -15,5 +15,7 @@
 		<Item Name="Teardown.vi" Type="VI" URL="../Support/Teardown.vi"/>
 	</Item>
 	<Item Name="Create-Destroy.vi" Type="VI" URL="../Create-Destroy.vi"/>
+	<Item Name="Key.vi" Type="VI" URL="../Key.vi"/>
 	<Item Name="Magic.vi" Type="VI" URL="../Magic.vi"/>
+	<Item Name="Name.vi" Type="VI" URL="../Name.vi"/>
 </Library>
