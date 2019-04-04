@@ -34,6 +34,20 @@
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Magic" Type="Property Definition">
+			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Magic</Property>
+			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Magic</Property>
+			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+			<Item Name="Magic.vi" Type="VI" URL="../API/Magic.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!N!!Q!&amp;47&amp;H;7-!/E"Q!"Y!!#%.6'^P&lt;'NJ&gt;#ZM&gt;GRJ9B&amp;,&lt;G^X&lt;EBP=X1O&lt;(:D&lt;'&amp;T=Q!/3WZP&gt;WYA3'^T&gt;#"0&gt;81!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!Y1(!!(A!!)1V5&lt;W^M;WFU,GRW&lt;'FC%5NO&lt;X&gt;O3'^T&gt;#ZM&gt;G.M98.T!!V,&lt;G^X&lt;C")&lt;X.U)%FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			</Item>
+		</Item>
 		<Item Name="Create.vi" Type="VI" URL="../API/Create.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%,!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$:!=!!?!!!B$62P&lt;WRL;81O&lt;(:M;7)23WZP&gt;WZ)&lt;X.U,GRW9WRB=X-!#ENO&lt;X&gt;O)%BP=X1!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!C1$,`````'7RW,7RJ9H.T;$)A5WBB=G6E)%RJ9H*B=HE!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!!!!1!)!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
