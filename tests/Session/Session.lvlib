@@ -13,6 +13,7 @@
 	<Item Name="Connect-Disconnect.vi" Type="VI" URL="../Connect-Disconnect.vi"/>
 	<Item Name="Create-Destroy.vi" Type="VI" URL="../Create-Destroy.vi"/>
 	<Item Name="Fingerprint.vi" Type="VI" URL="../Fingerprint.vi"/>
+	<Item Name="Host Key.vi" Type="VI" URL="../Host Key.vi"/>
 	<Item Name="Password Authentication.vi" Type="VI" URL="../Password Authentication.vi"/>
 	<Item Name="Public Key Data Authentication.vi" Type="VI" URL="../Public Key Data Authentication.vi"/>
 	<Item Name="Public Key File Authentication.vi" Type="VI" URL="../Public Key File Authentication.vi"/>
