@@ -53,4 +53,21 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 	</Item>
+	<Item Name="Utility" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		<Item Name="Handle" Type="Property Definition">
+			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Handle</Property>
+			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Handle</Property>
+			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+			<Item Name="Read Handle.vi" Type="VI" URL="../Utility/Read Handle.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%`!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!V!#!!'3'&amp;O:'RF!!![1(!!(A!!)1V5&lt;W^M;WFU,GRW&lt;'FC%5NO&lt;X&gt;O3'^T&gt;#ZM&gt;G.M98.T!!Z,&lt;G^X&lt;C")&lt;X.U)%^V&gt;!!!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!$B!=!!?!!!B$62P&lt;WRL;81O&lt;(:M;7)23WZP&gt;WZ)&lt;X.U,GRW9WRB=X-!$5NO&lt;X&gt;O)%BP=X1A37Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A#!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">553648128</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">4</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1107820544</Property>
+			</Item>
+		</Item>
+	</Item>
 </LVClass>

@@ -16,6 +16,7 @@
 	</Item>
 	<Item Name="Check.vi" Type="VI" URL="../Check.vi"/>
 	<Item Name="Create-Destroy.vi" Type="VI" URL="../Create-Destroy.vi"/>
+	<Item Name="First.vi" Type="VI" URL="../First.vi"/>
 	<Item Name="Read File.vi" Type="VI" URL="../Read File.vi"/>
 	<Item Name="Write File.vi" Type="VI" URL="../Write File.vi"/>
 </Library>
