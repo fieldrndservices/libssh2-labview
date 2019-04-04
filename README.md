@@ -71,7 +71,7 @@ Tests are written in LabVIEW using the [Caraya](https://github.com/JKISoftware/C
 
 The tests are organized in a hierarchy based on their relationship to the source code. The `Tests.lvlib` project library for the "My Computer" tree item in the Project Explorer are generally for integration-style tests, i.e. tests for the public API of the toolkit and components. The `Tests.lvlib` project libraries found within each component's project library (`Toolkit.lvlib`) are generally for unit-style tests, i.e. tests for private/support VIs of the components. None of the tests are included in the VIP distribution. They are only included with the source code.
 
-The integration tests require a SSH server running on the local development computer. The integration tests need a SSH server for connection.
+The integration tests require a SSH server. The SSH server should support password and public/private key authentication. The SSH test server can be the `localhost`. The tests will prompt for a IP address, username, password, passphrase, etc. as needed.
 
 ## License
 
