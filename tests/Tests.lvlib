@@ -26,6 +26,7 @@
 	<Item Name="KnownHosts.lvlib" Type="Library" URL="../KnownHosts/KnownHosts.lvlib"/>
 	<Item Name="Run All.vi" Type="VI" URL="../Run All.vi"/>
 	<Item Name="Session.lvlib" Type="Library" URL="../Session/Session.lvlib"/>
+	<Item Name="SFTP Attributes.lvlib" Type="Library" URL="../SFTP Attributes/SFTP Attributes.lvlib"/>
 	<Item Name="SFTP Directory.lvlib" Type="Library" URL="../SFTP Directory/SFTP Directory.lvlib"/>
 	<Item Name="SFTP File.lvlib" Type="Library" URL="../SFTP File/SFTP File.lvlib"/>
 	<Item Name="SFTP.lvlib" Type="Library" URL="../SFTP/SFTP.lvlib"/>

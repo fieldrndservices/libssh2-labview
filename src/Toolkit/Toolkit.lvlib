@@ -9,11 +9,12 @@
 </Property>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Initialize.vi" Type="VI" URL="../API/Initialize.vi"/>
 		<Item Name="KnownHost.lvclass" Type="LVClass" URL="../API/KnownHost/KnownHost.lvclass"/>
-		<Item Name="Session.lvclass" Type="LVClass" URL="../API/Session/Session.lvclass"/>
 		<Item Name="KnownHosts.lvclass" Type="LVClass" URL="../API/KnownHosts/KnownHosts.lvclass"/>
+		<Item Name="Session.lvclass" Type="LVClass" URL="../API/Session/Session.lvclass"/>
+		<Item Name="SFTP Attributes.lvclass" Type="LVClass" URL="../API/SFTP Attributes/SFTP Attributes.lvclass"/>
 		<Item Name="SFTP Directory.lvclass" Type="LVClass" URL="../API/SFTP Directory/SFTP Directory.lvclass"/>
 		<Item Name="SFTP File.lvclass" Type="LVClass" URL="../API/SFTP File/SFTP File.lvclass"/>
 		<Item Name="SFTP.lvclass" Type="LVClass" URL="../API/SFTP/SFTP.lvclass"/>
