@@ -16,4 +16,5 @@
 	</Item>
 	<Item Name="Create-Destroy.vi" Type="VI" URL="../Create-Destroy.vi"/>
 	<Item Name="Link Status.vi" Type="VI" URL="../Link Status.vi"/>
+	<Item Name="Rename.vi" Type="VI" URL="../Rename.vi"/>
 </Library>
