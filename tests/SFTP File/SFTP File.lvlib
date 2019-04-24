@@ -16,6 +16,7 @@
 	</Item>
 	<Item Name="Open-Close.vi" Type="VI" URL="../Open-Close.vi"/>
 	<Item Name="Read Position.vi" Type="VI" URL="../Read Position.vi"/>
+	<Item Name="Read Status.vi" Type="VI" URL="../Read Status.vi"/>
 	<Item Name="Read.vi" Type="VI" URL="../Read.vi"/>
 	<Item Name="Rewind.vi" Type="VI" URL="../Rewind.vi"/>
 	<Item Name="Sync.vi" Type="VI" URL="../Sync.vi"/>
