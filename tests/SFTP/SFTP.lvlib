@@ -20,4 +20,5 @@
 	<Item Name="Delete File.vi" Type="VI" URL="../Delete File.vi"/>
 	<Item Name="Link Status.vi" Type="VI" URL="../Link Status.vi"/>
 	<Item Name="Rename.vi" Type="VI" URL="../Rename.vi"/>
+	<Item Name="Resolve Link.vi" Type="VI" URL="../Resolve Link.vi"/>
 </Library>
