@@ -21,8 +21,15 @@
 	</Item>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Check Status.vi" Type="VI" URL="../Support/Check Status.vi"/>
 		<Item Name="libssh2lv-x64.dll" Type="Document" URL="../Support/libssh2lv-x64.dll"/>
 		<Item Name="libssh2lv.dll" Type="Document" URL="../Support/libssh2lv.dll"/>
+		<Item Name="Permissions to Bit Mask.vi" Type="VI" URL="../Support/Permissions to Bit Mask.vi"/>
+	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Modes.ctl" Type="VI" URL="../Typedefs/Modes.ctl"/>
+		<Item Name="Permissions.ctl" Type="VI" URL="../Typedefs/Permissions.ctl"/>
 	</Item>
 </Library>
