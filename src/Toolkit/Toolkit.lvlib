@@ -10,6 +10,10 @@
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="Modes.ctl" Type="VI" URL="../API/Typedefs/Modes.ctl"/>
+			<Item Name="Permissions.ctl" Type="VI" URL="../API/Typedefs/Permissions.ctl"/>
+		</Item>
 		<Item Name="KnownHost.lvclass" Type="LVClass" URL="../API/KnownHost/KnownHost.lvclass"/>
 		<Item Name="KnownHosts.lvclass" Type="LVClass" URL="../API/KnownHosts/KnownHosts.lvclass"/>
 		<Item Name="Session.lvclass" Type="LVClass" URL="../API/Session/Session.lvclass"/>
@@ -26,10 +30,5 @@
 		<Item Name="libssh2lv-x64.dll" Type="Document" URL="../Support/libssh2lv-x64.dll"/>
 		<Item Name="libssh2lv.dll" Type="Document" URL="../Support/libssh2lv.dll"/>
 		<Item Name="Permissions to Bit Mask.vi" Type="VI" URL="../Support/Permissions to Bit Mask.vi"/>
-	</Item>
-	<Item Name="Typedefs" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Modes.ctl" Type="VI" URL="../Typedefs/Modes.ctl"/>
-		<Item Name="Permissions.ctl" Type="VI" URL="../Typedefs/Permissions.ctl"/>
 	</Item>
 </Library>
