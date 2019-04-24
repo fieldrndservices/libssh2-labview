@@ -22,6 +22,7 @@
 	<Item Name="Read Modified Time.vi" Type="VI" URL="../Read Modified Time.vi"/>
 	<Item Name="Read Permissions.vi" Type="VI" URL="../Read Permissions.vi"/>
 	<Item Name="Read User ID.vi" Type="VI" URL="../Read User ID.vi"/>
+	<Item Name="Run All.vi" Type="VI" URL="../Run All.vi"/>
 	<Item Name="Write Group ID.vi" Type="VI" URL="../Write Group ID.vi"/>
 	<Item Name="Write Permissions.vi" Type="VI" URL="../Write Permissions.vi"/>
 	<Item Name="Write User ID.vi" Type="VI" URL="../Write User ID.vi"/>

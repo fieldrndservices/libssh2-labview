@@ -11,6 +11,9 @@
 </Property>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="After.vi" Type="VI" URL="../Support/After.vi"/>
+		<Item Name="Before.vi" Type="VI" URL="../Support/Before.vi"/>
+		<Item Name="Create Temporary File.vi" Type="VI" URL="../Support/Create Temporary File.vi"/>
 		<Item Name="Setup.vi" Type="VI" URL="../Support/Setup.vi"/>
 		<Item Name="Teardown.vi" Type="VI" URL="../Support/Teardown.vi"/>
 	</Item>
