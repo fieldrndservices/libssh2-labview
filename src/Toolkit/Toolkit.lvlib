@@ -26,6 +26,7 @@
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Bit Mask to Permissions.vi" Type="VI" URL="../Support/Bit Mask to Permissions.vi"/>
 		<Item Name="Check Status.vi" Type="VI" URL="../Support/Check Status.vi"/>
 		<Item Name="libssh2lv-x64.dll" Type="Document" URL="../Support/libssh2lv-x64.dll"/>
 		<Item Name="libssh2lv.dll" Type="Document" URL="../Support/libssh2lv.dll"/>
