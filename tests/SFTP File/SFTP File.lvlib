@@ -21,5 +21,6 @@
 	<Item Name="Rewind.vi" Type="VI" URL="../Rewind.vi"/>
 	<Item Name="Sync.vi" Type="VI" URL="../Sync.vi"/>
 	<Item Name="Write Position.vi" Type="VI" URL="../Write Position.vi"/>
+	<Item Name="Write Status.vi" Type="VI" URL="../Write Status.vi"/>
 	<Item Name="Write.vi" Type="VI" URL="../Write.vi"/>
 </Library>
