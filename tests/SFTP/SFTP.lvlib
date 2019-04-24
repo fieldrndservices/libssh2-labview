@@ -14,7 +14,7 @@
 		<Item Name="Setup.vi" Type="VI" URL="../Support/Setup.vi"/>
 		<Item Name="Teardown.vi" Type="VI" URL="../Support/Teardown.vi"/>
 	</Item>
-	<Item Name="Create Directory.vi" Type="VI" URL="../Create Directory.vi"/>
+	<Item Name="Create-Delete Directory.vi" Type="VI" URL="../Create-Delete Directory.vi"/>
 	<Item Name="Create-Destroy.vi" Type="VI" URL="../Create-Destroy.vi"/>
 	<Item Name="Delete File.vi" Type="VI" URL="../Delete File.vi"/>
 	<Item Name="Link Status.vi" Type="VI" URL="../Link Status.vi"/>
