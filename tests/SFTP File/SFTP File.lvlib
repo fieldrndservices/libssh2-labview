@@ -16,5 +16,6 @@
 	</Item>
 	<Item Name="Open-Close.vi" Type="VI" URL="../Open-Close.vi"/>
 	<Item Name="Read.vi" Type="VI" URL="../Read.vi"/>
+	<Item Name="Sync.vi" Type="VI" URL="../Sync.vi"/>
 	<Item Name="Write.vi" Type="VI" URL="../Write.vi"/>
 </Library>

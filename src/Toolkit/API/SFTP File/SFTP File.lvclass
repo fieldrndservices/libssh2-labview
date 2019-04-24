@@ -98,7 +98,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082401302</Property>
 		</Item>
 	</Item>
 	<Item Name="Support" Type="Folder">
@@ -152,5 +152,14 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1107820544</Property>
 			</Item>
 		</Item>
+	</Item>
+	<Item Name="Sync.vi" Type="VI" URL="../API/Sync.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$B!=!!?!!!B$62P&lt;WRL;81O&lt;(:M;7)25U:55#"';7RF,GRW9WRB=X-!$6.'6&amp;!A2GFM:3"0&gt;81!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!$B!=!!?!!!B$62P&lt;WRL;81O&lt;(:M;7)25U:55#"';7RF,GRW9WRB=X-!$&amp;.'6&amp;!A2GFM:3"*&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 </LVClass>
