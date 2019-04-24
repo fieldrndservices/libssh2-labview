@@ -15,9 +15,10 @@
 		<Item Name="Teardown.vi" Type="VI" URL="../Support/Teardown.vi"/>
 	</Item>
 	<Item Name="Open-Close.vi" Type="VI" URL="../Open-Close.vi"/>
+	<Item Name="Read Position.vi" Type="VI" URL="../Read Position.vi"/>
 	<Item Name="Read.vi" Type="VI" URL="../Read.vi"/>
 	<Item Name="Rewind.vi" Type="VI" URL="../Rewind.vi"/>
-	<Item Name="Seek.vi" Type="VI" URL="../Seek.vi"/>
 	<Item Name="Sync.vi" Type="VI" URL="../Sync.vi"/>
+	<Item Name="Write Position.vi" Type="VI" URL="../Write Position.vi"/>
 	<Item Name="Write.vi" Type="VI" URL="../Write.vi"/>
 </Library>
