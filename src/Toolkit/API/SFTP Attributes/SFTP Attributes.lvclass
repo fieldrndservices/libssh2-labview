@@ -29,6 +29,7 @@
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="Toolkit.lvlib:SFTP Directory.lvclass" Type="Friended Library" URL="../../SFTP Directory/SFTP Directory.lvclass"/>
 		<Item Name="Toolkit.lvlib:SFTP File.lvclass" Type="Friended Library" URL="../../SFTP File/SFTP File.lvclass"/>
+		<Item Name="Toolkit.lvlib:SFTP.lvclass" Type="Friended Library" URL="../../SFTP/SFTP.lvclass"/>
 	</Item>
 	<Item Name="SFTP Attributes.ctl" Type="Class Private Data" URL="SFTP Attributes.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -67,6 +68,15 @@
 		</Item>
 		<Item Name="Create from SFTP File.vi" Type="VI" URL="../Support/Create from SFTP File.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Q!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!%"!=!!?!!!H$62P&lt;WRL;81O&lt;(:M;7)85U:55#""&gt;(2S;7*V&gt;'6T,GRW9WRB=X-!$V.'6&amp;!A182U=GFC&gt;82F=Q!Y1(!!(A!!)1V5&lt;W^M;WFU,GRW&lt;'FC%6.'6&amp;!A2GFM:3ZM&gt;G.M98.T!!V42F21)%:J&lt;'5A4X6U!":!5!!$!!!!!1!##%6S=G^S)%FO!!!Y1(!!(A!!)1V5&lt;W^M;WFU,GRW&lt;'FC%6.'6&amp;!A2GFM:3ZM&gt;G.M98.T!!R42F21)%:J&lt;'5A37Y!!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
+		<Item Name="Create from SFTP.vi" Type="VI" URL="../Support/Create from SFTP.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;?!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!%"!=!!?!!!H$62P&lt;WRL;81O&lt;(:M;7)85U:55#""&gt;(2S;7*V&gt;'6T,GRW9WRB=X-!$V.'6&amp;!A182U=GFC&gt;82F=Q!Q1(!!(A!!(!V5&lt;W^M;WFU,GRW&lt;'FC$&amp;.'6&amp;!O&lt;(:D&lt;'&amp;T=Q!!#&amp;.'6&amp;!A4X6U!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!,E"Q!"Y!!"Q.6'^P&lt;'NJ&gt;#ZM&gt;GRJ9AR42F21,GRW9WRB=X-!!!&gt;42F21)%FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
@@ -127,5 +137,15 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1107820544</Property>
 			</Item>
 		</Item>
+	</Item>
+	<Item Name="Destroy to SFTP.vi" Type="VI" URL="../Support/Destroy to SFTP.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;?!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$"!=!!?!!!=$62P&lt;WRL;81O&lt;(:M;7)-5U:55#ZM&gt;G.M98.T!!!)5U:55#"0&gt;81!!":!5!!$!!!!!1!##%6S=G^S)%FO!!"!1(!!(A!!*QV5&lt;W^M;WFU,GRW&lt;'FC&amp;V.'6&amp;!A182U=GFC&gt;82F=SZM&gt;G.M98.T!!^42F21)%&amp;U&gt;(*J9H6U:8-!,E"Q!"Y!!"Q.6'^P&lt;'NJ&gt;#ZM&gt;GRJ9AR42F21,GRW9WRB=X-!!!&gt;42F21)%FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 </LVClass>
