@@ -14,8 +14,10 @@
 			<Item Name="Modes.ctl" Type="VI" URL="../API/Typedefs/Modes.ctl"/>
 			<Item Name="Permissions.ctl" Type="VI" URL="../API/Typedefs/Permissions.ctl"/>
 		</Item>
-		<Item Name="KnownHost.lvclass" Type="LVClass" URL="../API/KnownHost/KnownHost.lvclass"/>
-		<Item Name="KnownHosts.lvclass" Type="LVClass" URL="../API/KnownHosts/KnownHosts.lvclass"/>
+		<Item Name="Channel.lvclass" Type="LVClass" URL="../API/Channel/Channel.lvclass"/>
+		<Item Name="File Info.lvclass" Type="LVClass" URL="../API/File Info/File Info.lvclass"/>
+		<Item Name="Known Host.lvclass" Type="LVClass" URL="../API/KnownHost/Known Host.lvclass"/>
+		<Item Name="Known Hosts.lvclass" Type="LVClass" URL="../API/KnownHosts/Known Hosts.lvclass"/>
 		<Item Name="Session.lvclass" Type="LVClass" URL="../API/Session/Session.lvclass"/>
 		<Item Name="SFTP Attributes.lvclass" Type="LVClass" URL="../API/SFTP Attributes/SFTP Attributes.lvclass"/>
 		<Item Name="SFTP Directory.lvclass" Type="LVClass" URL="../API/SFTP Directory/SFTP Directory.lvclass"/>
