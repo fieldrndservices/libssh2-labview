@@ -30,6 +30,7 @@
 		<Item Name="Toolkit.lvlib:Known Hosts.lvclass" Type="Friended Library" URL="../../KnownHosts/Known Hosts.lvclass"/>
 		<Item Name="Toolkit.lvlib:SFTP.lvclass" Type="Friended Library" URL="../../SFTP/SFTP.lvclass"/>
 		<Item Name="Toolkit.lvlib:Channel.lvclass" Type="Friended Library" URL="../../Channel/Channel.lvclass"/>
+		<Item Name="Toolkit.lvlib:File Info.lvclass" Type="Friended Library" URL="../../File Info/File Info.lvclass"/>
 	</Item>
 	<Item Name="Session.ctl" Type="Class Private Data" URL="Session.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
