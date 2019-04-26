@@ -29,7 +29,7 @@
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="Toolkit.lvlib:Session.lvclass" Type="Friended Library" URL="../../Session/Session.lvclass"/>
 		<Item Name="Toolkit.lvlib:SFTP Attributes.lvclass" Type="Friended Library" URL="../../SFTP Attributes/SFTP Attributes.lvclass"/>
-		<Item Name="Toolkit.lvlib:Known Host.lvclass" Type="Friended Library" URL="../../KnownHost/Known Host.lvclass"/>
+		<Item Name="Toolkit.lvlib:Known Host.lvclass" Type="Friended Library" URL="../../Known Host/Known Host.lvclass"/>
 		<Item Name="Toolkit.lvlib:File Info.lvclass" Type="Friended Library" URL="../../File Info/File Info.lvclass"/>
 	</Item>
 	<Item Name="SSH.ctl" Type="Class Private Data" URL="SSH.ctl">
