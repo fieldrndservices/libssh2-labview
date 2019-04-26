@@ -27,7 +27,7 @@
 
 </Property>
 	<Item Name="Friends List" Type="Friends List">
-		<Item Name="Toolkit.lvlib:Known Hosts.lvclass" Type="Friended Library" URL="../../KnownHosts/Known Hosts.lvclass"/>
+		<Item Name="Toolkit.lvlib:Known Hosts.lvclass" Type="Friended Library" URL="../../Known Hosts/Known Hosts.lvclass"/>
 	</Item>
 	<Item Name="Known Host.ctl" Type="Class Private Data" URL="Known Host.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
