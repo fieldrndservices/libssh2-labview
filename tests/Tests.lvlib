@@ -21,8 +21,8 @@
 		<Item Name="SSH Key Types.ctl" Type="VI" URL="../Support/SSH Key Types.ctl"/>
 		<Item Name="Username Dialog.vi" Type="VI" URL="../Support/Username Dialog.vi"/>
 	</Item>
-	<Item Name="Known Host.lvlib" Type="Library" URL="../KnownHost/Known Host.lvlib"/>
-	<Item Name="Known Hosts.lvlib" Type="Library" URL="../KnownHosts/Known Hosts.lvlib"/>
+	<Item Name="Known Host.lvlib" Type="Library" URL="../Known Host/Known Host.lvlib"/>
+	<Item Name="Known Hosts.lvlib" Type="Library" URL="../Known Hosts/Known Hosts.lvlib"/>
 	<Item Name="Run All.vi" Type="VI" URL="../Run All.vi"/>
 	<Item Name="Session.lvlib" Type="Library" URL="../Session/Session.lvlib"/>
 	<Item Name="SFTP Attributes.lvlib" Type="Library" URL="../SFTP Attributes/SFTP Attributes.lvlib"/>
