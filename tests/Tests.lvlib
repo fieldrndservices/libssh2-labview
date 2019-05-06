@@ -25,6 +25,7 @@
 	<Item Name="File Info.lvlib" Type="Library" URL="../File Info/File Info.lvlib"/>
 	<Item Name="Known Host.lvlib" Type="Library" URL="../Known Host/Known Host.lvlib"/>
 	<Item Name="Known Hosts.lvlib" Type="Library" URL="../Known Hosts/Known Hosts.lvlib"/>
+	<Item Name="Listener.lvlib" Type="Library" URL="../Listener/Listener.lvlib"/>
 	<Item Name="Run All.vi" Type="VI" URL="../Run All.vi"/>
 	<Item Name="Session.lvlib" Type="Library" URL="../Session/Session.lvlib"/>
 	<Item Name="SFTP Attributes.lvlib" Type="Library" URL="../SFTP Attributes/SFTP Attributes.lvlib"/>
