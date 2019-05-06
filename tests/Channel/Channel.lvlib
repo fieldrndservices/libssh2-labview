@@ -18,6 +18,8 @@
 	<Item Name="Create-Destroy.vi" Type="VI" URL="../Create-Destroy.vi"/>
 	<Item Name="Flush.vi" Type="VI" URL="../Flush.vi"/>
 	<Item Name="Read End-of-File.vi" Type="VI" URL="../Read End-of-File.vi"/>
+	<Item Name="Read Exist Status.vi" Type="VI" URL="../Read Exist Status.vi"/>
 	<Item Name="Read Stderr.vi" Type="VI" URL="../Read Stderr.vi"/>
 	<Item Name="Read.vi" Type="VI" URL="../Read.vi"/>
+	<Item Name="Write Ignore Mode.vi" Type="VI" URL="../Write Ignore Mode.vi"/>
 </Library>
