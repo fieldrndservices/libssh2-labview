@@ -18,8 +18,13 @@
 	<Item Name="Create-Destroy.vi" Type="VI" URL="../Create-Destroy.vi"/>
 	<Item Name="Flush.vi" Type="VI" URL="../Flush.vi"/>
 	<Item Name="Read End-of-File.vi" Type="VI" URL="../Read End-of-File.vi"/>
-	<Item Name="Read Exist Status.vi" Type="VI" URL="../Read Exist Status.vi"/>
+	<Item Name="Read Exit Status.vi" Type="VI" URL="../Read Exit Status.vi"/>
 	<Item Name="Read Stderr.vi" Type="VI" URL="../Read Stderr.vi"/>
+	<Item Name="Read Window Read Size.vi" Type="VI" URL="../Read Window Read Size.vi"/>
+	<Item Name="Read Window Write Size.vi" Type="VI" URL="../Read Window Write Size.vi"/>
 	<Item Name="Read.vi" Type="VI" URL="../Read.vi"/>
 	<Item Name="Write Ignore Mode.vi" Type="VI" URL="../Write Ignore Mode.vi"/>
+	<Item Name="Write Mode.vi" Type="VI" URL="../Write Mode.vi"/>
+	<Item Name="Write Terminal Size.vi" Type="VI" URL="../Write Terminal Size.vi"/>
+	<Item Name="Write Terminal.vi" Type="VI" URL="../Write Terminal.vi"/>
 </Library>
