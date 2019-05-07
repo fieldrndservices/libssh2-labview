@@ -21,6 +21,8 @@
 		<Item Name="SSH Key Types.ctl" Type="VI" URL="../Support/SSH Key Types.ctl"/>
 		<Item Name="Username Dialog.vi" Type="VI" URL="../Support/Username Dialog.vi"/>
 	</Item>
+	<Item Name="Agent Identity.lvlib" Type="Library" URL="../Agent Identity/Agent Identity.lvlib"/>
+	<Item Name="Agent.lvlib" Type="Library" URL="../Agent/Agent.lvlib"/>
 	<Item Name="Channel.lvlib" Type="Library" URL="../Channel/Channel.lvlib"/>
 	<Item Name="File Info.lvlib" Type="Library" URL="../File Info/File Info.lvlib"/>
 	<Item Name="Known Host.lvlib" Type="Library" URL="../Known Host/Known Host.lvlib"/>

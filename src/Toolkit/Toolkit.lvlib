@@ -14,6 +14,8 @@
 			<Item Name="Modes.ctl" Type="VI" URL="../API/Typedefs/Modes.ctl"/>
 			<Item Name="Permissions.ctl" Type="VI" URL="../API/Typedefs/Permissions.ctl"/>
 		</Item>
+		<Item Name="Agent Identity.lvclass" Type="LVClass" URL="../API/Agent Identity/Agent Identity.lvclass"/>
+		<Item Name="Agent.lvclass" Type="LVClass" URL="../API/Agent/Agent.lvclass"/>
 		<Item Name="Channel.lvclass" Type="LVClass" URL="../API/Channel/Channel.lvclass"/>
 		<Item Name="File Info.lvclass" Type="LVClass" URL="../API/File Info/File Info.lvclass"/>
 		<Item Name="Known Host.lvclass" Type="LVClass" URL="../API/Known Host/Known Host.lvclass"/>
