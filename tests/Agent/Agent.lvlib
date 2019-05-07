@@ -13,6 +13,10 @@
 		<Item Name="Setup.vi" Type="VI" URL="../Support/Setup.vi"/>
 		<Item Name="Teardown.vi" Type="VI" URL="../Support/Teardown.vi"/>
 	</Item>
+	<Item Name="Authenticate.vi" Type="VI" URL="../Authenticate.vi"/>
 	<Item Name="Connect-Disconnect.vi" Type="VI" URL="../Connect-Disconnect.vi"/>
 	<Item Name="Create-Destroy.vi" Type="VI" URL="../Create-Destroy.vi"/>
+	<Item Name="First Identity.vi" Type="VI" URL="../First Identity.vi"/>
+	<Item Name="Next Identity.vi" Type="VI" URL="../Next Identity.vi"/>
+	<Item Name="Request Identities.vi" Type="VI" URL="../Request Identities.vi"/>
 </Library>
