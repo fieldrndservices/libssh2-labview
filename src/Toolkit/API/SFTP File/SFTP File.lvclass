@@ -35,7 +35,7 @@
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Type Definitions" Type="Folder">
+		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Flags.ctl" Type="VI" URL="../API/Typedefs/Flags.ctl">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!-!!!!!1!%!!!!!1!!!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
