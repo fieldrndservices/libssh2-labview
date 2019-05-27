@@ -17,6 +17,7 @@
 	<Item Name="Create-Destroy.vi" Type="VI" URL="../Create-Destroy.vi"/>
 	<Item Name="Read Access Time.vi" Type="VI" URL="../Read Access Time.vi"/>
 	<Item Name="Read File Size.vi" Type="VI" URL="../Read File Size.vi"/>
+	<Item Name="Read File Type.vi" Type="VI" URL="../Read File Type.vi"/>
 	<Item Name="Read Flags.vi" Type="VI" URL="../Read Flags.vi"/>
 	<Item Name="Read Group ID.vi" Type="VI" URL="../Read Group ID.vi"/>
 	<Item Name="Read Modified Time.vi" Type="VI" URL="../Read Modified Time.vi"/>
