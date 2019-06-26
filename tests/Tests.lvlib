@@ -10,7 +10,9 @@
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Address Dialog.vi" Type="VI" URL="../Support/Address Dialog.vi"/>
+		<Item Name="alice29.txt" Type="Document" URL="../Support/alice29.txt"/>
 		<Item Name="Configuration.ctl" Type="VI" URL="../Support/Configuration.ctl"/>
+		<Item Name="EColi.txt" Type="Document" URL="../Support/EColi.txt"/>
 		<Item Name="Password Dialog.vi" Type="VI" URL="../Support/Password Dialog.vi"/>
 		<Item Name="Read Key File.vi" Type="VI" URL="../Support/Read Key File.vi"/>
 		<Item Name="Remote Path Dialog.vi" Type="VI" URL="../Support/Remote Path Dialog.vi"/>
