@@ -11,6 +11,11 @@
 </Property>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="After Iterative Read.vi" Type="VI" URL="../Support/After Iterative Read.vi"/>
+		<Item Name="After Iterative Write.vi" Type="VI" URL="../Support/After Iterative Write.vi"/>
+		<Item Name="Before Iterative Read.vi" Type="VI" URL="../Support/Before Iterative Read.vi"/>
+		<Item Name="Before Iterative Write.vi" Type="VI" URL="../Support/Before Iterative Write.vi"/>
+		<Item Name="Create Remote File.vi" Type="VI" URL="../Support/Create Remote File.vi"/>
 		<Item Name="Setup.vi" Type="VI" URL="../Support/Setup.vi"/>
 		<Item Name="Teardown.vi" Type="VI" URL="../Support/Teardown.vi"/>
 	</Item>
