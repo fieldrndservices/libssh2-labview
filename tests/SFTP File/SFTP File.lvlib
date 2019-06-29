@@ -14,8 +14,9 @@
 		<Item Name="Setup.vi" Type="VI" URL="../Support/Setup.vi"/>
 		<Item Name="Teardown.vi" Type="VI" URL="../Support/Teardown.vi"/>
 	</Item>
-	<Item Name="Iterative File Write.vi" Type="VI" URL="../Iterative File Write.vi"/>
-	<Item Name="Large File Write.vi" Type="VI" URL="../Large File Write.vi"/>
+	<Item Name="Iterative Read.vi" Type="VI" URL="../Iterative Read.vi"/>
+	<Item Name="Iterative Write.vi" Type="VI" URL="../Iterative Write.vi"/>
+	<Item Name="Large Single Write.vi" Type="VI" URL="../Large Single Write.vi"/>
 	<Item Name="Open-Close.vi" Type="VI" URL="../Open-Close.vi"/>
 	<Item Name="Read Position.vi" Type="VI" URL="../Read Position.vi"/>
 	<Item Name="Read Status.vi" Type="VI" URL="../Read Status.vi"/>
