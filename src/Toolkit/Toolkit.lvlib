@@ -36,6 +36,8 @@
 		<Item Name="Check Status.vi" Type="VI" URL="../Support/Check Status.vi"/>
 		<Item Name="libssh2lv-x64.dll" Type="Document" URL="../Support/libssh2lv-x64.dll"/>
 		<Item Name="libssh2lv.dll" Type="Document" URL="../Support/libssh2lv.dll"/>
+		<Item Name="libssh2lv.dylib" Type="Document" URL="../Support/libssh2lv.dylib"/>
+		<Item Name="libssh2lv.so" Type="Document" URL="../Support/libssh2lv.so"/>
 		<Item Name="Permissions to Bit Mask.vi" Type="VI" URL="../Support/Permissions to Bit Mask.vi"/>
 	</Item>
 </Library>
