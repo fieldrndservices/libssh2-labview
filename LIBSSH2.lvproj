@@ -34,6 +34,7 @@
 			<Item Name="README.md" Type="Document" URL="../README.md"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
+			<Item Name="Simple File Download.vi" Type="VI" URL="../src/Examples/Simple File Download.vi"/>
 			<Item Name="Simple File Upload.vi" Type="VI" URL="../src/Examples/Simple File Upload.vi"/>
 		</Item>
 		<Item Name="Scripts.lvlib" Type="Library" URL="../src/Scripts/Scripts.lvlib"/>
