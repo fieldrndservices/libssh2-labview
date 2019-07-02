@@ -34,6 +34,7 @@
 			<Item Name="README.md" Type="Document" URL="../README.md"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
+			<Item Name="Advanced SCP File Download.vi" Type="VI" URL="../src/Examples/Advanced SCP File Download.vi"/>
 			<Item Name="Advanced SCP File Upload.vi" Type="VI" URL="../src/Examples/Advanced SCP File Upload.vi"/>
 			<Item Name="Simple SCP File Download.vi" Type="VI" URL="../src/Examples/Simple SCP File Download.vi"/>
 			<Item Name="Simple SCP File Upload.vi" Type="VI" URL="../src/Examples/Simple SCP File Upload.vi"/>
