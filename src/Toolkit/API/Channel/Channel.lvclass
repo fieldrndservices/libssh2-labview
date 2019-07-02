@@ -2,6 +2,8 @@
 <LVClass LVVersion="18008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">Toolkit.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../Toolkit.lvlib</Property>
+	<Property Name="NI.Lib.Description" Type="Str">Represents a SSH channel. A SSH channel is a bidirectional communication connection between two computers. The SSH channel is created after a SSH session has been established and the user has been authenticated. Note, multiple channels can exist for a single SSH session.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)`!!!*Q(C=\&gt;3R&lt;2N"%)8B*]/"5X:AM)58'-\:QM&amp;Q!^-#1SNE#^-#'X$!#A2-#SR"&gt;+$!)@X@XFBG)*#*"3D1L99CX^\O@NQ\HD3/4^*(H7]&gt;$V?0U3^2,X2K[2_^V`O8/?;8-:=??N4F_*@;Z@L,Q/@W&lt;`RV`[V$6Y`X`P@_N^V`_`;_P`UD?.V$OBN3KKCEAP,Y&gt;O=C,`)C,`)C,`)E4`)E4`)E4`)A$`)A$`)A$X+4G^TE*D?ZS5=D&amp;\H)2=[O&amp;)M8#R74&amp;B-5*U.2]6*Y#E`B+4R]6/%J0)7H]"1?4F(B+4S&amp;J`!5(I;J]"3?QF.Y#A^4$5G.2I[H]$#^%E`C34S**`'QJ"*0!EA73S:/*I'BJ$.ZEXA34_,BL2*0YEE]C3@RU+X%EXA34_**0!Q:OZ*$-T&gt;S0%SDQ".Y!E`A#4R-L=!4?!*0Y!E],+@!%XA#2,"A-$E%"9/#%Y)0A3@Q]%_"*`!%HM!4?/A;6SD'TMS;O:(D-2\D-2\D-2[GE0%9D`%9D`%QL9T(?)T(?)S(J71]RG-]"G)7:8G:S=R!=Z)*D)?`=&lt;&gt;Y8+5=%I`70]XF2F8@A/I&lt;3XX$K']%^1678TDV"6&amp;PN(I$V2OD`M,K,[)'KB&gt;74[A_53&gt;?D^3"WF-\;EN.V):;5[NZ[(]_]81[[8A][H!Y;,`@;\@&lt;;&lt;P&gt;;JIG&lt;49&lt;L&gt;&gt;LL6;LZ[@6:^JSX&amp;U_FZZ_H(]`5L___O@D.(V\_DZ^_&gt;NXT\GP5=NT[3U]'`6"ZYP(0(PU"_7&lt;KX!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.1</Property>
