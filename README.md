@@ -1,15 +1,11 @@
 # LIBSSH2-LabVIEW: Adds SSH client support to LabVIEW using the libssh2 library
 
-LIBSSH2-LabVIEW is a [LabVIEW&trade;](http://www.ni.com/labview) add-on and toolkit that adds SSH client support via the [libssh2](https://www.libssh2.org) library. 
-
-## Table of Contents
-
 - [Dependencies](#dependencies) 
   - [Installation](#dependencies-installation)
   - [Development](#dependencies-development)
 - [Installation](#installation) 
 - [Build](#build) 
-  - [Packaging using VIPM Pro (recommended)](#packaging-using-vipm-pro-recommeded)
+  - [Packaging using VIPM Pro (recommended)](#packaging-using-vipm-pro-recommended)
   - [Packaging using VIPM Free](#packaging-using-vipm-free)
 - [Documentation](#documentation) 
 - [Tests](#tests) 
