@@ -45,7 +45,7 @@ For more examples of using this toolkit and VIs instead of VI snippets, see the 
 - [VIPM Pro](https://vipm.jki.net/get) (only for automated builds)
 - [VIPM API](https://support.jki.net/hc/en-us/articles/214136183-VIPM-API) (only for automated builds)
 
-The Caraya, JKI State Machine, OpenG Array Library, OpenG File Library, and VIPM API must be installed for all versions of LabVIEW (2009 and 2018) to avoid errors during automated builds.
+The Caraya, JKI State Machine, OpenG Array Library, OpenG File Library, and VIPM API dependencies must be installed for all versions of LabVIEW (2009 and 2018) to avoid errors during automated builds.
 
 ## Installation
 
