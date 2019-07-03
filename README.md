@@ -14,7 +14,7 @@
 
 ## Example Usage
 
-A VI snippet of downloading a file from a remote SSH server using this toolkit:
+A [VI snippet](http://www.ni.com/tutorial/9330/en/) of downloading a file from a remote SSH server using this toolkit:
 
 ![Simple SCP file download](https://github.com/fieldrndservices/libssh2-labview/blob/master/docs/SCP-File-Download.png)
 
