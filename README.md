@@ -1,18 +1,35 @@
 # LIBSSH2-LabVIEW: Adds SSH client support to LabVIEW using the libssh2 library
 
-[About](#what-is-libssh2-labview) | [Installation](#installation) | [Documentation](#documentation) | [Tests](#tests) | [License](#license)
-
-## What is LIBSSH2-LabVIEW?
-
 LIBSSH2-LabVIEW is a [LabVIEW&trade;](http://www.ni.com/labview) add-on and toolkit that adds SSH client support via the [libssh2](https://www.libssh2.org) library. 
+
+## Table of Contents
+
+- [Dependencies](#dependencies) 
+  - [Installation](#dependencies-installation)
+  - [Development](#dependencies-development)
+- [Installation](#installation) 
+- [Build](#build) 
+  - [Packaging using VIPM Pro (recommended)](#packaging-using-vipm-pro-recommeded)
+  - [Packaging using VIPM Free](#packaging-using-vipm-free)
+- [Documentation](#documentation) 
+- [Tests](#tests) 
+- [License](#license)
 
 ## Dependencies
 
-- [Caraya](http://sine.ni.com/nips/cds/view/p/lang/en/nid/215909) (for development)
+### Installation <a name="dependencies-installation"/>
+
+- LabVIEW 2009 or newer (All systems)
+- [libssh2-nilrt-ipk](https://github.com/fieldrndservices/libssh2-nilrt-ipk/releases) (For CompactRIO only)
+- [libssh2lv-nilrt-ipk](https://github.com/fieldrndservices/libssh2lv-nilrt-ipk/releases) (For CompactRIO only)
+
+### Development <a name="dependencies-development"/>
+
+- [Caraya](http://sine.ni.com/nips/cds/view/p/lang/en/nid/215909)
 - [HTML Help Workshop](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/htmlhelp/microsoft-html-help-downloads) (for compiling the help documentation)
 - [JKI State Machine](http://sine.ni.com/nips/cds/view/p/lang/en/nid/209025)
 - LabVIEW 2009 or newer (for building)
-- LabVIEW 2018 or newer (for development)
+- LabVIEW 2018 or newer
 - Labricator (only for automated builds, private package available upon request)
 - [OpenG Array Library](http://sine.ni.com/nips/cds/view/p/lang/en/nid/209027)
 - [OpenG File Library](http://sine.ni.com/nips/cds/view/p/lang/en/nid/209027)
