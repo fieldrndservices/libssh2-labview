@@ -1,6 +1,6 @@
 # LIBSSH2-LabVIEW: Adds SSH client support to LabVIEW using the libssh2 library
 
-- [Quick Start](#quick-start)
+- [Example Usage](#example-usage)
 - [Dependencies](#dependencies) 
   - [Installation](#dependencies-installation)
   - [Development](#dependencies-development)
@@ -12,15 +12,15 @@
 - [Tests](#tests) 
 - [License](#license)
 
-## Quick Start
+## Example Usage
 
 A VI snippet of downloading a file from a remote SSH server using this toolkit:
 
-![Simple SCP file download](https://github.com/fieldrndservices/blob/master/docs/SCP-File-Download.png)
+![Simple SCP file download](https://github.com/fieldrndservices/libssh2-labview/blob/master/docs/SCP-File-Download.png)
 
 A VI snippet of uploading a file to a remote SSH server using this toolkit:
 
-![Simple SCP file upload](https://github.com/fieldrndservices/blob/master/docs/SCP-File-Upload.png)
+![Simple SCP file upload](https://github.com/fieldrndservices/libssh2-labview/blob/master/docs/SCP-File-Upload.png)
 
 ## Dependencies
 
