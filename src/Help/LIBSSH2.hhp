@@ -1,0 +1,14 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=..\..\builds\Help\LIBSSH2.chm
+Contents file=Table of Contents.hhc
+Default topic=pages\Preface.html
+Display compile progress=No
+Error log file=..\..\builds\Help\LIBSSH2.log
+Index file=Index.hhk
+Language=0x409 English (United States)
+Title=LIBSSH2
+
+[INFOTYPES]
+

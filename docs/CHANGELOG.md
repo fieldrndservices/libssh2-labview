@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+### Added
+
+- HTML Help documentation introduction content
+- Text Rings for all of the libssh2lv library enums
+
+### Changed
+
+- Converting permission to and from bit masks to use Text Ring values instead of constants
+- Strict typedef enums to Text Rings with libssh2 library macro definition values
+
 ## [0.0.1] - 2019-07-13
 
 ### Added
