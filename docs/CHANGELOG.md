@@ -8,10 +8,13 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Added
 
-- Examples
-- Automated build process
-- Help documentation
-- Toolkit API
-- Apache-2.0 and MIT license documentation
+- SCP Examples
+- SSH API
+- Session API
+- SCP API
+- SFTP API
+- Apache-2.0 and BSD-3-Clause license documentation
 - Meaningful VI icons to public Toolkit API VIs
-
+- Support for v0.1.X of the libssh2lv library
+- Some documentation
+- Tests using the Caraya unit testing framework
