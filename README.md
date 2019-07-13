@@ -1,5 +1,9 @@
 # LIBSSH2-LabVIEW: Adds SSH client support to LabVIEW&trade; using the libssh2 library
 
+A [LabVIEW](http://www.ni.com/labview) add-on and toolkit for communicating with a [SSH](https://en.wikipedia.org/wiki/Secure_Shell) server. This adds SSH client support to LabVIEW by using the [libssh2](http://www.libssh2.org) library and a LabVIEW-friendly wrapper library, [libssh2lv](https://github.com/fieldrndservices/libssh2lv). This only adds client-side SSH support. It does _not_ add SSH server support.
+
+## Table of Contents
+
 - [Example Usage](#example-usage)
 - [Dependencies](#dependencies) 
   - [Installation](#dependencies-installation)
