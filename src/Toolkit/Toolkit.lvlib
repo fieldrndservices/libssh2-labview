@@ -11,7 +11,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Typedefs" Type="Folder">
-			<Item Name="File Types.ctl" Type="VI" URL="../API/Typedefs/File Types.ctl"/>
+			<Item Name="Bit Mask Modes.ctl" Type="VI" URL="../API/Typedefs/Bit Mask Modes.ctl"/>
 			<Item Name="Modes.ctl" Type="VI" URL="../API/Typedefs/Modes.ctl"/>
 			<Item Name="Permissions.ctl" Type="VI" URL="../API/Typedefs/Permissions.ctl"/>
 		</Item>
