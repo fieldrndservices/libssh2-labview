@@ -8,6 +8,8 @@ All notable changes to this project will be documented in this file, which is wr
 
 - HTML Help documentation introduction content
 - Text Rings for all of the libssh2lv library enums
+- Automated build
+- VIP build
 
 ### Changed
 
