@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2019-07-13 17:12:09" Creator="cfield" Comments="" ID="c22b71a9ce2cd4693516e14c52e4c544">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2019-07-14 11:52:15" Creator="cfield" Comments="" ID="ae7b51014bc4a1e46f95d7e2387ce5b5">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_LIBSSH2</Package_File_Name>
-    <Library_Version>1.0.0.5</Library_Version>
+    <Library_Version>1.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -113,6 +113,90 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/Advanced SCP File Download.vi</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/Advanced SCP File Upload.vi</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/Simple SCP File Download.vi</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/Simple SCP File Upload.vi</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/API</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/Support</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/CHANGELOG.md</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/LICENSE-APACHE.txt</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/LICENSE-BSD-3-Clause.txt</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/LICENSE-libssh2.txt</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/LICENSE-openssl.txt</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/LICENSE.txt</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/README.md</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Toolkit/AUTHORS.txt</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -122,6 +206,11 @@
         <Path>.</Path>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>Toolkit/Toolkit.lvlib</Path>
+        <Namespace_Type>Prefix</Namespace_Type>
+        <Namespace>Field_RnD_Services_LIBSSH2_</Namespace>
       </Namespace_Overrides>
       <Exclusions>
         <Path>Help/LIBSSH2.log</Path>
@@ -309,7 +398,35 @@
         <Path>..\builds\Channel</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B9EAC24B2649CC9B3FE948DBFF221DC5</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Initialize.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\API\SSH\API\Initialize.vi</Path>
+        <VI_Title>Initialize</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Shutdown.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\API\SSH\API\Shutdown.vi</Path>
+        <VI_Title>Shutdown</VI_Title>
+      </Items_Data>
+      <GUID>8DBF84E0FE5327093F5F44BA58D3B9C8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -358,7 +475,7 @@
         <Path>..\builds\Toolkit\API\Agent\API\Authenticate.vi</Path>
         <VI_Title>Authenticate</VI_Title>
       </Items_Data>
-      <GUID>68BDF72434EF708D7EFEFEB2033E6661</GUID>
+      <GUID>2CBC306D5ADB877DC570AEBD1410F811</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -463,7 +580,7 @@
         <Path>..\builds\Toolkit\API\Channel\API\Write Mode.vi</Path>
         <VI_Title>Write Mode</VI_Title>
       </Items_Data>
-      <GUID>218B02AD209283AF53D5EC3DDA9E764B</GUID>
+      <GUID>8F6D18BB6AE90A3630538C02A7A2D992</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -554,7 +671,7 @@
         <Path>..\builds\Toolkit\API\Session\API\Read Mode.vi</Path>
         <VI_Title>Read Mode</VI_Title>
       </Items_Data>
-      <GUID>92B1ABC2DC4AF7E8E4CE730BD3A29461</GUID>
+      <GUID>7F5FBB8D40DDF173317C0853E5014EA6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -631,7 +748,7 @@
         <Path>..\builds\Toolkit\API\SFTP Attributes\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>29A67A635C729D32E98B6B06894EC2C2</GUID>
+      <GUID>3E817598D9C16F685C506C2C5F6AA516</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -680,7 +797,7 @@
         <Path>..\builds\Toolkit\API\SFTP\API\Rename.vi</Path>
         <VI_Title>Rename</VI_Title>
       </Items_Data>
-      <GUID>67F24D36055355CD8949B5958B4448F1</GUID>
+      <GUID>7AC984909924B31D5EC5F7ADFBC47476</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -729,7 +846,7 @@
         <Path>..\builds\Toolkit\API\SFTP File\API\Write Position.vi</Path>
         <VI_Title>Write Position</VI_Title>
       </Items_Data>
-      <GUID>8802321AE1011D352EDF76379D7EFA14</GUID>
+      <GUID>1AD156AD5E96C9091C35EDBB5C9E66AA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -750,7 +867,7 @@
         <Synchronyze_with_Directory>true</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>Toolkit\API\SFTP Directory\API</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>EA3F91BD579F4638F4830BC7BF9423AC</GUID>
+      <GUID>E7283F0B7F52430A6AEB380C7575042D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -813,7 +930,7 @@
         <Path>..\builds\Toolkit\API\SFTP Attributes\API\Read User ID.vi</Path>
         <VI_Title>Read User ID</VI_Title>
       </Items_Data>
-      <GUID>5276AF7DD05746D9CBF45BA61426D2C4</GUID>
+      <GUID>94F3B17F43380F3A7AE1F3968C90E090</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -848,7 +965,7 @@
         <Path>..\builds\Toolkit\API\File Info\API\Read Access Time.vi</Path>
         <VI_Title>Read Access Time</VI_Title>
       </Items_Data>
-      <GUID>3FDCA0080A531964D51D170AA7FADB5A</GUID>
+      <GUID>DF1DA3C02B2390B060C05DAB6403790C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -897,7 +1014,7 @@
         <Path>..\builds\Toolkit\API\Known Host\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8010F4140CE138A2871234EB753F8E79</GUID>
+      <GUID>F9CA29E2B40B33D1E448569040FE261E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -932,7 +1049,7 @@
         <Path>..\builds\Toolkit\API\Known Hosts\API\Read File.vi</Path>
         <VI_Title>Read File</VI_Title>
       </Items_Data>
-      <GUID>7689469A860E3AB9622782D7D4D39BC7</GUID>
+      <GUID>866E022B41FE57B3C5A027047D97ED6C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -967,7 +1084,7 @@
         <Path>..\builds\Toolkit\API\Known Host\API\Read Magic.vi</Path>
         <VI_Title>Read Magic</VI_Title>
       </Items_Data>
-      <GUID>B724D6777EA19E2F6EF0E53F2FA56B50</GUID>
+      <GUID>0551F9ACD276D7D1EE03805B829B4C89</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -988,7 +1105,7 @@
         <Synchronyze_with_Directory>true</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>Toolkit\API\Listener\API</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>699F9BC5F31690AEBC4E1F4D44DAB61C</GUID>
+      <GUID>DCC838BF3A5123475C8626A8ECA1F3EE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

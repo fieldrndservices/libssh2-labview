@@ -25,6 +25,7 @@
 			<Item Name="LIBSSH2.vipb" Type="Document" URL="../configs/LIBSSH2.vipb"/>
 		</Item>
 		<Item Name="Documentation" Type="Folder">
+			<Item Name="AUTHORS.txt" Type="Document" URL="../docs/AUTHORS.txt"/>
 			<Item Name="CHANGELOG.md" Type="Document" URL="../docs/CHANGELOG.md"/>
 			<Item Name="LICENSE-APACHE.txt" Type="Document" URL="../docs/LICENSE-APACHE.txt"/>
 			<Item Name="LICENSE-BSD-3-Clause.txt" Type="Document" URL="../docs/LICENSE-BSD-3-Clause.txt"/>
@@ -578,7 +579,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{967153F5-DA49-476A-9DBB-FD955BC8A318}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{27138010-533C-41B2-B175-D5567DED5294}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tests.lvlib</Property>
@@ -618,7 +619,6 @@
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Toolkit.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[2].newName" Type="Str">LIBSSH2.lvlib</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">2</Property>
