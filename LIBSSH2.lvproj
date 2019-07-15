@@ -38,6 +38,7 @@
 			<Item Name="Advanced SCP File Download.vi" Type="VI" URL="../src/Examples/Advanced SCP File Download.vi"/>
 			<Item Name="Advanced SCP File Upload.vi" Type="VI" URL="../src/Examples/Advanced SCP File Upload.vi"/>
 			<Item Name="Password Authentication.vi" Type="VI" URL="../src/Examples/Password Authentication.vi"/>
+			<Item Name="Public Key File Authentication.vi" Type="VI" URL="../src/Examples/Public Key File Authentication.vi"/>
 			<Item Name="Simple SCP File Download.vi" Type="VI" URL="../src/Examples/Simple SCP File Download.vi"/>
 			<Item Name="Simple SCP File Upload.vi" Type="VI" URL="../src/Examples/Simple SCP File Upload.vi"/>
 		</Item>
