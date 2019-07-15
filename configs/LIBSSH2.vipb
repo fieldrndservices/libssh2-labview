@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2019-07-14 12:19:26" Creator="cfield" Comments="" ID="d071fd582b17c1e8da4ba044bff3bf9b">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2019-07-15 15:20:13" Creator="cfield" Comments="" ID="98eb769171ac61d9caa9d68334a15dfb">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_LIBSSH2</Package_File_Name>
     <Library_Version>1.0.0.6</Library_Version>
@@ -204,6 +204,18 @@
       <Destination_Overrides>
         <Path>Toolkit/AUTHORS.txt</Path>
         <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/Password Authentication.vi</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/Public Key File Authentication.vi</Path>
+        <Destination>1</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -436,7 +448,7 @@
         <Path>..\builds\Toolkit\API\SSH\API\Shutdown.vi</Path>
         <VI_Title>Shutdown</VI_Title>
       </Items_Data>
-      <GUID>B56FD064F59367894077FCDA035D95FD</GUID>
+      <GUID>1F16411B601BD087039F474A60B44EB5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -569,7 +581,7 @@
         <Path>..\builds\Toolkit\API\Agent\API\Next Identity.vi</Path>
         <VI_Title>Next Identity</VI_Title>
       </Items_Data>
-      <GUID>EEE65D3A9F9A122FCE680D389DABB92F</GUID>
+      <GUID>39FDBACC4F7EC74DFCA48C6BABAA52EE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -954,7 +966,7 @@
         <Path>..\builds\Toolkit\API\Channel\API\Set Environment Variable.vi</Path>
         <VI_Title>Set Environment Variable</VI_Title>
       </Items_Data>
-      <GUID>D66BEF667FD22BB01809D70722722EB2</GUID>
+      <GUID>2415863CAE38F00B76AC17BF28D046C0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1129,7 +1141,7 @@
         <Path>..\builds\Toolkit\API\Session\API\Read Authenticated.vi</Path>
         <VI_Title>Read Authenticated</VI_Title>
       </Items_Data>
-      <GUID>37A3CCE300E4D6E7786E696768BACE45</GUID>
+      <GUID>0A0DE3C07E973B563973FA9530FBCA0E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1234,7 +1246,7 @@
         <Path>..\builds\Toolkit\API\SFTP\API\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A68E1C3563E32CD45A96C173AA82D852</GUID>
+      <GUID>24DA9080D3AD0B2BD97105C210C2C240</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1367,7 +1379,7 @@
         <Path>..\builds\Toolkit\API\SFTP\API\Delete File.vi</Path>
         <VI_Title>Delete File</VI_Title>
       </Items_Data>
-      <GUID>2343A30C5243B40870B22CA9E9DA8450</GUID>
+      <GUID>0AAAEC5F5BE6E708D75F2C49C9A1E59F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1556,7 +1568,7 @@
         <Path>..\builds\Toolkit\API\SFTP File\API\Sync.vi</Path>
         <VI_Title>Sync</VI_Title>
       </Items_Data>
-      <GUID>0AB5C2997B4598272AEE6DDA3ABE72AB</GUID>
+      <GUID>C8829308BDD39F71FD02D346BB278944</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1619,7 +1631,7 @@
         <Path>..\builds\Toolkit\API\SFTP Directory\API\Read.vi</Path>
         <VI_Title>Read</VI_Title>
       </Items_Data>
-      <GUID>A83F992C9D63A64F36D4A4F15437C8B4</GUID>
+      <GUID>BBE6B4AD6AE87DCFDB4B7A8673A7A709</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1822,7 +1834,7 @@
         <Path>..\builds\Toolkit\API\SFTP Attributes\API\Read Flags.vi</Path>
         <VI_Title>Read Flags</VI_Title>
       </Items_Data>
-      <GUID>EA11A75964F93BB9FBF0456079DCB640</GUID>
+      <GUID>472CC9E149B4307134DBA602151DC8B0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1927,7 +1939,7 @@
         <Path>..\builds\Toolkit\API\File Info\API\Read Permissions.vi</Path>
         <VI_Title>Read Permissions</VI_Title>
       </Items_Data>
-      <GUID>1E3819A382863425D243B19E708CA58A</GUID>
+      <GUID>28EB569EAFE975B5C22EA6A6408BA51C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1976,7 +1988,7 @@
         <Path>..\builds\Toolkit\API\Known Host\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>33823CE6CC5AFCF6C11F79B16B64E4BE</GUID>
+      <GUID>49C1F64EFF16394D93E8E9171C2F54B0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2095,7 +2107,7 @@
         <Path>..\builds\Toolkit\API\Known Hosts\API\Check.vi</Path>
         <VI_Title>Check</VI_Title>
       </Items_Data>
-      <GUID>BC1D9D45BB02561D7A4B9C0952425089</GUID>
+      <GUID>4B40F3396CD058DC6D4C05EB63D28D4C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2200,7 +2212,7 @@
         <Path>..\builds\Toolkit\API\Known Host\API\Read Type Mask.vi</Path>
         <VI_Title>Read Type Mask</VI_Title>
       </Items_Data>
-      <GUID>CEC44060BBF522036CEDEFBB00CF1A6B</GUID>
+      <GUID>A6B33EDB082015E72A852E4D8E08EBEA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2249,7 +2261,7 @@
         <Path>..\builds\Toolkit\API\Listener\API\Destroy.vi</Path>
         <VI_Title>Destroy</VI_Title>
       </Items_Data>
-      <GUID>6BD6FFEB388D1732FB0419658B0C7574</GUID>
+      <GUID>1A91E2BA8682FA352B82583DBACFF82B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

@@ -502,7 +502,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/Examples</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A13C7B79-8266-44FA-809C-460DB477EB2D}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Examples</Property>
@@ -511,7 +511,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Examples/Support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{02F6B661-67F1-4A88-871D-1AF1B2AB924B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{174D7113-CC71-45AD-85A6-7B631EBC100D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -567,7 +567,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/Toolkit</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{514E7279-3394-4E67-B6FE-EF59C28E03DA}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Toolkit</Property>
