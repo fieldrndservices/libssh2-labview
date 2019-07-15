@@ -37,6 +37,7 @@
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Advanced SCP File Download.vi" Type="VI" URL="../src/Examples/Advanced SCP File Download.vi"/>
 			<Item Name="Advanced SCP File Upload.vi" Type="VI" URL="../src/Examples/Advanced SCP File Upload.vi"/>
+			<Item Name="Password Authentication.vi" Type="VI" URL="../src/Examples/Password Authentication.vi"/>
 			<Item Name="Simple SCP File Download.vi" Type="VI" URL="../src/Examples/Simple SCP File Download.vi"/>
 			<Item Name="Simple SCP File Upload.vi" Type="VI" URL="../src/Examples/Simple SCP File Upload.vi"/>
 		</Item>
@@ -382,7 +383,6 @@
 				<Item Name="Indent.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/classes/Test Report.JUnit/Indent.vi"/>
 				<Item Name="Invoke BuildTarget.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Invoke BuildTarget.vi"/>
 				<Item Name="Is Name Multiplatform.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Is Name Multiplatform.vi"/>
-				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Labricator.lvlib" Type="Library" URL="/&lt;vilib&gt;/Field R&amp;D Services/Labricator/Toolkit/Labricator.lvlib"/>
 				<Item Name="Librarian File Info In.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian File Info In.ctl"/>
 				<Item Name="Librarian File Info Out.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian File Info Out.ctl"/>
