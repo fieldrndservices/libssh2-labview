@@ -17,6 +17,20 @@
 		<param name="Local" value="pages\Toolkit\Toolkit.html">
 		</OBJECT>
     <UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="SSH">
+            <param name="Local" value="pages\Toolkit\SSH\SSH.html">
+        </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Initialize">
+                <param name="Local" value="pages\Toolkit\SSH\Initialize.html">
+            </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Shutdown">
+                <param name="Local" value="pages\Toolkit\SSH\Shutdown.html">
+            </OBJECT>
+        </UL>
     </UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Legal">
