@@ -18,6 +18,56 @@
 		</OBJECT>
     <UL>
         <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Session">
+            <param name="Local" value="pages\Toolkit\Session\Session.html">
+        </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Authenticate">
+                <param name="Local" value="pages\Toolkit\Session\Authenticate.html">
+            </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Authentication Schemes">
+                <param name="Local" value="pages\Toolkit\Session\Authentication_Schemes.html">
+            </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Connect">
+                <param name="Local" value="pages\Toolkit\Session\Connect.html">
+            </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Create">
+                <param name="Local" value="pages\Toolkit\Session\Create.html">
+            </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Destroy">
+                <param name="Local" value="pages\Toolkit\Session\Destroy.html">
+            </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Disconnect">
+                <param name="Local" value="pages\Toolkit\Session\Disconnect.html">
+            </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Fingerprint">
+                <param name="Local" value="pages\Toolkit\Session\Fingerprint.html">
+            </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Host Key">
+                <param name="Local" value="pages\Toolkit\Session\Host_Key.html">
+            </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Read Authenticated">
+                <param name="Local" value="pages\Toolkit\Session\Read_Authenticated.html">
+            </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Read Mode">
+                <param name="Local" value="pages\Toolkit\Session\Read_Mode.html">
+            </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Write Mode">
+                <param name="Local" value="pages\Toolkit\Session\Write_Mode.html">
+            </OBJECT>
+        </UL>
+        <LI> <OBJECT type="text/sitemap">
             <param name="Name" value="SSH">
             <param name="Local" value="pages\Toolkit\SSH\SSH.html">
         </OBJECT>

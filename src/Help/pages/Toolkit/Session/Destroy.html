@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
+<html>
+<head>
+<title>Destroy VI</title>
+<meta name="Author" Content="Field R&D Services">
+<meta name="Generator" Content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
+</head>
+<body bgcolor="#ffffff">
+<div id="styleDivTitle">
+<h1>Destroy VI</h1>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/Session/Session.html">Session Class</a></p>
+<p class="Body"><strong>Requires:</strong> LIBSSH2</p>
+<p class="Body">Cleanly and safely free the session in underlying libssh2 shared library. This must be called, or executed, after all other session-related VIs. Once this is called, no other session-related VIs should be called, or executed. This frees all internal memory used by the libssh2 shared library for this session and a segmentation fault will occur if session-related VIs are executed for this session object.</p>
+<p class="Anchor"><img src="/images/Toolkit_lvlib_Session_lvclass_Destroyc.png" alt="Destroy VI"></p>
+</div>
+<div id="styleDivScrolling">
+<table class="Borderless">
+<tr>
+<td><img src="/images/cToolkit_lvlib_Sessionlvclass.png" alt="cToolkit_lvlib_Sessionlvclass"></td>
+<td><strong>Session</strong> a Session object representing an initialized session in the underlying libssh2 library.</td>
+</tr>
+<tr>
+<td><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality.</td>
+</tr>
+<tr>
+<td><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This provides standard error out functionality.</td>
+</tr>
+<tr>
+<td><img src="/images/iToolkit_lvlib_SSHlvclass.png" alt="iToolkit_lvlib_SSHlvclass"></td>
+<td><strong>SSH</strong> is the parent, or root, SSH object that represents the initialized underlying libssh2 library that created the session object.</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
