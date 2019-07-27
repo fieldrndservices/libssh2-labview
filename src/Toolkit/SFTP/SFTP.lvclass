@@ -66,7 +66,7 @@
 	</Item>
 	<Item Name="Type Definitions" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Rename Options.ctl" Type="VI" URL="../API/Typedefs/Rename Options.ctl">
+		<Item Name="Rename Options.ctl" Type="VI" URL="../Typedefs/Rename Options.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!^!!!!!1!V!0%!!!!!!!!!!QV5&lt;W^M;WFU,GRW&lt;'FC$&amp;.'6&amp;!O&lt;(:D&lt;'&amp;T=QF$&lt;WZU=G^M)$%!#!!!!!%!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">5242880</Property>
@@ -75,7 +75,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
 		</Item>
-		<Item Name="Status Types.ctl" Type="VI" URL="../API/Typedefs/Status Types.ctl">
+		<Item Name="Status Types.ctl" Type="VI" URL="../Typedefs/Status Types.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!^!!!!!1!V!0%!!!!!!!!!!QV5&lt;W^M;WFU,GRW&lt;'FC$&amp;.'6&amp;!O&lt;(:D&lt;'&amp;T=QF$&lt;WZU=G^M)$5!#!!!!!%!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">5242880</Property>
@@ -84,7 +84,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
 		</Item>
-		<Item Name="Symbolic Link Targets.ctl" Type="VI" URL="../API/Typedefs/Symbolic Link Targets.ctl">
+		<Item Name="Symbolic Link Targets.ctl" Type="VI" URL="../Typedefs/Symbolic Link Targets.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!^!!!!!1!V!0%!!!!!!!!!!QV5&lt;W^M;WFU,GRW&lt;'FC$&amp;.'6&amp;!O&lt;(:D&lt;'&amp;T=QF$&lt;WZU=G^M)$9!#!!!!!%!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">5242880</Property>
@@ -153,7 +153,7 @@
 			</Item>
 		</Item>
 	</Item>
-	<Item Name="Create Directory.vi" Type="VI" URL="../API/Create Directory.vi">
+	<Item Name="Create Directory.vi" Type="VI" URL="../Create Directory.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)Y!!!!%1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$"!=!!?!!!=$62P&lt;WRL;81O&lt;(:M;7)-5U:55#ZM&gt;G.M98.T!!!)5U:55#"0&gt;81!!!J!)123:7&amp;E!!!+1#%&amp;6X*J&gt;'5!$%!B"U6Y:7.V&gt;'5!.A$RW-Q.5A!!!!).6'^P&lt;'NJ&gt;#ZM&gt;GRJ9AF.&lt;W2F=SZD&gt;'Q!&amp;E"1!!-!"A!(!!A&amp;4X&gt;O:8)!.A$RW-Q.5A!!!!).6'^P&lt;'NJ&gt;#ZM&gt;GRJ9AF.&lt;W2F=SZD&gt;'Q!&amp;E"1!!-!"A!(!!A&amp;2X*P&gt;8!!/!$RW-Q.5A!!!!).6'^P&lt;'NJ&gt;#ZM&gt;GRJ9AF.&lt;W2F=SZD&gt;'Q!'%"1!!-!"A!(!!A'4X2I:8*T!!"#!0(9ZEGL!!!!!AV5&lt;W^M;WFU,GRW&lt;'FC$V"F=GVJ=X.J&lt;WZT,G.U&lt;!!=1&amp;!!!Q!*!!I!#QN1:8*N;8.T;7^O=Q!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!&amp;%!Q`````QN3:7VP&gt;'5A5'&amp;U;!!O1(!!(A!!(!V5&lt;W^M;WFU,GRW&lt;'FC$&amp;.'6&amp;!O&lt;(:D&lt;'&amp;T=Q!!"V.'6&amp;!A37Y!91$Q!!Q!!Q!%!!1!"1!-!!1!"!!%!!U!"!!/!!]$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!%!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -162,7 +162,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082401300</Property>
 	</Item>
-	<Item Name="Create Link.vi" Type="VI" URL="../API/Create Link.vi">
+	<Item Name="Create Link.vi" Type="VI" URL="../Create Link.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$"!=!!?!!!=$62P&lt;WRL;81O&lt;(:M;7)-5U:55#ZM&gt;G.M98.T!!!)5U:55#"0&gt;81!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!;1$$`````%&amp;*F&lt;7^U:3"-;7ZL)&amp;"B&gt;'A!!"R!-0````]35G6N&lt;X2F)&amp;.P&gt;8*D:3"1982I!!!O1(!!(A!!(!V5&lt;W^M;WFU,GRW&lt;'FC$&amp;.'6&amp;!O&lt;(:D&lt;'&amp;T=Q!!"V.'6&amp;!A37Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!1!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -171,7 +171,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
-	<Item Name="Create.vi" Type="VI" URL="../API/Create.vi">
+	<Item Name="Create.vi" Type="VI" URL="../Create.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%0!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!#R!=!!?!!!=$62P&lt;WRL;81O&lt;(:M;7)-5U:55#ZM&gt;G.M98.T!!!%5U:55!!!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!$"!=!!?!!!@$62P&lt;WRL;81O&lt;(:M;7)05W6T=WFP&lt;CZM&gt;G.M98.T!!&gt;4:8.T;7^O!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -180,7 +180,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
 	</Item>
-	<Item Name="Delete Directory.vi" Type="VI" URL="../API/Delete Directory.vi">
+	<Item Name="Delete Directory.vi" Type="VI" URL="../Delete Directory.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%S!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$"!=!!?!!!=$62P&lt;WRL;81O&lt;(:M;7)-5U:55#ZM&gt;G.M98.T!!!)5U:55#"0&gt;81!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!51$$`````#V*F&lt;7^U:3"1982I!#Z!=!!?!!!=$62P&lt;WRL;81O&lt;(:M;7)-5U:55#ZM&gt;G.M98.T!!!(5U:55#"*&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -189,7 +189,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082401300</Property>
 	</Item>
-	<Item Name="Delete File.vi" Type="VI" URL="../API/Delete File.vi">
+	<Item Name="Delete File.vi" Type="VI" URL="../Delete File.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%S!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$"!=!!?!!!=$62P&lt;WRL;81O&lt;(:M;7)-5U:55#ZM&gt;G.M98.T!!!)5U:55#"0&gt;81!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!51$$`````#V*F&lt;7^U:3"1982I!#Z!=!!?!!!=$62P&lt;WRL;81O&lt;(:M;7)-5U:55#ZM&gt;G.M98.T!!!(5U:55#"*&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -198,7 +198,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082401300</Property>
 	</Item>
-	<Item Name="Delete Link.vi" Type="VI" URL="../API/Delete Link.vi">
+	<Item Name="Delete Link.vi" Type="VI" URL="../Delete Link.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%S!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$"!=!!?!!!=$62P&lt;WRL;81O&lt;(:M;7)-5U:55#ZM&gt;G.M98.T!!!)5U:55#"0&gt;81!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!51$$`````#V*F&lt;7^U:3"1982I!#Z!=!!?!!!=$62P&lt;WRL;81O&lt;(:M;7)-5U:55#ZM&gt;G.M98.T!!!(5U:55#"*&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -207,7 +207,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
-	<Item Name="Destroy.vi" Type="VI" URL="../API/Destroy.vi">
+	<Item Name="Destroy.vi" Type="VI" URL="../Destroy.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%0!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$"!=!!?!!!@$62P&lt;WRL;81O&lt;(:M;7)05W6T=WFP&lt;CZM&gt;G.M98.T!!&gt;4:8.T;7^O!":!5!!$!!!!!1!##%6S=G^S)%FO!!!M1(!!(A!!(!V5&lt;W^M;WFU,GRW&lt;'FC$&amp;.'6&amp;!O&lt;(:D&lt;'&amp;T=Q!!"&amp;.'6&amp;!!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -216,7 +216,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
 	</Item>
-	<Item Name="Link Status.vi" Type="VI" URL="../API/Link Status.vi">
+	<Item Name="Link Status.vi" Type="VI" URL="../Link Status.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'R!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!%"!=!!?!!!H$62P&lt;WRL;81O&lt;(:M;7)85U:55#""&gt;(2S;7*V&gt;'6T,GRW9WRB=X-!$E&amp;U&gt;(*J9H6U:8-A4X6U!!!Q1(!!(A!!(!V5&lt;W^M;WFU,GRW&lt;'FC$&amp;.'6&amp;!O&lt;(:D&lt;'&amp;T=Q!!#&amp;.'6&amp;!A4X6U!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!&amp;%!Q`````QN3:7VP&gt;'5A5'&amp;U;!!_1(!!(A!!*QV5&lt;W^M;WFU,GRW&lt;'FC&amp;V.'6&amp;!A182U=GFC&gt;82F=SZM&gt;G.M98.T!!V"&gt;(2S;7*V&gt;'6T)%FO!#Z!=!!?!!!=$62P&lt;WRL;81O&lt;(:M;7)-5U:55#ZM&gt;G.M98.T!!!(5U:55#"*&lt;A"C!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!)!!E!#A-!!(A!!!U)!!!!!!!!$1I!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!"!!!!!1!!!!%A!!$A!!#Q!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -225,7 +225,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082401300</Property>
 	</Item>
-	<Item Name="Rename.vi" Type="VI" URL="../API/Rename.vi">
+	<Item Name="Rename.vi" Type="VI" URL="../Rename.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(/!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$"!=!!?!!!=$62P&lt;WRL;81O&lt;(:M;7)-5U:55#ZM&gt;G.M98.T!!!)5U:55#"0&gt;81!!!R!)1:"&gt;'^N;7-!!!R!)1:/982J&gt;G5!!!Z!)1F0&gt;G6S&gt;X*J&gt;'5!4A$RW2BIUQ!!!!-.6'^P&lt;'NJ&gt;#ZM&gt;GRJ9AR42F21,GRW9WRB=X-35G6O97VF)%^Q&gt;'FP&lt;H-O9X2M!"B!5!!$!!9!"Q!)"U^Q&gt;'FP&lt;H-!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!#"!-0````]85G6N&lt;X2F)%2F=X2J&lt;G&amp;U;7^O)&amp;"B&gt;'A!(%!Q`````R*3:7VP&gt;'5A5W^V=G.F)&amp;"B&gt;'A!!#Z!=!!?!!!=$62P&lt;WRL;81O&lt;(:M;7)-5U:55#ZM&gt;G.M98.T!!!(5U:55#"*&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!*!!1!#A!,!!Q!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!"!!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!/!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -234,7 +234,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
-	<Item Name="Resolve Link.vi" Type="VI" URL="../API/Resolve Link.vi">
+	<Item Name="Resolve Link.vi" Type="VI" URL="../Resolve Link.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0)ZF!_(!!%!!!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>

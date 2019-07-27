@@ -111,7 +111,7 @@
 		<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Type Mask</Property>
 		<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Read Type Mask.vi" Type="VI" URL="../API/Read Type Mask.vi">
+		<Item Name="Read Type Mask.vi" Type="VI" URL="../Read Type Mask.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&amp;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!^!!Q!*6(FQ:3".98.L!$R!=!!?!!!C$62P&lt;WRL;81O&lt;(:M;7)33WZP&gt;WYA3'^T&gt;#ZM&gt;G.M98.T!!!/3WZP&gt;WYA3'^T&gt;#"0&gt;81!!":!5!!$!!!!!1!##%6S=G^S)%FO!!![1(!!(A!!)AV5&lt;W^M;WFU,GRW&lt;'FC%ENO&lt;X&gt;O)%BP=X1O&lt;(:D&lt;'&amp;T=Q!!$5NO&lt;X&gt;O)%BP=X1A37Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
@@ -126,7 +126,7 @@
 		<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Key</Property>
 		<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Read Key.vi" Type="VI" URL="../API/Read Key.vi">
+		<Item Name="Read Key.vi" Type="VI" URL="../Read Key.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;,!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!5!"1!!%%"!!!(`````!!5$3W6Z!$R!=!!?!!!C$62P&lt;WRL;81O&lt;(:M;7)33WZP&gt;WYA3'^T&gt;#ZM&gt;G.M98.T!!!/3WZP&gt;WYA3'^T&gt;#"0&gt;81!!":!5!!$!!!!!1!##%6S=G^S)%FO!!![1(!!(A!!)AV5&lt;W^M;WFU,GRW&lt;'FC%ENO&lt;X&gt;O)%BP=X1O&lt;(:D&lt;'&amp;T=Q!!$5NO&lt;X&gt;O)%BP=X1A37Y!91$Q!!Q!!Q!%!!9!"Q!%!!1!"!!%!!A!"!!%!!E$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">50331648</Property>
@@ -141,7 +141,7 @@
 		<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Magic</Property>
 		<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Read Magic.vi" Type="VI" URL="../API/Read Magic.vi">
+		<Item Name="Read Magic.vi" Type="VI" URL="../Read Magic.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;"!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!N!!Q!&amp;47&amp;H;7-!0%"Q!"Y!!#).6'^P&lt;'NJ&gt;#ZM&gt;GRJ9B*,&lt;G^X&lt;C")&lt;X.U,GRW9WRB=X-!!!Z,&lt;G^X&lt;C")&lt;X.U)%^V&gt;!!!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!$J!=!!?!!!C$62P&lt;WRL;81O&lt;(:M;7)33WZP&gt;WYA3'^T&gt;#ZM&gt;G.M98.T!!!.3WZP&gt;WYA3'^T&gt;#"*&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
@@ -156,7 +156,7 @@
 		<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Name</Property>
 		<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Read Name.vi" Type="VI" URL="../API/Read Name.vi">
+		<Item Name="Read Name.vi" Type="VI" URL="../Read Name.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;%!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!Z!-0````]%4G&amp;N:1!!0%"Q!"Y!!#).6'^P&lt;'NJ&gt;#ZM&gt;GRJ9B*,&lt;G^X&lt;C")&lt;X.U,GRW9WRB=X-!!!Z,&lt;G^X&lt;C")&lt;X.U)%^V&gt;!!!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!$J!=!!?!!!C$62P&lt;WRL;81O&lt;(:M;7)33WZP&gt;WYA3'^T&gt;#ZM&gt;G.M98.T!!!.3WZP&gt;WYA3'^T&gt;#"*&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">50331648</Property>
@@ -166,7 +166,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">276832272</Property>
 		</Item>
 	</Item>
-	<Item Name="Create.vi" Type="VI" URL="../API/Create.vi">
+	<Item Name="Create.vi" Type="VI" URL="../Create.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0)V],.&lt;!!%!!!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
@@ -175,7 +175,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
 	</Item>
-	<Item Name="Destroy.vi" Type="VI" URL="../API/Destroy.vi">
+	<Item Name="Destroy.vi" Type="VI" URL="../Destroy.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0)Z\+9Z!!%!!!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
