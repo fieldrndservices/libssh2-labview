@@ -580,41 +580,41 @@
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{27138010-533C-41B2-B175-D5567DED5294}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{48B278C4-2F45-45FA-84D7-BFD5D0D46551}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tests.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Channel.lvclass</Property>
 				<Property Name="Source[10].type" Type="Str">Library</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Toolkit.lvlib/File Info.lvclass</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Known Host.lvclass</Property>
 				<Property Name="Source[12].type" Type="Str">Library</Property>
-				<Property Name="Source[13].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Known Hosts.lvclass</Property>
 				<Property Name="Source[13].type" Type="Str">Library</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Listener.lvclass</Property>
 				<Property Name="Source[14].type" Type="Str">Library</Property>
-				<Property Name="Source[15].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Session.lvclass</Property>
 				<Property Name="Source[15].type" Type="Str">Library</Property>
-				<Property Name="Source[16].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Toolkit.lvlib/SFTP Attributes.lvclass</Property>
 				<Property Name="Source[16].type" Type="Str">Library</Property>
-				<Property Name="Source[17].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Toolkit.lvlib/SFTP Directory.lvclass</Property>
 				<Property Name="Source[17].type" Type="Str">Library</Property>
-				<Property Name="Source[18].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Toolkit.lvlib/SFTP File.lvclass</Property>
 				<Property Name="Source[18].type" Type="Str">Library</Property>
-				<Property Name="Source[19].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Toolkit.lvlib/SFTP.lvclass</Property>
 				<Property Name="Source[19].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -622,15 +622,12 @@
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="Source[20].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Toolkit.lvlib/SSH.lvclass</Property>
 				<Property Name="Source[20].type" Type="Str">Library</Property>
 				<Property Name="Source[21].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[21].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[21].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[21].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[21].itemID" Type="Ref"></Property>
-				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Type Definitions</Property>
 				<Property Name="Source[21].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
@@ -652,21 +649,19 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Support</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Scripts.lvlib</Property>
 				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[7].type" Type="Str">Library</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Agent Identity.lvclass</Property>
 				<Property Name="Source[8].type" Type="Str">Library</Property>
-				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Toolkit.lvlib/Agent.lvclass</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">22</Property>
