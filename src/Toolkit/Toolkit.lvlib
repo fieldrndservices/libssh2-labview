@@ -20,21 +20,21 @@
 	</Item>
 	<Item Name="Type Definitions" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Bit Mask Modes.ctl" Type="VI" URL="../API/Typedefs/Bit Mask Modes.ctl"/>
-		<Item Name="Modes.ctl" Type="VI" URL="../API/Typedefs/Modes.ctl"/>
-		<Item Name="Permissions.ctl" Type="VI" URL="../API/Typedefs/Permissions.ctl"/>
+		<Item Name="Bit Mask Modes.ctl" Type="VI" URL="../Type Definitions/Bit Mask Modes.ctl"/>
+		<Item Name="Modes.ctl" Type="VI" URL="../Type Definitions/Modes.ctl"/>
+		<Item Name="Permissions.ctl" Type="VI" URL="../Type Definitions/Permissions.ctl"/>
 	</Item>
-	<Item Name="Agent Identity.lvclass" Type="LVClass" URL="../API/Agent Identity/Agent Identity.lvclass"/>
-	<Item Name="Agent.lvclass" Type="LVClass" URL="../API/Agent/Agent.lvclass"/>
-	<Item Name="Channel.lvclass" Type="LVClass" URL="../API/Channel/Channel.lvclass"/>
-	<Item Name="File Info.lvclass" Type="LVClass" URL="../API/File Info/File Info.lvclass"/>
-	<Item Name="Known Host.lvclass" Type="LVClass" URL="../API/Known Host/Known Host.lvclass"/>
-	<Item Name="Known Hosts.lvclass" Type="LVClass" URL="../API/Known Hosts/Known Hosts.lvclass"/>
-	<Item Name="Listener.lvclass" Type="LVClass" URL="../API/Listener/Listener.lvclass"/>
-	<Item Name="Session.lvclass" Type="LVClass" URL="../API/Session/Session.lvclass"/>
-	<Item Name="SFTP Attributes.lvclass" Type="LVClass" URL="../API/SFTP Attributes/SFTP Attributes.lvclass"/>
-	<Item Name="SFTP Directory.lvclass" Type="LVClass" URL="../API/SFTP Directory/SFTP Directory.lvclass"/>
-	<Item Name="SFTP File.lvclass" Type="LVClass" URL="../API/SFTP File/SFTP File.lvclass"/>
-	<Item Name="SFTP.lvclass" Type="LVClass" URL="../API/SFTP/SFTP.lvclass"/>
-	<Item Name="SSH.lvclass" Type="LVClass" URL="../API/SSH/SSH.lvclass"/>
+	<Item Name="Agent Identity.lvclass" Type="LVClass" URL="../Agent Identity/Agent Identity.lvclass"/>
+	<Item Name="Agent.lvclass" Type="LVClass" URL="../Agent/Agent.lvclass"/>
+	<Item Name="Channel.lvclass" Type="LVClass" URL="../Channel/Channel.lvclass"/>
+	<Item Name="File Info.lvclass" Type="LVClass" URL="../File Info/File Info.lvclass"/>
+	<Item Name="Known Host.lvclass" Type="LVClass" URL="../Known Host/Known Host.lvclass"/>
+	<Item Name="Known Hosts.lvclass" Type="LVClass" URL="../Known Hosts/Known Hosts.lvclass"/>
+	<Item Name="Listener.lvclass" Type="LVClass" URL="../Listener/Listener.lvclass"/>
+	<Item Name="Session.lvclass" Type="LVClass" URL="../Session/Session.lvclass"/>
+	<Item Name="SFTP Attributes.lvclass" Type="LVClass" URL="../SFTP Attributes/SFTP Attributes.lvclass"/>
+	<Item Name="SFTP Directory.lvclass" Type="LVClass" URL="../SFTP Directory/SFTP Directory.lvclass"/>
+	<Item Name="SFTP File.lvclass" Type="LVClass" URL="../SFTP File/SFTP File.lvclass"/>
+	<Item Name="SFTP.lvclass" Type="LVClass" URL="../SFTP/SFTP.lvclass"/>
+	<Item Name="SSH.lvclass" Type="LVClass" URL="../SSH/SSH.lvclass"/>
 </Library>
