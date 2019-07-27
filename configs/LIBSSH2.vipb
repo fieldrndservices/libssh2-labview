@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2019-07-15 15:20:13" Creator="cfield" Comments="" ID="98eb769171ac61d9caa9d68334a15dfb">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2019-07-27 12:30:16" Creator="cfield" Comments="" ID="ce5b9552078e6a27b30fd4494a23eb5c">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_LIBSSH2</Package_File_Name>
     <Library_Version>1.0.0.6</Library_Version>
@@ -148,61 +148,7 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Toolkit/API</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
         <Path>Toolkit/Support</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Toolkit/CHANGELOG.md</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Toolkit/LICENSE-APACHE.txt</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Toolkit/LICENSE-BSD-3-Clause.txt</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Toolkit/LICENSE-libssh2.txt</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Toolkit/LICENSE-openssl.txt</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Toolkit/LICENSE.txt</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Toolkit/README.md</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Toolkit/AUTHORS.txt</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -270,7 +216,7 @@
         <Palette_Disk_Base_Path>&lt;vi.lib&gt;\addons</Palette_Disk_Base_Path>
         <Syncing_MNU_file/>
       </Functions_Palette_Information>
-      <Apply_Short_Names_to_VI_Titles>false</Apply_Short_Names_to_VI_Titles>
+      <Apply_Short_Names_to_VI_Titles>true</Apply_Short_Names_to_VI_Titles>
       <Apply_Short_Names_to_VI_Titles_2>false</Apply_Short_Names_to_VI_Titles_2>
       <Library_or_Class_Nmae/>
     </Palette_Sets>
@@ -431,7 +377,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SSH\API\Initialize.vi</Path>
+        <Path>..\builds\Toolkit\SSH\Initialize.vi</Path>
         <VI_Title>Initialize</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -445,10 +391,10 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SSH\API\Shutdown.vi</Path>
+        <Path>..\builds\Toolkit\SSH\Shutdown.vi</Path>
         <VI_Title>Shutdown</VI_Title>
       </Items_Data>
-      <GUID>1F16411B601BD087039F474A60B44EB5</GUID>
+      <GUID>331B342C60551086D70D37C5A5B72573</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -480,7 +426,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Agent\API\Disconnect.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Disconnect.vi</Path>
         <VI_Title>Disconnect</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -494,7 +440,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Agent\API\Authenticate.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Authenticate.vi</Path>
         <VI_Title>Authenticate</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -508,7 +454,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Agent\API\Create.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
         <VI_Title>Create</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -522,7 +468,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Agent\API\Destroy.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
         <VI_Title>Destroy</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -536,7 +482,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Agent\API\Connect.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Connect.vi</Path>
         <VI_Title>Connect</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -550,7 +496,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Agent\API\Request Identities.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Request Identities.vi</Path>
         <VI_Title>Request Identities</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -564,7 +510,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Agent\API\First Identity.vi</Path>
+        <Path>..\builds\Toolkit\Agent\First Identity.vi</Path>
         <VI_Title>First Identity</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -578,10 +524,10 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Agent\API\Next Identity.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Next Identity.vi</Path>
         <VI_Title>Next Identity</VI_Title>
       </Items_Data>
-      <GUID>39FDBACC4F7EC74DFCA48C6BABAA52EE</GUID>
+      <GUID>134C3A1D8ADCF4AEC725F73AA27ECB7D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -613,7 +559,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Subsystem.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Subsystem.vi</Path>
         <VI_Title>Subsystem</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -627,7 +573,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Write Terminal Size.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Write Terminal Size.vi</Path>
         <VI_Title>Write Terminal Size</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -641,7 +587,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Create.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
         <VI_Title>Create</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -655,7 +601,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Destroy.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
         <VI_Title>Destroy</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -669,7 +615,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Read.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Read.vi</Path>
         <VI_Title>Read</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -683,7 +629,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Write All.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Write All.vi</Path>
         <VI_Title>Write All</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -697,7 +643,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Read All.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Read All.vi</Path>
         <VI_Title>Read All</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -711,7 +657,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Read End-of-File.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Read End-of-File.vi</Path>
         <VI_Title>Read End-of-File</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -725,7 +671,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Read Exit Status.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Read Exit Status.vi</Path>
         <VI_Title>Read Exit Status</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -739,7 +685,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Read Stderr.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Read Stderr.vi</Path>
         <VI_Title>Read Stderr</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -753,7 +699,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Write.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Write.vi</Path>
         <VI_Title>Write</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -767,7 +713,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Shell.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Shell.vi</Path>
         <VI_Title>Shell</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -781,7 +727,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Execute.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Execute.vi</Path>
         <VI_Title>Execute</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -795,7 +741,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Send End-of-File.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Send End-of-File.vi</Path>
         <VI_Title>Send End-of-File</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -809,7 +755,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Write Stderr.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Write Stderr.vi</Path>
         <VI_Title>Write Stderr</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -823,7 +769,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Wait for End-of-File.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Wait for End-of-File.vi</Path>
         <VI_Title>Wait for End-of-File</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -837,7 +783,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Close.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Close.vi</Path>
         <VI_Title>Close</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -851,7 +797,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Wait for Closed.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Wait for Closed.vi</Path>
         <VI_Title>Wait for Closed</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -865,7 +811,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Write Terminal.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Write Terminal.vi</Path>
         <VI_Title>Write Terminal</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -879,7 +825,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Write Mode.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Write Mode.vi</Path>
         <VI_Title>Write Mode</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -893,7 +839,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Flush.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Flush.vi</Path>
         <VI_Title>Flush</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -907,7 +853,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Read Window Read Size.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Read Window Read Size.vi</Path>
         <VI_Title>Read Window Read Size</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -921,7 +867,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Read Window Write Size.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Read Window Write Size.vi</Path>
         <VI_Title>Read Window Write Size</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -935,7 +881,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Write X11.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Write X11.vi</Path>
         <VI_Title>Write X11</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -949,7 +895,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Change Receive Window Size.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Change Receive Window Size.vi</Path>
         <VI_Title>Change Receive Window Size</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -963,10 +909,10 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Channel\API\Set Environment Variable.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Set Environment Variable.vi</Path>
         <VI_Title>Set Environment Variable</VI_Title>
       </Items_Data>
-      <GUID>2415863CAE38F00B76AC17BF28D046C0</GUID>
+      <GUID>556A831CC798C323ABF4657D305BD1B2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -998,7 +944,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Session\API\Disconnect.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Disconnect.vi</Path>
         <VI_Title>Disconnect</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1012,7 +958,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Session\API\Fingerprint.vi</Path>
+        <Path>..\builds\Toolkit\Session\Fingerprint.vi</Path>
         <VI_Title>Fingerprint</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1026,7 +972,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Session\API\Create.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
         <VI_Title>Create</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1040,7 +986,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Session\API\Host Key.vi</Path>
+        <Path>..\builds\Toolkit\Session\Host Key.vi</Path>
         <VI_Title>Host Key</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1054,7 +1000,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Session\API\Read Mode.vi</Path>
+        <Path>..\builds\Toolkit\Session\Read Mode.vi</Path>
         <VI_Title>Read Mode</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1068,7 +1014,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Session\API\Destroy.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
         <VI_Title>Destroy</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1082,7 +1028,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Session\API\Connect.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Connect.vi</Path>
         <VI_Title>Connect</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1096,7 +1042,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Session\API\Write Mode.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Write Mode.vi</Path>
         <VI_Title>Write Mode</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1110,7 +1056,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Session\API\Authenticate.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Authenticate.vi</Path>
         <VI_Title>Authenticate</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1124,7 +1070,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Session\API\Authentication Schemes.vi</Path>
+        <Path>..\builds\Toolkit\Session\Authentication Schemes.vi</Path>
         <VI_Title>Authentication Schemes</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1138,10 +1084,10 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Session\API\Read Authenticated.vi</Path>
+        <Path>..\builds\Toolkit\Session\Read Authenticated.vi</Path>
         <VI_Title>Read Authenticated</VI_Title>
       </Items_Data>
-      <GUID>0A0DE3C07E973B563973FA9530FBCA0E</GUID>
+      <GUID>5D94FE44779DD97FC44B25740B39E2A0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1229,7 +1175,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP\API\Create.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1243,10 +1189,10 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP\API\Destroy.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24DA9080D3AD0B2BD97105C210C2C240</GUID>
+      <GUID>B3B3C7967B578AF24EABA3419B5C374A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1278,7 +1224,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP\API\Link Status.vi</Path>
+        <Path>..\builds\Toolkit\SFTP\Link Status.vi</Path>
         <VI_Title>Link Status</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1292,7 +1238,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP\API\Create Link.vi</Path>
+        <Path>..\builds\Toolkit\SFTP\Create Link.vi</Path>
         <VI_Title>Create Link</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1306,7 +1252,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP\API\Resolve Link.vi</Path>
+        <Path>..\builds\Toolkit\SFTP\Resolve Link.vi</Path>
         <VI_Title>Resolve Link</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1320,7 +1266,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP\API\Delete Link.vi</Path>
+        <Path>..\builds\Toolkit\SFTP\Delete Link.vi</Path>
         <VI_Title>Delete Link</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1334,7 +1280,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP\API\Create Directory.vi</Path>
+        <Path>..\builds\Toolkit\SFTP\Create Directory.vi</Path>
         <VI_Title>Create Directory</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1348,7 +1294,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP\API\Delete Directory.vi</Path>
+        <Path>..\builds\Toolkit\SFTP\Delete Directory.vi</Path>
         <VI_Title>Delete Directory</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1362,7 +1308,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP\API\Rename.vi</Path>
+        <Path>..\builds\Toolkit\SFTP\Rename.vi</Path>
         <VI_Title>Rename</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1376,10 +1322,10 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP\API\Delete File.vi</Path>
+        <Path>..\builds\Toolkit\SFTP\Delete File.vi</Path>
         <VI_Title>Delete File</VI_Title>
       </Items_Data>
-      <GUID>0AAAEC5F5BE6E708D75F2C49C9A1E59F</GUID>
+      <GUID>72B52EE1273608920DFAC5AE14AC944B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1411,7 +1357,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP File\API\Read Status.vi</Path>
+        <Path>..\builds\Toolkit\SFTP File\Read Status.vi</Path>
         <VI_Title>Read Status</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1425,7 +1371,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP File\API\Write Position.vi</Path>
+        <Path>..\builds\Toolkit\SFTP File\Write Position.vi</Path>
         <VI_Title>Write Position</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1439,7 +1385,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP File\API\Open.vi</Path>
+        <Path>..\builds\Toolkit\SFTP Directory\Open.vi</Path>
         <VI_Title>Open</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1453,7 +1399,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP File\API\Close.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Close.vi</Path>
         <VI_Title>Close</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1467,7 +1413,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP File\API\Read Position.vi</Path>
+        <Path>..\builds\Toolkit\SFTP File\Read Position.vi</Path>
         <VI_Title>Read Position</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1481,7 +1427,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP File\API\Write Status.vi</Path>
+        <Path>..\builds\Toolkit\SFTP File\Write Status.vi</Path>
         <VI_Title>Write Status</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1495,7 +1441,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP File\API\Read.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Read.vi</Path>
         <VI_Title>Read</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1509,7 +1455,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP File\API\Write.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Write.vi</Path>
         <VI_Title>Write</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1523,7 +1469,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP File\API\Write All.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Write All.vi</Path>
         <VI_Title>Write All</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1537,7 +1483,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP File\API\Rewind.vi</Path>
+        <Path>..\builds\Toolkit\SFTP File\Rewind.vi</Path>
         <VI_Title>Rewind</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1551,7 +1497,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP File\API\Read Size.vi</Path>
+        <Path>..\builds\Toolkit\SFTP File\Read Size.vi</Path>
         <VI_Title>Read Size</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1565,10 +1511,10 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP File\API\Sync.vi</Path>
+        <Path>..\builds\Toolkit\SFTP File\Sync.vi</Path>
         <VI_Title>Sync</VI_Title>
       </Items_Data>
-      <GUID>C8829308BDD39F71FD02D346BB278944</GUID>
+      <GUID>40ECE2A232630048D29C6358EA7F2631</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1600,7 +1546,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP Directory\API\Open.vi</Path>
+        <Path>..\builds\Toolkit\SFTP Directory\Open.vi</Path>
         <VI_Title>Open</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1614,7 +1560,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP Directory\API\Close.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Close.vi</Path>
         <VI_Title>Close</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1628,10 +1574,10 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP Directory\API\Read.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Read.vi</Path>
         <VI_Title>Read</VI_Title>
       </Items_Data>
-      <GUID>BBE6B4AD6AE87DCFDB4B7A8673A7A709</GUID>
+      <GUID>4E75F67E6761F1F2BC424D1BEFD63FB8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1663,7 +1609,7 @@
           <Column>7</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP Attributes\API\Read File Type.vi</Path>
+        <Path>..\builds\Toolkit\SFTP Attributes\Read File Type.vi</Path>
         <VI_Title>Read File Type</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1677,7 +1623,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP Attributes\API\Write Group ID.vi</Path>
+        <Path>..\builds\Toolkit\SFTP Attributes\Write Group ID.vi</Path>
         <VI_Title>Write Group ID</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1691,7 +1637,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP Attributes\API\Read User ID.vi</Path>
+        <Path>..\builds\Toolkit\SFTP Attributes\Read User ID.vi</Path>
         <VI_Title>Read User ID</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1705,7 +1651,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP Attributes\API\Create.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
         <VI_Title>Create</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1719,7 +1665,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP Attributes\API\Destroy.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
         <VI_Title>Destroy</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1733,7 +1679,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP Attributes\API\Write User ID.vi</Path>
+        <Path>..\builds\Toolkit\SFTP Attributes\Write User ID.vi</Path>
         <VI_Title>Write User ID</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1747,7 +1693,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP Attributes\API\Read Group ID.vi</Path>
+        <Path>..\builds\Toolkit\SFTP Attributes\Read Group ID.vi</Path>
         <VI_Title>Read Group ID</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1761,7 +1707,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP Attributes\API\Read Permissions.vi</Path>
+        <Path>..\builds\Toolkit\File Info\Read Permissions.vi</Path>
         <VI_Title>Read Permissions</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1775,7 +1721,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP Attributes\API\Write Permissions.vi</Path>
+        <Path>..\builds\Toolkit\SFTP Attributes\Write Permissions.vi</Path>
         <VI_Title>Write Permissions</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1789,7 +1735,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP Attributes\API\Read Modified Time.vi</Path>
+        <Path>..\builds\Toolkit\File Info\Read Modified Time.vi</Path>
         <VI_Title>Read Modified Time</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1803,7 +1749,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP Attributes\API\Read Access Time.vi</Path>
+        <Path>..\builds\Toolkit\File Info\Read Access Time.vi</Path>
         <VI_Title>Read Access Time</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1817,7 +1763,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP Attributes\API\Read File Size.vi</Path>
+        <Path>..\builds\Toolkit\File Info\Read File Size.vi</Path>
         <VI_Title>Read File Size</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1831,10 +1777,10 @@
           <Column>8</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\SFTP Attributes\API\Read Flags.vi</Path>
+        <Path>..\builds\Toolkit\SFTP Attributes\Read Flags.vi</Path>
         <VI_Title>Read Flags</VI_Title>
       </Items_Data>
-      <GUID>472CC9E149B4307134DBA602151DC8B0</GUID>
+      <GUID>3B7D3D048F3E596E66CC42DAD15F2520</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1866,7 +1812,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\File Info\API\Read Access Time.vi</Path>
+        <Path>..\builds\Toolkit\File Info\Read Access Time.vi</Path>
         <VI_Title>Read Access Time</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1880,7 +1826,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\File Info\API\Create.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
         <VI_Title>Create</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1894,7 +1840,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\File Info\API\Destroy.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
         <VI_Title>Destroy</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1908,7 +1854,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\File Info\API\Read File Size.vi</Path>
+        <Path>..\builds\Toolkit\File Info\Read File Size.vi</Path>
         <VI_Title>Read File Size</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1922,7 +1868,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\File Info\API\Read Modified Time.vi</Path>
+        <Path>..\builds\Toolkit\File Info\Read Modified Time.vi</Path>
         <VI_Title>Read Modified Time</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -1936,10 +1882,10 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\File Info\API\Read Permissions.vi</Path>
+        <Path>..\builds\Toolkit\File Info\Read Permissions.vi</Path>
         <VI_Title>Read Permissions</VI_Title>
       </Items_Data>
-      <GUID>28EB569EAFE975B5C22EA6A6408BA51C</GUID>
+      <GUID>81567A053500ABF1E3A84ECEA652FA3C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1988,7 +1934,7 @@
         <Path>..\builds\Toolkit\API\Known Host\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>49C1F64EFF16394D93E8E9171C2F54B0</GUID>
+      <GUID>897B50ADF3875989F74DFF7473D54821</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2020,7 +1966,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Known Hosts\API\Read File.vi</Path>
+        <Path>..\builds\Toolkit\Known Hosts\Read File.vi</Path>
         <VI_Title>Read File</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -2034,7 +1980,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Known Hosts\API\Create.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
         <VI_Title>Create</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -2048,7 +1994,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Known Hosts\API\Destroy.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
         <VI_Title>Destroy</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -2062,7 +2008,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Known Hosts\API\Write File.vi</Path>
+        <Path>..\builds\Toolkit\Known Hosts\Write File.vi</Path>
         <VI_Title>Write File</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -2076,7 +2022,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Known Hosts\API\First.vi</Path>
+        <Path>..\builds\Toolkit\Known Hosts\First.vi</Path>
         <VI_Title>First</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -2090,7 +2036,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Known Hosts\API\Next.vi</Path>
+        <Path>..\builds\Toolkit\Known Hosts\Next.vi</Path>
         <VI_Title>Next</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -2104,10 +2050,10 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Known Hosts\API\Check.vi</Path>
+        <Path>..\builds\Toolkit\Known Hosts\Check.vi</Path>
         <VI_Title>Check</VI_Title>
       </Items_Data>
-      <GUID>4B40F3396CD058DC6D4C05EB63D28D4C</GUID>
+      <GUID>73116E844EBCAFC011E5D06EFE0671F6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2139,7 +2085,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Known Host\API\Read Magic.vi</Path>
+        <Path>..\builds\Toolkit\Known Host\Read Magic.vi</Path>
         <VI_Title>Read Magic</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -2153,7 +2099,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Known Host\API\Create.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
         <VI_Title>Create</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -2167,7 +2113,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Known Host\API\Destroy.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
         <VI_Title>Destroy</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -2181,7 +2127,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Known Host\API\Read Key.vi</Path>
+        <Path>..\builds\Toolkit\Known Host\Read Key.vi</Path>
         <VI_Title>Read Key</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -2195,7 +2141,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Known Host\API\Read Name.vi</Path>
+        <Path>..\builds\Toolkit\Known Host\Read Name.vi</Path>
         <VI_Title>Read Name</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -2209,10 +2155,10 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Known Host\API\Read Type Mask.vi</Path>
+        <Path>..\builds\Toolkit\Known Host\Read Type Mask.vi</Path>
         <VI_Title>Read Type Mask</VI_Title>
       </Items_Data>
-      <GUID>A6B33EDB082015E72A852E4D8E08EBEA</GUID>
+      <GUID>821E702941ADDEFF93768EC7A07BAAAD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2244,7 +2190,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Listener\API\Create.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
         <VI_Title>Create</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -2258,10 +2204,10 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\API\Listener\API\Destroy.vi</Path>
+        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
         <VI_Title>Destroy</VI_Title>
       </Items_Data>
-      <GUID>1A91E2BA8682FA352B82583DBACFF82B</GUID>
+      <GUID>30C2F6B20D99616054E9F233F4D1B87A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
