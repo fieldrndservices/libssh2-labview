@@ -59,7 +59,7 @@ Identities are stored in memory as a linked list. This class provides functional
 	</Item>
 	<Item Name="Type Definitions" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Results.ctl" Type="VI" URL="../Typedefs/Results.ctl">
+		<Item Name="Results.ctl" Type="VI" URL="../Type Definitions/Results.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!_!!!!!1!W!0%!!!!!!!!!!QV5&lt;W^M;WFU,GRW&lt;'FC$5&amp;H:7ZU,GRW9WRB=X-*1W^O&gt;(*P&lt;#!R!!A!!!!"!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">5242880</Property>

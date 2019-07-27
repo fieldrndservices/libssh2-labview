@@ -111,7 +111,7 @@
 	</Item>
 	<Item Name="Type Definitions" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="File Types.ctl" Type="VI" URL="../Typedefs/File Types.ctl">
+		<Item Name="File Types.ctl" Type="VI" URL="../Type Definitions/File Types.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"9!!!!!1"1!0(:4\C&lt;!!!!!QV5&lt;W^M;WFU,GRW&lt;'FC&amp;V.'6&amp;!A182U=GFC&gt;82F=SZM&gt;G.M98.T$E:J&lt;'5A6(FQ:8-O9X2M!".!"Q!*2GFM:3"5?8"F!!%!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>

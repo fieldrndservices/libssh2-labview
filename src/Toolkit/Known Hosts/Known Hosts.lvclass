@@ -34,7 +34,7 @@
 	</Item>
 	<Item Name="Type Definitions" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Check Results.ctl" Type="VI" URL="../Typedefs/Check Results.ctl">
+		<Item Name="Check Results.ctl" Type="VI" URL="../Type Definitions/Check Results.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!-!!!!!1!%!!!!!1!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">4194304</Property>
@@ -43,7 +43,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
 		</Item>
-		<Item Name="Get Results.ctl" Type="VI" URL="../Typedefs/Get Results.ctl">
+		<Item Name="Get Results.ctl" Type="VI" URL="../Type Definitions/Get Results.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"]!!!!!1"U!0(9S8,F!!!!!QV5&lt;W^M;WFU,GRW&lt;'FC%ENO&lt;X&gt;O3'^T&gt;(-O&lt;(:D&lt;'&amp;T=Q^(:81A5G6T&gt;7RU=SZD&gt;'Q!/U!8!!1(2G&amp;J&lt;(6S:1B.;8.N982D;!6.982D;!F/&lt;X1A2G^V&lt;G1!!!R$;'6D;S"3:8.V&lt;(1!!!%!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
@@ -52,7 +52,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
 		</Item>
-		<Item Name="Host Name Types.ctl" Type="VI" URL="../Typedefs/Host Name Types.ctl">
+		<Item Name="Host Name Types.ctl" Type="VI" URL="../Type Definitions/Host Name Types.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"I!!!!!1"A!0(7W8Q-!!!!!QV-97*45UAS,GRW&lt;'FC%ENO&lt;X&gt;O3'^T&gt;(-O&lt;(:D&lt;'&amp;T=R.)&lt;X.U)%ZB&lt;75A6(FQ:8-O9X2M!#.!&amp;A!$"6"M97FO"&amp;.)14%'1X6T&gt;'^N!!25?8"F!!!"!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
@@ -61,7 +61,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 		</Item>
-		<Item Name="Key Algorithms.ctl" Type="VI" URL="../Typedefs/Key Algorithms.ctl">
+		<Item Name="Key Algorithms.ctl" Type="VI" URL="../Type Definitions/Key Algorithms.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"X!!!!!1"P!0(7W8^:!!!!!QV-97*45UAS,GRW&lt;'FC%ENO&lt;X&gt;O3'^T&gt;(-O&lt;(:D&lt;'&amp;T=R*,:8EA17RH&lt;X*J&gt;'BN=SZD&gt;'Q!-U!7!!1%5F."-1&gt;45UAA5F.""V.43#"%5V-(67ZL&lt;G^X&lt;A!!#5&amp;M:W^S;82I&lt;1!"!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
@@ -70,7 +70,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 		</Item>
-		<Item Name="Key Encodings.ctl" Type="VI" URL="../Typedefs/Key Encodings.ctl">
+		<Item Name="Key Encodings.ctl" Type="VI" URL="../Type Definitions/Key Encodings.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"E!!!!!1"=!0(7W8R1!!!!!QV-97*45UAS,GRW&lt;'FC%ENO&lt;X&gt;O3'^T&gt;(-O&lt;(:D&lt;'&amp;T=R&amp;,:8EA27ZD&lt;W2J&lt;G&gt;T,G.U&lt;!!B1"9!!A.398='1G&amp;T:49U!!!)27ZD&lt;W2J&lt;G=!!!%!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
