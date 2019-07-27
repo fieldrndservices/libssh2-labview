@@ -32,83 +32,6 @@
 	<Item Name="File Info.ctl" Type="Class Private Data" URL="File Info.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="API" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Access Time" Type="Property Definition">
-			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Access Time</Property>
-			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Access Time</Property>
-			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-			<Item Name="Read Access Time.vi" Type="VI" URL="../API/Read Access Time.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;"!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!"&amp;!#!!,17.D:8.T)&amp;2J&lt;75!/%"Q!"Y!!#%.6'^P&lt;'NJ&gt;#ZM&gt;GRJ9B&amp;';7RF)%FO:G]O&lt;(:D&lt;'&amp;T=Q!.2GFM:3"*&lt;G:P)%^V&gt;!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!/%"Q!"Y!!#%.6'^P&lt;'NJ&gt;#ZM&gt;GRJ9B&amp;';7RF)%FO:G]O&lt;(:D&lt;'&amp;T=Q!-2GFM:3"*&lt;G:P)%FO!!"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">8400912</Property>
-			</Item>
-		</Item>
-		<Item Name="File Size" Type="Property Definition">
-			<Property Name="NI.ClassItem.Property.LongName" Type="Str">File Size</Property>
-			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">File Size</Property>
-			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-			<Item Name="Read File Size.vi" Type="VI" URL="../API/Read File Size.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%`!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!^!#!!*2GFM:3"4;8JF!$B!=!!?!!!B$62P&lt;WRL;81O&lt;(:M;7)22GFM:3"*&lt;G:P,GRW9WRB=X-!$5:J&lt;'5A37ZG&lt;S"0&gt;81!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!$B!=!!?!!!B$62P&lt;WRL;81O&lt;(:M;7)22GFM:3"*&lt;G:P,GRW9WRB=X-!$%:J&lt;'5A37ZG&lt;S"*&lt;A!!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">8400912</Property>
-			</Item>
-		</Item>
-		<Item Name="Modified Time" Type="Property Definition">
-			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Modified Time</Property>
-			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Modified Time</Property>
-			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-			<Item Name="Read Modified Time.vi" Type="VI" URL="../API/Read Modified Time.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;$!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!".!#!!.47^E;7:J:71A6'FN:1!Y1(!!(A!!)1V5&lt;W^M;WFU,GRW&lt;'FC%5:J&lt;'5A37ZG&lt;SZM&gt;G.M98.T!!V';7RF)%FO:G]A4X6U!":!5!!$!!!!!1!##%6S=G^S)%FO!!!Y1(!!(A!!)1V5&lt;W^M;WFU,GRW&lt;'FC%5:J&lt;'5A37ZG&lt;SZM&gt;G.M98.T!!R';7RF)%FO:G]A37Y!!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">8400912</Property>
-			</Item>
-		</Item>
-		<Item Name="Permissions" Type="Property Definition">
-			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Permissions</Property>
-			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Permissions</Property>
-			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-			<Item Name="Read Permissions.vi" Type="VI" URL="../API/Read Permissions.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)W!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!J!)123:7&amp;E!!!+1#%&amp;6X*J&gt;'5!$%!B"U6Y:7.V&gt;'5!.A$RW-Q.5A!!!!).6'^P&lt;'NJ&gt;#ZM&gt;GRJ9AF.&lt;W2F=SZD&gt;'Q!&amp;E"1!!-!"1!'!!=&amp;4X&gt;O:8)!.A$RW-Q.5A!!!!).6'^P&lt;'NJ&gt;#ZM&gt;GRJ9AF.&lt;W2F=SZD&gt;'Q!&amp;E"1!!-!"1!'!!=&amp;2X*P&gt;8!!/!$RW-Q.5A!!!!).6'^P&lt;'NJ&gt;#ZM&gt;GRJ9AF.&lt;W2F=SZD&gt;'Q!'%"1!!-!"1!'!!='4X2I:8*T!!"#!0(9ZEGL!!!!!AV5&lt;W^M;WFU,GRW&lt;'FC$V"F=GVJ=X.J&lt;WZT,G.U&lt;!!=1&amp;!!!Q!)!!E!#AN1:8*N;8.T;7^O=Q!Y1(!!(A!!)1V5&lt;W^M;WFU,GRW&lt;'FC%5:J&lt;'5A37ZG&lt;SZM&gt;G.M98.T!!V';7RF)%FO:G]A4X6U!":!5!!$!!!!!1!##%6S=G^S)%FO!!!Y1(!!(A!!)1V5&lt;W^M;WFU,GRW&lt;'FC%5:J&lt;'5A37ZG&lt;SZM&gt;G.M98.T!!R';7RF)%FO:G]A37Y!!'%!]!!-!!-!"!!,!!Q!"!!%!!1!"!!.!!1!"!!/!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!]!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">8400912</Property>
-			</Item>
-		</Item>
-		<Item Name="Create.vi" Type="VI" URL="../API/Create.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0)V\N3;!!%!!!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
-		</Item>
-		<Item Name="Destroy.vi" Type="VI" URL="../API/Destroy.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0)ZDI$"!!%!!!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
-		</Item>
-	</Item>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Create from Session.vi" Type="VI" URL="../Support/Create from Session.vi">
@@ -173,5 +96,83 @@
 				<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 			</Item>
 		</Item>
+	</Item>
+	<Item Name="Access Time" Type="Property Definition">
+		<Property Name="NI.ClassItem.Property.LongName" Type="Str">Access Time</Property>
+		<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Access Time</Property>
+		<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Read Access Time.vi" Type="VI" URL="../API/Read Access Time.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;"!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!"&amp;!#!!,17.D:8.T)&amp;2J&lt;75!/%"Q!"Y!!#%.6'^P&lt;'NJ&gt;#ZM&gt;GRJ9B&amp;';7RF)%FO:G]O&lt;(:D&lt;'&amp;T=Q!.2GFM:3"*&lt;G:P)%^V&gt;!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!/%"Q!"Y!!#%.6'^P&lt;'NJ&gt;#ZM&gt;GRJ9B&amp;';7RF)%FO:G]O&lt;(:D&lt;'&amp;T=Q!-2GFM:3"*&lt;G:P)%FO!!"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">8400912</Property>
+		</Item>
+	</Item>
+	<Item Name="File Size" Type="Property Definition">
+		<Property Name="NI.ClassItem.Property.LongName" Type="Str">File Size</Property>
+		<Property Name="NI.ClassItem.Property.ShortName" Type="Str">File Size</Property>
+		<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Read File Size.vi" Type="VI" URL="../API/Read File Size.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%`!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!^!#!!*2GFM:3"4;8JF!$B!=!!?!!!B$62P&lt;WRL;81O&lt;(:M;7)22GFM:3"*&lt;G:P,GRW9WRB=X-!$5:J&lt;'5A37ZG&lt;S"0&gt;81!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!$B!=!!?!!!B$62P&lt;WRL;81O&lt;(:M;7)22GFM:3"*&lt;G:P,GRW9WRB=X-!$%:J&lt;'5A37ZG&lt;S"*&lt;A!!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">8400912</Property>
+		</Item>
+	</Item>
+	<Item Name="Modified Time" Type="Property Definition">
+		<Property Name="NI.ClassItem.Property.LongName" Type="Str">Modified Time</Property>
+		<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Modified Time</Property>
+		<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Read Modified Time.vi" Type="VI" URL="../API/Read Modified Time.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;$!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!".!#!!.47^E;7:J:71A6'FN:1!Y1(!!(A!!)1V5&lt;W^M;WFU,GRW&lt;'FC%5:J&lt;'5A37ZG&lt;SZM&gt;G.M98.T!!V';7RF)%FO:G]A4X6U!":!5!!$!!!!!1!##%6S=G^S)%FO!!!Y1(!!(A!!)1V5&lt;W^M;WFU,GRW&lt;'FC%5:J&lt;'5A37ZG&lt;SZM&gt;G.M98.T!!R';7RF)%FO:G]A37Y!!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">8400912</Property>
+		</Item>
+	</Item>
+	<Item Name="Permissions" Type="Property Definition">
+		<Property Name="NI.ClassItem.Property.LongName" Type="Str">Permissions</Property>
+		<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Permissions</Property>
+		<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Read Permissions.vi" Type="VI" URL="../API/Read Permissions.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)W!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!J!)123:7&amp;E!!!+1#%&amp;6X*J&gt;'5!$%!B"U6Y:7.V&gt;'5!.A$RW-Q.5A!!!!).6'^P&lt;'NJ&gt;#ZM&gt;GRJ9AF.&lt;W2F=SZD&gt;'Q!&amp;E"1!!-!"1!'!!=&amp;4X&gt;O:8)!.A$RW-Q.5A!!!!).6'^P&lt;'NJ&gt;#ZM&gt;GRJ9AF.&lt;W2F=SZD&gt;'Q!&amp;E"1!!-!"1!'!!=&amp;2X*P&gt;8!!/!$RW-Q.5A!!!!).6'^P&lt;'NJ&gt;#ZM&gt;GRJ9AF.&lt;W2F=SZD&gt;'Q!'%"1!!-!"1!'!!='4X2I:8*T!!"#!0(9ZEGL!!!!!AV5&lt;W^M;WFU,GRW&lt;'FC$V"F=GVJ=X.J&lt;WZT,G.U&lt;!!=1&amp;!!!Q!)!!E!#AN1:8*N;8.T;7^O=Q!Y1(!!(A!!)1V5&lt;W^M;WFU,GRW&lt;'FC%5:J&lt;'5A37ZG&lt;SZM&gt;G.M98.T!!V';7RF)%FO:G]A4X6U!":!5!!$!!!!!1!##%6S=G^S)%FO!!!Y1(!!(A!!)1V5&lt;W^M;WFU,GRW&lt;'FC%5:J&lt;'5A37ZG&lt;SZM&gt;G.M98.T!!R';7RF)%FO:G]A37Y!!'%!]!!-!!-!"!!,!!Q!"!!%!!1!"!!.!!1!"!!/!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!]!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">8400912</Property>
+		</Item>
+	</Item>
+	<Item Name="Create.vi" Type="VI" URL="../API/Create.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0)V\N3;!!%!!!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+	</Item>
+	<Item Name="Destroy.vi" Type="VI" URL="../API/Destroy.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0)ZDI$"!!%!!!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
 	</Item>
 </LVClass>
