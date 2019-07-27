@@ -114,7 +114,7 @@
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Session</Property>
 			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Session</Property>
 			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-			<Item Name="Session.vi" Type="VI" URL="../Utility/Session.vi">
+			<Item Name="Read Session.vi" Type="VI" URL="../Utility/Read Session.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;/!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=G^S=C"0&gt;81!"!!!!$"!=!!?!!!@$62P&lt;WRL;81O&lt;(:M;7)05W6T=WFP&lt;CZM&gt;G.M98.T!!&gt;4:8.T;7^O!$"!=!!?!!!=$62P&lt;WRL;81O&lt;(:M;7)-5U:55#ZM&gt;G.M98.T!!!)5U:55#"0&gt;81!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!O1(!!(A!!(!V5&lt;W^M;WFU,GRW&lt;'FC$&amp;.'6&amp;!O&lt;(:D&lt;'&amp;T=Q!!"V.'6&amp;!A37Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A#!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
