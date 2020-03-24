@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2019-07-27 12:30:16" Creator="cfield" Comments="" ID="ce5b9552078e6a27b30fd4494a23eb5c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2020-03-24 09:21:02" Creator="cfield" Comments="" ID="6355c2127a865541369e5991db4b890d">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_LIBSSH2</Package_File_Name>
-    <Library_Version>1.0.0.6</Library_Version>
+    <Library_Version>1.0.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -394,7 +394,7 @@
         <Path>..\builds\Toolkit\SSH\Shutdown.vi</Path>
         <VI_Title>Shutdown</VI_Title>
       </Items_Data>
-      <GUID>331B342C60551086D70D37C5A5B72573</GUID>
+      <GUID>E0FB044A78BEB6BDDBBE220D5E9ED35F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -527,7 +527,7 @@
         <Path>..\builds\Toolkit\Agent\Next Identity.vi</Path>
         <VI_Title>Next Identity</VI_Title>
       </Items_Data>
-      <GUID>134C3A1D8ADCF4AEC725F73AA27ECB7D</GUID>
+      <GUID>0F386325C3CBAF9B3AA85FC4B6C17A44</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -912,7 +912,7 @@
         <Path>..\builds\Toolkit\Channel\Set Environment Variable.vi</Path>
         <VI_Title>Set Environment Variable</VI_Title>
       </Items_Data>
-      <GUID>556A831CC798C323ABF4657D305BD1B2</GUID>
+      <GUID>FF96799DB9631E34908BAA0FDEF1E5CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1087,7 +1087,7 @@
         <Path>..\builds\Toolkit\Session\Read Authenticated.vi</Path>
         <VI_Title>Read Authenticated</VI_Title>
       </Items_Data>
-      <GUID>5D94FE44779DD97FC44B25740B39E2A0</GUID>
+      <GUID>D8AA677B012F4C3869C6778EA9DB47DE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1192,7 +1192,7 @@
         <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B3B3C7967B578AF24EABA3419B5C374A</GUID>
+      <GUID>F953A7AADC5584F07355E3E2C6ABD320</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1325,7 +1325,7 @@
         <Path>..\builds\Toolkit\SFTP\Delete File.vi</Path>
         <VI_Title>Delete File</VI_Title>
       </Items_Data>
-      <GUID>72B52EE1273608920DFAC5AE14AC944B</GUID>
+      <GUID>0A9A9D65C356F668331AB8A04956318C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1514,7 +1514,7 @@
         <Path>..\builds\Toolkit\SFTP File\Sync.vi</Path>
         <VI_Title>Sync</VI_Title>
       </Items_Data>
-      <GUID>40ECE2A232630048D29C6358EA7F2631</GUID>
+      <GUID>4D6BFAF4691BCDFAA2EE79994F5968BC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1577,7 +1577,7 @@
         <Path>..\builds\Toolkit\Channel\Read.vi</Path>
         <VI_Title>Read</VI_Title>
       </Items_Data>
-      <GUID>4E75F67E6761F1F2BC424D1BEFD63FB8</GUID>
+      <GUID>CE2665A461045D2F3120E1A21F05C218</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1780,7 +1780,7 @@
         <Path>..\builds\Toolkit\SFTP Attributes\Read Flags.vi</Path>
         <VI_Title>Read Flags</VI_Title>
       </Items_Data>
-      <GUID>3B7D3D048F3E596E66CC42DAD15F2520</GUID>
+      <GUID>B3A69D7FA02F31F17AD14C49B65A0CA8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1885,7 +1885,7 @@
         <Path>..\builds\Toolkit\File Info\Read Permissions.vi</Path>
         <VI_Title>Read Permissions</VI_Title>
       </Items_Data>
-      <GUID>81567A053500ABF1E3A84ECEA652FA3C</GUID>
+      <GUID>E651C6F333868BB13402764EE54D8E93</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1934,7 +1934,7 @@
         <Path>..\builds\Toolkit\API\Known Host\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>897B50ADF3875989F74DFF7473D54821</GUID>
+      <GUID>AA04D79613D59CC5FEC24D87941ED24F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2053,7 +2053,7 @@
         <Path>..\builds\Toolkit\Known Hosts\Check.vi</Path>
         <VI_Title>Check</VI_Title>
       </Items_Data>
-      <GUID>73116E844EBCAFC011E5D06EFE0671F6</GUID>
+      <GUID>A225786C4D117FC99EEA3014F571FC53</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2158,7 +2158,7 @@
         <Path>..\builds\Toolkit\Known Host\Read Type Mask.vi</Path>
         <VI_Title>Read Type Mask</VI_Title>
       </Items_Data>
-      <GUID>821E702941ADDEFF93768EC7A07BAAAD</GUID>
+      <GUID>3710EF0A2AF0FDF4D3BEE933FF266EA3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2207,7 +2207,7 @@
         <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
         <VI_Title>Destroy</VI_Title>
       </Items_Data>
-      <GUID>30C2F6B20D99616054E9F233F4D1B87A</GUID>
+      <GUID>C0CDCFA21187B2DD6D10A65957219D22</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
