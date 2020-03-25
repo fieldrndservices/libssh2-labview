@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2020-03-24 09:21:02" Creator="cfield" Comments="" ID="6355c2127a865541369e5991db4b890d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2020-03-25 10:03:17" Creator="cfield" Comments="" ID="d0d583d54395dab4b47156c9d7f8871b">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_LIBSSH2</Package_File_Name>
-    <Library_Version>1.0.0.7</Library_Version>
+    <Library_Version>1.0.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -42,7 +42,11 @@
 ### Changed
 
 - Converting permission to and from bit masks to use Text Ring values instead of constants
-- Strict typedef enums to Text Rings with libssh2 library macro definition values</Release_Notes>
+- Strict typedef enums to Text Rings with libssh2 library macro definition values
+
+### Fixed
+
+- Session palette using Agent VIs</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -118,12 +122,6 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Help/LIBSSH2.chm</Path>
-        <Destination>4</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
         <Path>Examples/Advanced SCP File Download.vi</Path>
         <Destination>1</Destination>
         <Additional_Destination>false</Additional_Destination>
@@ -180,9 +178,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace>Field_RnD_Services_LIBSSH2_</Namespace>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>Help/LIBSSH2.log</Path>
-      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\docs\LICENSE.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -394,7 +389,7 @@
         <Path>..\builds\Toolkit\SSH\Shutdown.vi</Path>
         <VI_Title>Shutdown</VI_Title>
       </Items_Data>
-      <GUID>E0FB044A78BEB6BDDBBE220D5E9ED35F</GUID>
+      <GUID>D8A8B2169D272AF8AC7C601A2D572780</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -527,7 +522,7 @@
         <Path>..\builds\Toolkit\Agent\Next Identity.vi</Path>
         <VI_Title>Next Identity</VI_Title>
       </Items_Data>
-      <GUID>0F386325C3CBAF9B3AA85FC4B6C17A44</GUID>
+      <GUID>7C29817956061431E2792D1D5A15E0A0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -575,34 +570,6 @@
         <Icon>00000000</Icon>
         <Path>..\builds\Toolkit\Channel\Write Terminal Size.vi</Path>
         <VI_Title>Write Terminal Size</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
-        <VI_Title>Create</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Destroy.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
-        <VI_Title>Destroy</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -912,7 +879,35 @@
         <Path>..\builds\Toolkit\Channel\Set Environment Variable.vi</Path>
         <VI_Title>Set Environment Variable</VI_Title>
       </Items_Data>
-      <GUID>FF96799DB9631E34908BAA0FDEF1E5CE</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Create.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\Channel\Create.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Close.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\Channel\Close.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>58560F257C6C1D183BBF2E156D19899E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -936,20 +931,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Disconnect.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Disconnect.vi</Path>
-        <VI_Title>Disconnect</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Fingerprint.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -960,20 +941,6 @@
         <Icon>00000000</Icon>
         <Path>..\builds\Toolkit\Session\Fingerprint.vi</Path>
         <VI_Title>Fingerprint</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
-        <VI_Title>Create</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -1006,62 +973,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Destroy.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
-        <VI_Title>Destroy</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Connect.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Connect.vi</Path>
-        <VI_Title>Connect</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write Mode.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Channel\Write Mode.vi</Path>
-        <VI_Title>Write Mode</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Authenticate.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Authenticate.vi</Path>
-        <VI_Title>Authenticate</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Authentication Schemes.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1087,7 +998,91 @@
         <Path>..\builds\Toolkit\Session\Read Authenticated.vi</Path>
         <VI_Title>Read Authenticated</VI_Title>
       </Items_Data>
-      <GUID>D8AA677B012F4C3869C6778EA9DB47DE</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Create.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\Session\Create.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Destroy.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\Session\Destroy.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Connect.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\Session\Connect.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Disconnect.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\Session\Disconnect.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Authenticate.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\Session\Authenticate.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Write Mode.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\Session\Write Mode.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>2B2875270E042201CABC176E4D028F32</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1175,7 +1170,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
+        <Path>..\builds\Toolkit\SFTP\Create.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1189,10 +1184,10 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
+        <Path>..\builds\Toolkit\SFTP\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F953A7AADC5584F07355E3E2C6ABD320</GUID>
+      <GUID>BC9970069DF06C11CE3390838A97516F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1325,7 +1320,7 @@
         <Path>..\builds\Toolkit\SFTP\Delete File.vi</Path>
         <VI_Title>Delete File</VI_Title>
       </Items_Data>
-      <GUID>0A9A9D65C356F668331AB8A04956318C</GUID>
+      <GUID>8367C6FA8719A2ACF23E71B688EC7B75</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1377,34 +1372,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Open.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\SFTP Directory\Open.vi</Path>
-        <VI_Title>Open</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Close.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Channel\Close.vi</Path>
-        <VI_Title>Close</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Read Position.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1429,48 +1396,6 @@
         <Icon>00000000</Icon>
         <Path>..\builds\Toolkit\SFTP File\Write Status.vi</Path>
         <VI_Title>Write Status</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Channel\Read.vi</Path>
-        <VI_Title>Read</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Channel\Write.vi</Path>
-        <VI_Title>Write</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write All.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Channel\Write All.vi</Path>
-        <VI_Title>Write All</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -1514,7 +1439,77 @@
         <Path>..\builds\Toolkit\SFTP File\Sync.vi</Path>
         <VI_Title>Sync</VI_Title>
       </Items_Data>
-      <GUID>4D6BFAF4691BCDFAA2EE79994F5968BC</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Open.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\SFTP File\Open.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Close.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\SFTP File\Close.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\SFTP File\Read.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Write.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\SFTP File\Write.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Write All.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\SFTP File\Write All.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>6717B56567E5AAC4E0CF89E40DC435A0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1560,8 +1555,8 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Channel\Close.vi</Path>
-        <VI_Title>Close</VI_Title>
+        <Path>..\builds\Toolkit\SFTP Directory\Close.vi</Path>
+        <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -1574,10 +1569,10 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Channel\Read.vi</Path>
-        <VI_Title>Read</VI_Title>
+        <Path>..\builds\Toolkit\SFTP Directory\Read.vi</Path>
+        <VI_Title/>
       </Items_Data>
-      <GUID>CE2665A461045D2F3120E1A21F05C218</GUID>
+      <GUID>D1496B5B08F4D2F182FCED339010B190</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1643,34 +1638,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
-        <VI_Title>Create</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Destroy.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
-        <VI_Title>Destroy</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Write User ID.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1699,20 +1666,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Permissions.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\File Info\Read Permissions.vi</Path>
-        <VI_Title>Read Permissions</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Write Permissions.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1723,48 +1676,6 @@
         <Icon>00000000</Icon>
         <Path>..\builds\Toolkit\SFTP Attributes\Write Permissions.vi</Path>
         <VI_Title>Write Permissions</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Modified Time.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\File Info\Read Modified Time.vi</Path>
-        <VI_Title>Read Modified Time</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Access Time.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\File Info\Read Access Time.vi</Path>
-        <VI_Title>Read Access Time</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read File Size.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\File Info\Read File Size.vi</Path>
-        <VI_Title>Read File Size</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -1780,7 +1691,91 @@
         <Path>..\builds\Toolkit\SFTP Attributes\Read Flags.vi</Path>
         <VI_Title>Read Flags</VI_Title>
       </Items_Data>
-      <GUID>B3A69D7FA02F31F17AD14C49B65A0CA8</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Create.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\SFTP Attributes\Create.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Destroy.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\SFTP Attributes\Destroy.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read Permissions.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\SFTP Attributes\Read Permissions.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read Modified Time.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\SFTP Attributes\Read Modified Time.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read Access Time.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\SFTP Attributes\Read Access Time.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read File Size.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>6</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\SFTP Attributes\Read File Size.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>62AC3CE2CC63845FAD42C9DB714E4ABC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1818,34 +1813,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
-        <VI_Title>Create</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Destroy.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
-        <VI_Title>Destroy</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Read File Size.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1885,7 +1852,35 @@
         <Path>..\builds\Toolkit\File Info\Read Permissions.vi</Path>
         <VI_Title>Read Permissions</VI_Title>
       </Items_Data>
-      <GUID>E651C6F333868BB13402764EE54D8E93</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Create.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\File Info\Create.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Destroy.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\File Info\Destroy.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>A42B58929CF8A772832520D39DBB7DD3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1934,7 +1929,7 @@
         <Path>..\builds\Toolkit\API\Known Host\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AA04D79613D59CC5FEC24D87941ED24F</GUID>
+      <GUID>D5E641D229189B888C0E379E95825866</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1968,34 +1963,6 @@
         <Icon>00000000</Icon>
         <Path>..\builds\Toolkit\Known Hosts\Read File.vi</Path>
         <VI_Title>Read File</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
-        <VI_Title>Create</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Destroy.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
-        <VI_Title>Destroy</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -2053,7 +2020,35 @@
         <Path>..\builds\Toolkit\Known Hosts\Check.vi</Path>
         <VI_Title>Check</VI_Title>
       </Items_Data>
-      <GUID>A225786C4D117FC99EEA3014F571FC53</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Create.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\Known Hosts\Create.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Destroy.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\Known Hosts\Destroy.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>E6954701FDD923C7C782ECABC96FAB68</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2087,34 +2082,6 @@
         <Icon>00000000</Icon>
         <Path>..\builds\Toolkit\Known Host\Read Magic.vi</Path>
         <VI_Title>Read Magic</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
-        <VI_Title>Create</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Destroy.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
-        <VI_Title>Destroy</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -2158,7 +2125,35 @@
         <Path>..\builds\Toolkit\Known Host\Read Type Mask.vi</Path>
         <VI_Title>Read Type Mask</VI_Title>
       </Items_Data>
-      <GUID>3710EF0A2AF0FDF4D3BEE933FF266EA3</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Create.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\Known Host\Create.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Destroy.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\builds\Toolkit\Known Host\Destroy.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>50D7ABF02DB146D1D25D90DE9F94E3E5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2190,8 +2185,8 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Create.vi</Path>
-        <VI_Title>Create</VI_Title>
+        <Path>..\builds\Toolkit\Listener\Create.vi</Path>
+        <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -2204,10 +2199,10 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Agent\Destroy.vi</Path>
-        <VI_Title>Destroy</VI_Title>
+        <Path>..\builds\Toolkit\Listener\Destroy.vi</Path>
+        <VI_Title/>
       </Items_Data>
-      <GUID>C0CDCFA21187B2DD6D10A65957219D22</GUID>
+      <GUID>5DED0F7CECFADBC7694C822553748073</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

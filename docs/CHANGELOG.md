@@ -16,6 +16,10 @@ All notable changes to this project will be documented in this file, which is wr
 - Converting permission to and from bit masks to use Text Ring values instead of constants
 - Strict typedef enums to Text Rings with libssh2 library macro definition values
 
+### Fixed
+
+- Session palette using SSH-Agent VIs (Issue #2)
+
 ## [0.0.1] - 2019-07-13
 
 ### Added
