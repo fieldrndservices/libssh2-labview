@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2020-03-25 10:03:17" Creator="cfield" Comments="" ID="d0d583d54395dab4b47156c9d7f8871b">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2020-03-26 12:54:48" Creator="cfield" Comments="" ID="91340fd7c95334176fd446e29213964a">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_LIBSSH2</Package_File_Name>
     <Library_Version>1.0.0.9</Library_Version>
@@ -389,7 +389,7 @@
         <Path>..\builds\Toolkit\SSH\Shutdown.vi</Path>
         <VI_Title>Shutdown</VI_Title>
       </Items_Data>
-      <GUID>D8A8B2169D272AF8AC7C601A2D572780</GUID>
+      <GUID>9F6E46FB0FF470D083EDC34E500501EA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -522,7 +522,7 @@
         <Path>..\builds\Toolkit\Agent\Next Identity.vi</Path>
         <VI_Title>Next Identity</VI_Title>
       </Items_Data>
-      <GUID>7C29817956061431E2792D1D5A15E0A0</GUID>
+      <GUID>F17F389569D7457BE3E446A698DDF5FA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -896,7 +896,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Close.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Destroy.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -904,10 +904,10 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\builds\Toolkit\Channel\Close.vi</Path>
+        <Path>..\builds\Toolkit\Channel\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>58560F257C6C1D183BBF2E156D19899E</GUID>
+      <GUID>56A456F028C60135F3A6DC45456BB97C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1082,7 +1082,7 @@
         <Path>..\builds\Toolkit\Session\Write Mode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B2875270E042201CABC176E4D028F32</GUID>
+      <GUID>4A03DCCA9455402F164A54487035E5B7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1187,7 +1187,7 @@
         <Path>..\builds\Toolkit\SFTP\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BC9970069DF06C11CE3390838A97516F</GUID>
+      <GUID>A75C1B35C106415DCA82B2A861065E82</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1320,7 +1320,7 @@
         <Path>..\builds\Toolkit\SFTP\Delete File.vi</Path>
         <VI_Title>Delete File</VI_Title>
       </Items_Data>
-      <GUID>8367C6FA8719A2ACF23E71B688EC7B75</GUID>
+      <GUID>2C08318FD3FDD4810543027DF08B2494</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1509,7 +1509,7 @@
         <Path>..\builds\Toolkit\SFTP File\Write All.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6717B56567E5AAC4E0CF89E40DC435A0</GUID>
+      <GUID>3F51159ACC4FC3DA0F5EE3967254A1FF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1572,7 +1572,7 @@
         <Path>..\builds\Toolkit\SFTP Directory\Read.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D1496B5B08F4D2F182FCED339010B190</GUID>
+      <GUID>22ECC880105D7C143F9515FFA2BB6A93</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1775,7 +1775,7 @@
         <Path>..\builds\Toolkit\SFTP Attributes\Read File Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>62AC3CE2CC63845FAD42C9DB714E4ABC</GUID>
+      <GUID>7D5DE00A484D4585281E5AB1C0374B41</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1880,7 +1880,7 @@
         <Path>..\builds\Toolkit\File Info\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A42B58929CF8A772832520D39DBB7DD3</GUID>
+      <GUID>7B8A3C77450BE8B9E4161B976A5C9767</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1929,7 +1929,7 @@
         <Path>..\builds\Toolkit\API\Known Host\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D5E641D229189B888C0E379E95825866</GUID>
+      <GUID>3602C6D2E2322E18D2B37CB05CB0B174</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2048,7 +2048,7 @@
         <Path>..\builds\Toolkit\Known Hosts\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E6954701FDD923C7C782ECABC96FAB68</GUID>
+      <GUID>EDE309E9BAB7D9F1BBCF32742316DF09</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2153,7 +2153,7 @@
         <Path>..\builds\Toolkit\Known Host\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>50D7ABF02DB146D1D25D90DE9F94E3E5</GUID>
+      <GUID>DEF5DAF558EDAD37171EA3CB847CC3BE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2202,7 +2202,7 @@
         <Path>..\builds\Toolkit\Listener\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5DED0F7CECFADBC7694C822553748073</GUID>
+      <GUID>E2E3D59FDEE5ED4488F2686E1F78EE68</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
