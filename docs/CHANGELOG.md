@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Added
 
+- Single Command Execution example
 - Single Command Execution example VI snippet to the README
 - HTML Help documentation introduction content
 - Text Rings for all of the libssh2lv library enums
