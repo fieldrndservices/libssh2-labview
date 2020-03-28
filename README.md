@@ -18,13 +18,17 @@ A [LabVIEW](http://www.ni.com/labview) add-on and toolkit for communicating with
 
 ## Example Usage
 
-A [VI snippet](http://www.ni.com/tutorial/9330/en/) of downloading a file from a remote SSH server using this toolkit:
+A [VI snippet](http://www.ni.com/tutorial/9330/en/) of downloading a file from a remote SSH server using this toolkit, similar to the [`scp.c`](https://www.libssh2.org/examples/scp.html) [example](https://www.libssh2.org/examples/) from the [libssh2](https://www.libssh2.org) C library project:
 
 ![Simple SCP file download](https://github.com/fieldrndservices/libssh2-labview/blob/master/docs/SCP-File-Download.png)
 
-A VI snippet of uploading a file to a remote SSH server using this toolkit:
+A VI snippet of uploading a file to a remote SSH server using this toolkit, similar to the [`scp_write.c`](https://www.libssh2.org/examples/scp_write.html) example from the libssh2 C library project:
 
 ![Simple SCP file upload](https://github.com/fieldrndservices/libssh2-labview/blob/master/docs/SCP-File-Upload.png)
+
+A VI snippet of executing a single command on a remote SSH server and reading the response using this toolkit, similar to the [`ssh2_exec.c`](https://www.libssh2.org/examples/ssh2_exec.html) example from the libssh2 C library project:
+ 
+![Single Command Execution](https://github.com/fieldrndservices/libssh2-labview/blob/master/docs/Single-Command-Execution.png)
 
 For more examples of using this toolkit and VIs instead of VI snippets, see the VIs in the [Examples](https://github.com/fieldrndservices/libssh2-labview/tree/master/src/Examples) source folder, or (eventually) use the [NI Example Finder](http://www.ni.com/getting-started/labview-basics/examples) in the [LabVIEW](https://www.ni.com/en-us/shop/labview.html) Development Environment after the toolkit has been installed.
 
