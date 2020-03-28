@@ -15,7 +15,6 @@
 		<Item Name="Teardown.vi" Type="VI" URL="../Support/Teardown.vi"/>
 	</Item>
 	<Item Name="Change Receive Window Size.vi" Type="VI" URL="../Change Receive Window Size.vi"/>
-	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
 	<Item Name="Create-Destroy.vi" Type="VI" URL="../Create-Destroy.vi"/>
 	<Item Name="Execute.vi" Type="VI" URL="../Execute.vi"/>
 	<Item Name="Flush.vi" Type="VI" URL="../Flush.vi"/>
@@ -25,11 +24,12 @@
 	<Item Name="Read Window Read Size.vi" Type="VI" URL="../Read Window Read Size.vi"/>
 	<Item Name="Read Window Write Size.vi" Type="VI" URL="../Read Window Write Size.vi"/>
 	<Item Name="Read.vi" Type="VI" URL="../Read.vi"/>
+	<Item Name="Send Done.vi" Type="VI" URL="../Send Done.vi"/>
 	<Item Name="Send End-of-File.vi" Type="VI" URL="../Send End-of-File.vi"/>
 	<Item Name="Set Environment Variable.vi" Type="VI" URL="../Set Environment Variable.vi"/>
 	<Item Name="Shell.vi" Type="VI" URL="../Shell.vi"/>
 	<Item Name="Subsystem.vi" Type="VI" URL="../Subsystem.vi"/>
-	<Item Name="Wait for Closed.vi" Type="VI" URL="../Wait for Closed.vi"/>
+	<Item Name="Wait for Done.vi" Type="VI" URL="../Wait for Done.vi"/>
 	<Item Name="Write Ignore Mode.vi" Type="VI" URL="../Write Ignore Mode.vi"/>
 	<Item Name="Write Mode.vi" Type="VI" URL="../Write Mode.vi"/>
 	<Item Name="Write Terminal Size.vi" Type="VI" URL="../Write Terminal Size.vi"/>
