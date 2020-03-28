@@ -13,6 +13,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Changed
 
+- "Channel.lvclass:Wait on Closed.vi" to "Channel.lvclass:Wait on Done.vi" (See #6)
+- "Channel.lvclass:Closed.vi" to "Channel.lvclass:Done.vi" (See #6)
+- The VI icon for the "Channel.lvclass:Done.vi" (See #6)
+- The VI icon for the "Channel.lvclass:Wait on Done.vi" (See #6)
 - Converting permission to and from bit masks to use Text Ring values instead of constants
 - Strict typedef enums to Text Rings with libssh2 library macro definition values
 
