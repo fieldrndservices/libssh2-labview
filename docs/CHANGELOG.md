@@ -13,6 +13,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Changed
 
+- File Download example VI snippet in the README to use VIs from the install package instead of source code
 - File Upload example VI snippet in the README to use VIs from the install package instead of source code
 - File Upload example VI snippet in the REAMDE to use new VI icons
 - "Channel.lvclass:Wait on Closed.vi" to "Channel.lvclass:Wait on Done.vi" (See #6)
