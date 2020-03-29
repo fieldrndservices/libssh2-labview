@@ -2,7 +2,9 @@
 <LVClass LVVersion="18008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">Toolkit.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Toolkit.lvlib</Property>
+	<Property Name="NI.Lib.Description" Type="Str">A container class for file or directory attributes, or metadata, such as permissions and time stamps.</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">1e8663bd-9797-403f-a531-23bcd3f8908a</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)W!!!*Q(C=\&gt;3R&lt;2N"%)8B*]/"5H:AM)6JA9E+9!O4O!#G#NH#;Y%N-(.G9#K11$CT-\:Q`G]Z&amp;G3"U#53I%"X8%J]OT@\=7^ZUDBOJ;_;FI[@LR\0_[8F`MPL;P`IUL`8F8\.03^+P,S_KVS&gt;`\J`[&gt;#LRW@`:``(\F`?XP@,0Y,X0;3&lt;);56T&lt;3ER@BW5Z%8?:%8?:%8O=F.&lt;H+4G^TE3:\E3:\E3:\E12\E12\E12\EYS18O=B&amp;TKI5ER=4&amp;57,!M6A+#L?#E`B+4S&amp;BY]K0)7H]"3?QM-1&amp;:\#5XA+4_(B-B7?QF.Y#E`BI&gt;31V$D*]21?SMNYD-&gt;YD-&gt;YG&amp;,'9Q"G-F09&amp;)%BUWH_-2\D-2\_F@%9D`%9D`(1,?-R(O-R(O0BEL%K(JLZ*-&gt;$'37?R*.Y%E`CI&lt;134_**0)EH]4#&gt;%E`C32$*B%FR#%IO3A9E(R*0YO'0%E`C34S**`(1.?Z1DJ7:.@.*DC@Q"*\!%XA#$S55?!*0Y!E]A9?S#DS"*`!%HM$$6!I]A3@Q"*"A5K:85#SY-"A5")'(V^AN-?[3BS4'W4`.SU:6&lt;U$VRF*P'06'5.^A^9V4XR$V1KM85,UQ[C_M`C*KI(JC&gt;5(V1*VZ0^'/N!.N4^P2NL1.&lt;5V&lt;T:?_]=$T_;T4[;4D];D$Y;$^@K`&gt;&lt;K@N&gt;KP.:K0V?KX6;P8UN0L'?4FO`HMO`;(^`D6.$X@4^/.RGB[`0X8&gt;-`9^WO7Z^"'?D@KC[&gt;FDHD8[#[N;PW!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.2</Property>

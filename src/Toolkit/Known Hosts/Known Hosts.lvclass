@@ -2,7 +2,9 @@
 <LVClass LVVersion="18008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">Toolkit.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Toolkit.lvlib</Property>
+	<Property Name="NI.Lib.Description" Type="Str">Represents a libssh2 shared library Known Hosts struct.</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">d95f0b8a-7945-4e0e-81bc-6f3494c6b433</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!**!!!*Q(C=\&gt;3R&lt;&gt;N1%-&lt;RTU;+6!'U13"EARMAD6:19`?XAFK87O'K^!)]A9I![1T="$;UAHL&lt;#*A`DZ&gt;!%2SJC1%8*PEI[8PEP2`**UKV@*1_;$CXX*V=JH[.7_X_V;_\P`JVV+`;]4'VXFYY8U?VDM?P#ZO+(@3@]J^&lt;&gt;(*Z\X`P@^P^Z[@XT@E`Q?MOUE6*;5E,GN/MLGZ)]C20]C20]C10]C!0]C!0]C"X=C&gt;X=C&gt;X=C=X=C-X=C-X=C/PF6TE)B=Z&gt;S5:0"EI+:I53!['IG38?"*0YEE]`&amp;4C34S**`%E(AZ2YEE]C3@R*"Z/5_**0)EH]31?3J5E;S8(EXAIL]!4?!*0Y!E]$+H!%Q##Q9,#12%9#DK$,Y%H]!1?PCLQ"*\!%XA#$^U+0)%H]!3?Q--J&gt;6?C./.+DI=S=DS/R`%Y(M&gt;$;4E?R_.Y()`D94AZ(M@D)*Q"H?)1Z*TE(/$]=$S/BQ]Z(M@D?"S0Y['LHJ$8H2EVYUK/R`!9(M.D?!Q0*72Y$)`B-4S'B\)S0)&lt;(]"A?Q].1-DS'R`!9%'.1BJ&gt;2T$D2/-A)$!^&lt;T2;LJR1FM6L\LTF.605%6%]M^9224Q4V!V9`/05$5&gt;^I^1V5XRDV";MP2!V5$[QOK$Z1?`9\WJ;WI;VJ+^K3NK$.;&lt;0RV0^]Y([`VW[XUX;\V7;TU8K^VGKVUH+ZV'+RU(Q_VWQW_`/W_MQ[,2?(\[8H[W&amp;Y?PAZ00\Y]OXJ`P&lt;\]^7HL\`\&lt;DDW.&gt;LU8HI,\U:&gt;;DBYT8/0@A%5#[V4!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>

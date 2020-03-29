@@ -2,7 +2,9 @@
 <LVClass LVVersion="18008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">Toolkit.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Toolkit.lvlib</Property>
+	<Property Name="NI.Lib.Description" Type="Str">Represents a SFTP file.</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">0d5f5934-a9ed-40a3-a54a-08673515dae4</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)U!!!*Q(C=\&gt;3R&lt;3J"&amp;)8B9_M&amp;4OH!II84!CX1QGW"V#%NX!IM]1JY!9&amp;DJ.M#C1/([R,7`][/%*&lt;!*-_3!]`Y9DCT-`/RO[T5WI0U2_/N&gt;PCSH9_TZ'(K6]@08C`00]TT&gt;78]-)_@\X&amp;R`-L]S`Z&lt;46_WX`(@]:]^@PPW@LL^)`D?*NUV+6655E'Z@&lt;ORS)O]S)O]S)M]S:-]S:-]S:-]S)-]S)-]S)0=Z#9XO=F.&lt;P,7S55O=J&amp;T6IL.CYW+29M&amp;CI/BK(AJ0)7H]"1?0KLQ&amp;*\#5XA+$Y?I]"3?QF.Y#A`46(A+4_%J0)7(J:KE7C@(5XB98IEH]33?R*.YW&amp;+**Q%EGS5,*YP!5$+9P%E]C3@R]&amp;;**`%EHM34?"B7YEE]C3@R*"[GN,/344.V=DQMI]!4?!*0Y!E],+X!%XA#4_!*0'SHQ".Y!E3Q9&lt;!Y"!74AA/#$Y%H]0"0A3@Q"*\!%XA9;F=IWJG:.&amp;-HRW-]RG-]RG-],#(D-2\D-2\D96E:D`%9D`%9$VP*?)T(?!T%&lt;-LW-IO:C?9A%RA0@_VO=&lt;N+W32OP@]UZRN6`1:5P\(5&lt;RDV'U(^!KN@/05,IH[CV5_A_IF2`],K8U1&gt;K,[R_I,K"WLA^5DNK2WVJ4&lt;5GFJ23WIR4@X0"Q\$I/0RK0V_L^VOJ_VWK]VGI`6[L&gt;6KJ?6SK=6C=8J;0&gt;,H&gt;P@JO@4[-I\PV.O`=2T_5M_HI3?/`9[;HUM`Y&gt;GI?YVHDXH/U1=Y@M,N!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.3</Property>

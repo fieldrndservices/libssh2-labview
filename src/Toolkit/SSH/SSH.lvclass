@@ -2,7 +2,9 @@
 <LVClass LVVersion="18008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">Toolkit.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Toolkit.lvlib</Property>
+	<Property Name="NI.Lib.Description" Type="Str">The root, or grandparent, class used to create all other libssh2-related objects.</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">e3c63d4f-834d-475d-bea1-b94332e1c382</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)\!!!*Q(C=\&gt;1R4A*"&amp;-&lt;R4W.BSQU-P&gt;7\!F@A!$;PM[;VJ0!#\QIEHI$9GJ#]?!//)+XF_.`B34#+.**1O-MM]-X-GR_\SUJ^OZ;OV)ZNKV_XP8YK&lt;A`$W`&gt;_\2^_[&amp;].UV&gt;6Y[@_X?Q$^4_80V4`A0`9JF_X``\``P0O0XZ\0RT`%ZRWES[[F*;UI$H._K^L3:\E3:\E3:\E12\E12\E12\E4O\E4O\E4O\E2G\E2G\E2G\E@3=8O=B&amp;TFF*&amp;E]73IIG":,"5*1=%E`C34S*B[^+0)EH]33?R--1*:\%EXA34_*BGB*0YEE]C3@R5+J,MO`E?")0Z26Y!E`A#4S"BS56?!*!M&amp;B1/#A#1U&amp;H]#(Q"*\!QU=&amp;HM!4?!*0Y+&amp;&lt;A3@Q"*\!%XC9UM^+&gt;-WQE_/BD"S0YX%]DM@R5&amp;K/R`%Y(M@D?&amp;B/DM@R/!BH1;=Y"$G4H!(/&amp;]@D?(C4YX%]DM@R/"[[_B8S@G9'T&lt;#4YT%]BM@Q'"\$1QE:(M.D?!S0Y;'M$)`B-4S'R`#QF!S0Y4%]"M29F/6F&amp;$-G'I/-Q0$Q[H?,^;M587*^L\`G^E:6X9#K'UNVQ[BO".5&amp;6FUYV162H7D6#63&gt;'.506PU1&amp;6#VM+KA;K!W(.?U*7V"G^.GN#FN1BP42M050R[YW7SU8K_V8#[V7#QUH]]VG]UUH5YVG5QU(I]V'IVW4[M&lt;^OVW]?7Z^(,&lt;WP.&lt;;[^XL&lt;U`N@:YP_N[9/QJWP;Z&gt;!\02FWK\4XG/5=@&lt;UGZ9A!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
