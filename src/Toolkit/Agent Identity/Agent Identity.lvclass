@@ -4,7 +4,8 @@
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Toolkit.lvlib</Property>
 	<Property Name="NI.Lib.Description" Type="Str">Represents an identity stored in a SSH agent application. A SSH agent application stores usernames, public/private key pairs, and passwords/passphrases to make managing and using multiple "identities" for multiple remote SSH servers.</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">f255d7d2-221a-4151-885a-1e51b3d848f2</Property>
-	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str">/&lt;helpdir&gt;/Field R&amp;D Services/LIBSSH2.chm</Property>
+	<Property Name="NI.Lib.HelpTag" Type="Str">pages\Toolkit\Agent_Identity\Agent_Identity.html</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*%!!!*Q(C=\:3R45."$):`%!6N.E":Q3OEJ8R#9A!X)&amp;'GB$)L?)7ME!F!8C'Q1;A)"58YXDU4AI33"C1+@0(FZ@?&gt;`&lt;W\SUH.4K54&lt;1\:`6ZL=:6P4@PCWBXR%:=_P]44U'XD8^P1.&gt;_:LY^!&gt;:`R\UV$`5/GP@9@`Y``\@DBYXVX_%`QOS9&gt;.6)]]=!&gt;N`:WGU20^%20^%20^%!0^%!0^%!0&gt;%&gt;X&gt;%&gt;X&gt;%&gt;X&gt;%-X&gt;%-X&gt;%-X^.&lt;1B3ZUI&lt;-K3@'E5*)U3:!-"E6*F`!E0!F0QM.0*4Q*4]+4]#1]$&amp;(#E`!E0!F0QM-U*4Q*4]+4]#1]J'IEW2I[0!E0[28Q"$Q"4]!4]&amp;"3!5]!%"1,%A&gt;*Q&amp;!1$"Y#HI!HY/&amp;2!5`!%`!%0!%0915]!5`!%`!%0%RJKR+.JG`I]*"'$I`$Y`!Y0!Y0K?8Q/$Q/D]0D]&amp;"/$I`$YU!Y":XE)-C:Z!RQ@DA]$A^@=HA=(I@(Y8&amp;Y#,5&gt;]L9S05X@U/%R?!Q?A]@A-8B))90(Y$&amp;Y$"[$B\1S?!Q?A]@A-8AI*90(Y$&amp;Y$"#D+/6F*$-G'I--Q?$BUU[,N6W+2G+NV6^T/+CK![A[7+I$ITI)KAV7&lt;:RK1V1,L6J!V=+I8FDV)CJ!67&amp;61N6!L?C8_!+@YT.]CH@Y""`DIX\K$Q^=L6:;,J&gt;;,";;T_?;T7;;4K@KOE[4S54D]6CDU7B\7ZX2"DP;P:&gt;?&lt;^`QR]X[_O(CJ&lt;N]8J^@X3!`^&lt;%\RP['$`@38\A&lt;&gt;;T.TD80'LU$9R[O.A!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.1</Property>

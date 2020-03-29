@@ -4,7 +4,8 @@
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Toolkit.lvlib</Property>
 	<Property Name="NI.Lib.Description" Type="Str">Represents a SFTP directory, a.k.a. folder.</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">748e96a9-b7f8-46fb-817b-2aacbf38dfc0</Property>
-	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str">/&lt;helpdir&gt;/Field R&amp;D Services/LIBSSH2.chm</Property>
+	<Property Name="NI.Lib.HelpTag" Type="Str">pages\Toolkit\SFTP\Directory\Directory.html</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)[!!!*Q(C=\&gt;1R5M*1%-&lt;R$]@#FBMY8'&amp;\+[\!"3TW#L358'%L_VS"QJK:^1AUFB:YA_#@F^6"(;'2'1I36_"\S&lt;Y@,S&amp;3W_[E7_V/&lt;?ODW_=Y\9&lt;8KF`D[`8R=1U^6'_(F_`H[]@_;`TL`'JR-0[X`^3GI^NV`$J_W?/H&lt;_`&amp;[2`"?4&gt;JV+255E%Z:?X&lt;\:)]S:-]S:-]S9-]S)-]S)-]S*X=S:X=S:X=S9X=S)X=S)X=S.N/,H+2CZR633:0*EK;*AW3A[%I_:&gt;Y%E`C34R]6/**0)EH]31?$F(C34S**`%E(EZ4YEE]C3@R*"Z;.5GWH2R0YK'^!E`A#4S"*`!QJ1*0!!AG#RI(47!I'!T?"*\!%XBYK]!4?!*0Y!E]$#PQ"*\!%XA#$[?U69GGW?`E?'ADR_.Y()`D=4SUFO.R0)\(]4A?JJ0D=4Q/QJH1;1Z"TEH/!=Y(R_.Y?*(D=4S/R`%Y(I&lt;;&amp;@+W-HP.@C@(9XA-D_%R0);(&amp;D)]BM@Q'"\$1VM:(M.D?!S0Y7%K'2\$9XA-C$%JU]NI:JRI('1%BI?`&gt;L&gt;9OUL2*.&lt;W_GE/.[LK"F4&gt;7+I&lt;2H5DK#[Q[M+J,IBKI65,K&amp;I9V2&gt;7@2%65$7RKK(K1'XZP[&amp;76%=NK4EVI[&lt;5B"LP4`XH!\@&lt;L4;&lt;D6;LF&lt;KOUX+ZV(Q_VWQWUX1[V71SU8A]`HJ;X&lt;-0W_DQO&gt;1`P/`[HHJ]??L@OO@_&gt;@X]/&lt;&lt;AW(05]&amp;S[B'?D&lt;L1\?-ST2B]B;&lt;4G!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.4</Property>

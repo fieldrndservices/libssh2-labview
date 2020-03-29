@@ -4,7 +4,8 @@
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Toolkit.lvlib</Property>
 	<Property Name="NI.Lib.Description" Type="Str">Represents a libssh2 shared library Known Host struct.</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">5a9d6f62-769c-47b0-ad5a-f4b3d22b46bf</Property>
-	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str">/&lt;helpdir&gt;/Field R&amp;D Services/LIBSSH2.chm</Property>
+	<Property Name="NI.Lib.HelpTag" Type="Str">pages\Toolkit\Known_Host\Known_Host.html</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)`!!!*Q(C=\&gt;3\53N"%)8B!X5.8'6!+95/Y$J+13GUD3=4KH"U1_A5B)]D!ZOKNP'5AE+1_,?XI?$S7!?K-*B6[X&amp;G&gt;O&lt;&lt;BV;K&gt;C&lt;^U8'KX8`;HPIVP/LNIX\&gt;P_L8@`WK.T\''I0X^N?LB&gt;[O8Y@WP-#U@[LJU`&lt;&lt;`^P`M`OH&lt;__L[4`"^T&lt;JJ+255E%Z:86URS20]C20]C20]C!0]C!0]C!0=C&gt;X=C&gt;X=C&gt;X=C-X=C-X=C-X]NL)23ZSE8.7EM74B:**EQG3Q6#5P#7?R*.Y%A]`F8A34_**0)G()5I]C3@R**\%QWZ+0)EH]33?R-.5*=H;S0%E(K:8Y!E]A3@Q""[76/!*!-&amp;CQ=4"*$!5&gt;!:@!E`A#4R]6?!*0)%H]!1?OB6Y!E`A#4S"BVXKL%2JBIU=$^0)]4A?R_.Y(!^4S`%Y(M@D?"Q0S]HR/"Y(Y3TI4!Z"TE\/!/?(YX%]@-DR/"\(YXA=$VVVB&lt;T/T+!:.H)]BM@Q'"\$9XC91I&lt;(]"A?QW.YG&amp;;'R`!9(M.D?&amp;B+BM@Q'"Y$9CT+]D)G-X9U"BG"Y?&amp;6&gt;YP669K37'X^VRRP605.K,[RV$?-_E:18W$VB6.@%07*6J^!^9F2(\$[1.2!^=,K#&gt;5$N?&gt;^2WWJ$&lt;7G6N337F"T;D&lt;M_M5$^`O^&gt;LO&gt;NNON.JO.VOOV6KO6FMOF&amp;IO&amp;ZP/Z:L0:]^0KH'VM*S_@3Y=([P:Y?&lt;DY^`&gt;Q?X.Z?,C_?_K\9ORXV0B=_AH02JXK_/)RTTF["$P+M?E!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>

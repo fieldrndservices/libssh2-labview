@@ -4,7 +4,8 @@
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Toolkit.lvlib</Property>
 	<Property Name="NI.Lib.Description" Type="Str">Represents the underlying session resource for the libssh2 shared library.</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">18830d32-5d8e-415a-962f-d5c9212b0114</Property>
-	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str">/&lt;helpdir&gt;/Field R&amp;D Services/LIBSSH2.chm</Property>
+	<Property Name="NI.Lib.HelpTag" Type="Str">pages\Toolkit\Session\Session.html</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*'!!!*Q(C=\&gt;3^41."%)&lt;B$U2![A[1)`*JQ3WYB2'C!;=/(:..2'Y##H!&amp;3.-!A6MQ)A)3DP@WRG#1M"/1#.DT_O@&lt;P&gt;HH@HR3;[@3C&lt;J$\7ZP']9JNJ0J[\DOPGX&lt;`9&gt;:@0;P6G]IO6V@N1WP^V^68R`\$O0[.,\8@[BJ&lt;`M@`R``W_/(&lt;_`ZY4`"\T&lt;JK%HJ31_[U[U&gt;8:@E3:\E3:\E32\E12\E12\E1?\E4O\E4O\E4G\E2G\E2G\E2NYW=J',8/3=F74R:+'E;&amp;)AG1R&amp;S6PC34S**`(Q5YEH]33?R*.YG+,%EXA34_**0/SGR*.Y%E`C34S5;J*M'TG?R%.Z":\!%XA#4_"B317?!"!M&amp;B1/CM"1-"B]#4S"*`$Q69%H]!3?Q".Y'&amp;&lt;A#4S"*`!%(H:J:S7;JN`)]6"'DM@R/"\(YXAI,=@D?"S0YX%],#@(YXA=B,/A5RS#H*W=#=Y0R_.Y_*$D=4S/R`%Y(I&lt;;&amp;@*W:HJ.PZ(D-4S'R`!9(M.$#2E?QW.Y$)`BI;Q-D_%R0)&lt;(],#5$)`B-4Q'R&amp;C5Z755-X9U*BG"Y?(6\B:L6SG;R.J7@]XB2F8&gt;A+I&lt;3X8$K'Y%V16784D6"6'&gt;;.5*6*U9V1'L$E1&amp;6#WM+KC;K!XP;`K+PK1P[$0[F$[BD_GD@N=@HLD:&lt;,2?L\6;L&lt;2=,L69,$3&lt;T43&gt;4D7:4$1?DT5;D&gt;[@6G&gt;M1TP;@3Y^&gt;Q`&gt;%Z]P^_@8LT?8NY^8&amp;\@&lt;M4FT@[-0T[7`]'T5M&lt;K&gt;RTTH[!XL'L!O!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.2</Property>

@@ -6,7 +6,8 @@
 
 Identities are stored in memory as a linked list. This class provides functionality for obtaining the linked list and transversing the linked list of identities.</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">c6505487-55b5-44b4-b136-19e7336e7bed</Property>
-	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str">/&lt;helpdir&gt;/Field R&amp;D Services/LIBSSH2.chm</Property>
+	<Property Name="NI.Lib.HelpTag" Type="Str">pages\Toolkit\Agent\Agent.html</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)\!!!*Q(C=\&gt;3^&lt;2N"%-8R*]/"5Q&lt;/$&lt;9Q=+S%,6Q,UQ*$+W1,UQ*4BQQ=#XA./'!,\-![`\EX&amp;E4&lt;%'(!!B4IFMO0NXO\P^N&lt;HD3/$^*\T&gt;?/_W?0RX&lt;JX^JVW;\F^?2$F_U=^Z@F\_=P1_D8",`Z`U"?P@R:TRZP\7`NL\P^_P;_O`YH?.F$OBF3KKF&amp;47K-KZN.&lt;H+4G^TE*C`S)C`S)C`S)E`S*%`S*%`S*!`S)!`S)!`S)"_&amp;8/1C&amp;TGL9C9X%ZF"T1#G-R3:._-R(O-R(H\+?)T(?)T(?/ACYT%?YT%?Y_%U'9`R')`R'!^$$9F()=&gt;D0!SPQF.Y#E`B+4R-K=*4!)L*CI',17#I;#S_&amp;*\#5XDYKM*4?!J0Y3E].+PQ&amp;*\#5XA+$[?-6;GB/2&gt;S0!SDR*.Y%E`C34Q-L=34?"*0YEE]4+@%EXA32$*B-DA%*3=F(:)@C3@R]+(%EXA34_**0$3./Z2D:=[;=S((%XA#4_!*0)'()22Y!E`A#4S"BW%6?!*0Y!E]A9?J&amp;(A#4_!*)-'E4+^AM/$%I&amp;-1""Z?9\@%O%MV*$&amp;+`T78D;L?A/K.J&gt;YQ[IWAPM(K'[?_)?K&amp;6C_A?G(5&amp;[S_%$610&lt;&amp;[1(6(H8A`5A`5086(X6)H[I;[JK\/J`\HDK@43=@D59@$1@P^8LP&gt;4NPN6N-U;&lt;0:;,V?;\6;04[N0F'7Y_&lt;CO81\[J?(\V^P(TZ/@(\_.P^9GO\I_R*V?3[^BG?DXGF_]JBHD8Y#41'U'1!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.1</Property>

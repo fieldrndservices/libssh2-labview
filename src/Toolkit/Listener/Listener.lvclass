@@ -4,7 +4,8 @@
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Toolkit.lvlib</Property>
 	<Property Name="NI.Lib.Description" Type="Str">Represents a libssh2 shared library listener struct.</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">21c1b85a-33e0-47fa-a19f-c9107d2d4e92</Property>
-	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str">/&lt;helpdir&gt;/Field R&amp;D Services/LIBSSH2.chm</Property>
+	<Property Name="NI.Lib.HelpTag" Type="Str">pages\Toolkit\Listener\Listener.html</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*#!!!*Q(C=\:1R&lt;BN"$%7`AR2O&gt;9.!6W#87F@1&amp;7AAD5OV,N7\YB7W3:&gt;'*R$!+[D*!4;F3`ENF\%6).!W.O$#-UPN\C?(@$MT'KH;L@26Z[6WP.IGPY[T8@.8_U`1[XD6.&lt;WI%U\X#`_M`&gt;0&lt;8U.@MMS_/@SYT,`5&gt;,6^_D`^(^O`P,U@FP]%\^OEGS,&amp;%AP--;OP/S&gt;[IC&gt;[IC&gt;[IA&gt;[I!&gt;[I!&gt;[I$O[ITO[ITO[IRO[I2O[I2O[I6&gt;(&amp;\L1B=[M*-741EH3*%%3$)K3HY1HY5FY%BZ?F@!E0!F0QJ0Q%++%*_&amp;*?"+?B)&gt;B3HA3HI1HY5FY3&amp;5E72U&gt;HI3(^!JY!J[!*_!*?#CJA#=!#)I&amp;C9-E9#BQ"A]"4]!4]0#IA#@A#8A#HI!(NQ+?A#@A#8A#(I&lt;5L%424"U&gt;(N,)Y8&amp;Y("[(R_%BN2Q?B]@B=8A=(ML*Y8&amp;Y(!CHI*-="$G$H!$HR?&amp;R?,D*Y8&amp;Y("[(R_("63PE.4-4T&gt;42Y4&amp;Y$"[$R_!R?%ABA]@A-8A-(I/(N$*Y$"[$R_!R?#AFA]@A-8A-%+-IZ75E-Q9;19:A]($6&lt;L&amp;;J3A3K^Z`T8GDKD?A?G/J.YR[)[A87,VQ[A624\2[!N54I`ZA^9?I!&gt;7&amp;V1H6A2LZ07%(&lt;-$WW!\&lt;9BNMD;WGI7]=/)[D4K?4$I?$BG(1@L`8&lt;L@4&gt;LP6:L02?LX7;L6[/;W_U?&gt;W=XEOD&gt;C@*_[0&gt;X@DL_(H\_]`\P`[(IB^$ZP0J9^Q.OK,TB@(0(0U$*MSM1)!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.1</Property>
