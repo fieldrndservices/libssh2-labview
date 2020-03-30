@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+### Added
+
+- Example for executing multiple commands with a single channel
+
 ### Fixed
 
 - Missing session read and write timeout VIs

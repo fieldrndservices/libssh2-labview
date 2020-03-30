@@ -37,6 +37,7 @@
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Advanced SCP File Download.vi" Type="VI" URL="../src/Examples/Advanced SCP File Download.vi"/>
 			<Item Name="Advanced SCP File Upload.vi" Type="VI" URL="../src/Examples/Advanced SCP File Upload.vi"/>
+			<Item Name="Execute Multiple Commands with a Single Channel.vi" Type="VI" URL="../src/Examples/Execute Multiple Commands with a Single Channel.vi"/>
 			<Item Name="Password Authentication.vi" Type="VI" URL="../src/Examples/Password Authentication.vi"/>
 			<Item Name="Public Key File Authentication.vi" Type="VI" URL="../src/Examples/Public Key File Authentication.vi"/>
 			<Item Name="Simple SCP File Download.vi" Type="VI" URL="../src/Examples/Simple SCP File Download.vi"/>
@@ -502,7 +503,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/Examples</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A13C7B79-8266-44FA-809C-460DB477EB2D}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Examples</Property>
@@ -511,7 +512,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Examples/Support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4D98BD0D-97B3-4A66-B99B-D1F5B82A801B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9185DC6E-DAF6-4F8C-8C32-CB64CA27B2A3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -567,7 +568,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/Toolkit</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{514E7279-3394-4E67-B6FE-EF59C28E03DA}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Toolkit</Property>
