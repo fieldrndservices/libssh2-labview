@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Added
 
+- Example for executing multiple commands with multiple channels
 - Example for executing multiple commands with a single channel
 
 ### Fixed

@@ -38,6 +38,7 @@
 			<Item Name="Advanced SCP File Download.vi" Type="VI" URL="../src/Examples/Advanced SCP File Download.vi"/>
 			<Item Name="Advanced SCP File Upload.vi" Type="VI" URL="../src/Examples/Advanced SCP File Upload.vi"/>
 			<Item Name="Execute Multiple Commands with a Single Channel.vi" Type="VI" URL="../src/Examples/Execute Multiple Commands with a Single Channel.vi"/>
+			<Item Name="Execute Multiple Commands with Multiple Channels.vi" Type="VI" URL="../src/Examples/Execute Multiple Commands with Multiple Channels.vi"/>
 			<Item Name="Password Authentication.vi" Type="VI" URL="../src/Examples/Password Authentication.vi"/>
 			<Item Name="Public Key File Authentication.vi" Type="VI" URL="../src/Examples/Public Key File Authentication.vi"/>
 			<Item Name="Simple SCP File Download.vi" Type="VI" URL="../src/Examples/Simple SCP File Download.vi"/>
