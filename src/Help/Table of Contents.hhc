@@ -439,10 +439,6 @@
                 <param name="Local" value="pages\Toolkit\Session\Host_Key.html">
             </OBJECT>
             <LI> <OBJECT type="text/sitemap">
-                <param name="Name" value="Authenticated">
-                <param name="Local" value="pages\Toolkit\Session\Authenticated.html">
-            </OBJECT>
-            <LI> <OBJECT type="text/sitemap">
                 <param name="Name" value="Read Authenticated">
                 <param name="Local" value="pages\Toolkit\Session\Read_Authenticated.html">
             </OBJECT>
@@ -451,8 +447,16 @@
                 <param name="Local" value="pages\Toolkit\Session\Read_Mode.html">
             </OBJECT>
             <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Read Timeout">
+                <param name="Local" value="pages\Toolkit\Session\Read_Timeout.html">
+            </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
                 <param name="Name" value="Write Mode">
                 <param name="Local" value="pages\Toolkit\Session\Write_Mode.html">
+            </OBJECT>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Write Timeout">
+                <param name="Local" value="pages\Toolkit\Session\Write_Timeout.html">
             </OBJECT>
         </UL>
         <LI> <OBJECT type="text/sitemap">

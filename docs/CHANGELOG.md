@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+### Fixed
+
+- Missing session read and write timeout VIs
+
 ## [0.0.2] - 2020-03-28
 
 ### Added
