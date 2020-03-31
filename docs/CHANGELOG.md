@@ -9,6 +9,10 @@ All notable changes to this project will be documented in this file, which is wr
 - Example for executing multiple commands with multiple channels
 - Example for executing multiple commands with a single channel
 
+### Changed
+
+- Internal libssh2lv shared library from v0.2.0 to v0.2.1
+
 ### Fixed
 
 - Missing session read and write timeout VIs
