@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+## [0.0.3] - 2020-04-02
+
 ### Added
 
 - Example for executing multiple commands with multiple channels

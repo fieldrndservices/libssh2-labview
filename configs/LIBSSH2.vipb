@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2020-03-30 17:22:39" Creator="cfield" Comments="" ID="a4760a80703820851d6c59508feabba0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2020-04-02 10:57:33" Creator="cfield" Comments="" ID="b399a234447cd77d08774fddf0f107be">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_LIBSSH2</Package_File_Name>
-    <Library_Version>1.0.0.16</Library_Version>
+    <Library_Version>1.0.0.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -32,17 +32,20 @@
       <Copyright/>
       <Packager>Christopher R Field</Packager>
       <URL>http://www.fieldrndservices.com/</URL>
-      <Release_Notes>## [Unreleased]
+      <Release_Notes>## [0.0.3] - 2020-04-02
 
 ### Added
 
 - Example for executing multiple commands with multiple channels
 - Example for executing multiple commands with a single channel
 
+### Changed
+
+- Internal libssh2lv shared library from v0.2.0 to v0.2.1
 
 ### Fixed
 
-- Missing Session Read and Write Timeout VIs for blocking functions</Release_Notes>
+- Missing session read and write timeout VIs</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -403,7 +406,7 @@
         <Path>..\builds\Toolkit\SSH\Shutdown.vi</Path>
         <VI_Title>Shutdown</VI_Title>
       </Items_Data>
-      <GUID>66F31B96A4C8394B6806C5BAC1082213</GUID>
+      <GUID>CAADE70C5B89020A50913F01462CDC32</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -536,7 +539,7 @@
         <Path>..\builds\Toolkit\Agent\Next Identity.vi</Path>
         <VI_Title>Next Identity</VI_Title>
       </Items_Data>
-      <GUID>6BE877EE0030A6E4801F6193ECBA4F0C</GUID>
+      <GUID>6CBED7C9395AD4EDEC864D3B97521DA4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -921,7 +924,7 @@
         <Path>..\builds\Toolkit\Channel\Send Done.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>04439C00B12F2339B1691615E3E7EE69</GUID>
+      <GUID>4F646A4C5C3D8BA614104A40C89BB463</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1124,7 +1127,7 @@
         <Path>..\builds\Toolkit\Session\Write Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>32966D7B02C9DDC49BC78C3F84550C02</GUID>
+      <GUID>CAE58BDE3CA385336B0267D0DDAC5781</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1229,7 +1232,7 @@
         <Path>..\builds\Toolkit\SFTP\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E9C4DD22397B03B7A5FB7540998C3035</GUID>
+      <GUID>A90D818E3283AE610E256123575E54FC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1362,7 +1365,7 @@
         <Path>..\builds\Toolkit\SFTP\Delete File.vi</Path>
         <VI_Title>Delete File</VI_Title>
       </Items_Data>
-      <GUID>D103620F29B1FDE3959FA1D35E8A6C90</GUID>
+      <GUID>5221F7C5ECBCE0DFB08B7C120FD543E5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1551,7 +1554,7 @@
         <Path>..\builds\Toolkit\SFTP File\Write All.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D05D3E0F3A662517A091BFC1DCA60BB6</GUID>
+      <GUID>FA3F0C7120C7AB7B72DB0D52AE258977</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1614,7 +1617,7 @@
         <Path>..\builds\Toolkit\SFTP Directory\Read.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>49ED83D8CA8BF8ED55156EEAEAF3E9B9</GUID>
+      <GUID>67F6A544BBE86BE1C008CE1ED08216A7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1817,7 +1820,7 @@
         <Path>..\builds\Toolkit\SFTP Attributes\Read File Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>36C2144DB2FC1B57CAADB0138872C8C8</GUID>
+      <GUID>1BADB54BC3C22B6A13F7C82D3DF2E861</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1922,7 +1925,7 @@
         <Path>..\builds\Toolkit\File Info\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>77639727FB7C36614B1A9AEA130C31C0</GUID>
+      <GUID>3A48259D1161D3591E83E4EF39986777</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1971,7 +1974,7 @@
         <Path>..\builds\Toolkit\API\Known Host\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E458551CAA578D262E5E438DD6DB41FE</GUID>
+      <GUID>6CC136F5023E480CDA8933949BF6E625</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2090,7 +2093,7 @@
         <Path>..\builds\Toolkit\Known Hosts\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>70E421902D8E58A9835A2D851BAC782F</GUID>
+      <GUID>594DA2E968FA2168B8F21496AFD4AC29</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2195,7 +2198,7 @@
         <Path>..\builds\Toolkit\Known Host\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0DFA91D230DAF6A706E79EE8871AB17D</GUID>
+      <GUID>129E3B770194FC4BBD81898D5A204B7C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2244,7 +2247,7 @@
         <Path>..\builds\Toolkit\Listener\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>60E80D8C13D1D86E2ACE5C4A8407AF20</GUID>
+      <GUID>C2787A47B916F8B16AE5F22D27EF68B0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
