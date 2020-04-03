@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+### Changed
+
+- `SFTP File.lvclass:Flags.ctl` to `SFTP File.lvclass:Options.ctl` for API naming consistency
+
 ## [0.0.3] - 2020-04-02
 
 ### Added
