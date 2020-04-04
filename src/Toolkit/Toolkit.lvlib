@@ -1,5 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="18008000">
+	<Property Name="NI.Lib.Description" Type="Str">The classes, controls, and VIs that are the Application Programming Interface (API) for the LIBSSH2 toolkit.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str">/&lt;helpdir&gt;/Field R&amp;D Services/LIBSSH2.chm</Property>
+	<Property Name="NI.Lib.HelpTag" Type="Str">pages\Toolkit\Toolkit.html</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*(!!!*Q(C=\&gt;1R=BJ"%)8B*Z=$J^T!2?)$^!'==!7OU)%O1#C&amp;R-\[#PA)"-3K[CNQB87/!PRP&lt;[.;(%"C63H1L!&lt;"GZG?D^VFJ7L@J+][XWMP.^MULDIO&lt;8QH89_``$._?:WN6[W;`N[GT_P8(LL?\7J^LZU_T?P@]N^LONE_RT`(0`&lt;Y`&gt;P\_@[0Y(W&lt;^&amp;"3?N+$\H3L&lt;X&gt;/]C20]C20]C10]C!0]C!0]C"X=C&gt;X=C&gt;X=C=X=C-X=C-X=C/PAVTE)B=Z:S8:0.EI+:I53#:$5@+3?"*0YEE]@&amp;4C34S**`%E(K9I]33?R*.Y%A`,F(A34_**0)G(5C8*/MDR*"\++`!%HM!4?!)07SLQ")"AM["Q5!3'AM(A4?!*0)'(NQI]A3@Q"*\!Q\!#4_!*0)%H],#ETEK5:DT)]6"'DM@R/"\(YXAI,=@D?"S0YX%]&lt;#@(YXA=B,/B5RS#H%8/"/?$YX%]`*0D=4S/R`%Y(I&lt;K#HG&gt;G6%T(O2Y$)`B-4S'R`"11I&lt;(]"A?QW.Y+#P$9XA-D_%R0'QFQW.Y$)]"-4:F?RH&amp;D)8'*#-Q00T6X7*VF;)E6E@`.+=&lt;68U$KG]M^1WDPB(5&amp;VB^Y&gt;182(WCV3&gt;1@7,58VD^2&gt;2!^=&lt;KAOK*'HA^UP@U(8V,X^$8^"6^36_-3``TR'%9&gt;$Q?N&gt;`PN&gt;PNN.VON&gt;FMN&amp;[PN6KNN&amp;QON6AMXJZ7XTGG^D"`,JU/Q^0LY=`B&amp;$_?4L]@T[&gt;@DT]P9]`-@9]_0:=_QL.28X3?0?9Z2X]"TEOO;A!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
