@@ -6,10 +6,13 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Added
 
+- Descriptions to all VIs and type definitions for all classes
 - Descriptions to all controls and indicators for all VIs
 
 ### Changed
 
+- The `Known Hosts.lvclass:Create.vi` to a polymorphic VI for API consistency
+- The `Known Hosts.lvclass:Destroy.vi` to a polymorphic VI for API consistency
 - `SFTP File.lvclass:Flags.ctl` to `SFTP File.lvclass:Options.ctl` for API naming consistency
 
 ## [0.0.3] - 2020-04-02
