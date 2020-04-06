@@ -8,10 +8,17 @@ All notable changes to this project will be documented in this file, which is wr
 
 - Descriptions to all VIs and type definitions for all classes
 - Descriptions to all controls and indicators for all VIs
+- Missing `Create from Listener` variant to the `Channel.lvclass:Create.vi` polymorphic VI
+- Missing `Destroy to Listener` variant to the `Channel.lvclass:Destroy.vi` polymorphic VI
 
 ### Changed
 
-- The `Known Hosts.lvclass:Create.vi` to a polymorphic VI for API consistency
+- The type selector default from hidden to visible for all polymorphic VIs
+- The `Session.lvclass:Create.vi` to a polymorphic VI for API consistency
+- The `Session.lvclass:Create.vi` to a polymorphic VI for API consistency
+- The `SFTP.lvclass:Create.vi` to a polymorphic VI for API consistency
+- The `SFTP.lvclass:Destroy.vi` to a polymorphic VI for API consistency
+- The `Known Hosts.lvclass:Destroy.vi` to a polymorphic VI for API consistency
 - The `Known Hosts.lvclass:Destroy.vi` to a polymorphic VI for API consistency
 - `SFTP File.lvclass:Flags.ctl` to `SFTP File.lvclass:Options.ctl` for API naming consistency
 
