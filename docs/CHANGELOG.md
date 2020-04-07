@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file, which is wr
 - Missing `Create from Listener` variant to the `Channel.lvclass:Create.vi` polymorphic VI
 - Missing `Destroy to Listener` variant to the `Channel.lvclass:Destroy.vi` polymorphic VI
 - Path for the _Help path_ field to all VI documentation
+- A relative path for the _Help tag_ field to all VI documentation
 
 ### Changed
 
