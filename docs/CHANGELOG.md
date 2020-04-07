@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Added
 
+- Data entry limits to the `Max Data Length` and `Per Read Size` controls for the "Read" VIs in the Channel class
 - Descriptions to all VIs and type definitions for all classes
 - Descriptions to all controls and indicators for all VIs
 - Missing `Create from Listener` variant to the `Channel.lvclass:Create.vi` polymorphic VI
