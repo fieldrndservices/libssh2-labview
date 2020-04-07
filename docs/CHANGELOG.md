@@ -16,6 +16,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Changed
 
+- The `Channel.lvclass:Create.vi` SCP Receive instance to internally use a File Info object 
 - `Max Data Length` from 32000 to 1024 for all channel read and write examples
 - The type selector default from hidden to visible for all polymorphic VIs
 - The `Session.lvclass:Create.vi` to a polymorphic VI for API consistency
