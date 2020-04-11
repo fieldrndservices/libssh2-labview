@@ -14,6 +14,7 @@ All notable changes to this project will be documented in this file, which is wr
 - Missing `Destroy to Listener` variant to the `Channel.lvclass:Destroy.vi` polymorphic VI
 - Path for the _Help path_ field to all VI documentation
 - A relative path for the _Help tag_ field to all VI documentation
+- The `Agent Identity.lvclass:Create.vi` and `Agent Identity.lvclass:Destroy.vi` VIs to the Agent palette
 
 ### Changed
 
