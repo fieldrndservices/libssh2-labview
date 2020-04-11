@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Added
 
+- The `Channel.lvclass:Read All Stderr.vi` and `Channel.lvclass:Write All Stderr.vi` VIs
 - Data entry limits to the `Max Data Length` and `Per Read Size` controls for the "Read" VIs in the Channel class
 - Descriptions to all VIs and type definitions for all classes
 - Descriptions to all controls and indicators for all VIs
@@ -16,6 +17,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Changed
 
+- The `SFTP File.lvclass:Open.vi` to a polymorphic VI
+- The `SFTP File.lvclass:Close.vi` to a polymorphic VI
+- The `SFTP Directory.lvclass:Open.vi` to a polymorphic VI
+- The `SFTP Directory.lvclass:Close.vi` to a polymorphic VI
 - The `Channel.lvclass:Create.vi` SCP Receive instance to internally use a File Info object 
 - `Max Data Length` from 32000 to 1024 for all channel read and write examples
 - The type selector default from hidden to visible for all polymorphic VIs
