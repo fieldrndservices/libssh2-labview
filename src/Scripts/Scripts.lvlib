@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Build.vi" Type="VI" URL="../Build.vi"/>
 	<Item Name="Clean.vi" Type="VI" URL="../Clean.vi"/>
+	<Item Name="Generate.vi" Type="VI" URL="../Generate.vi"/>
 	<Item Name="Package.vi" Type="VI" URL="../Package.vi"/>
 	<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 </Library>
