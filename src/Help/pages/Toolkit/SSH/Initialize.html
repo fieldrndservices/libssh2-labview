@@ -15,29 +15,35 @@
 
 <div id="styleDivTitle">
 <h1>Initialize VI</h1>
-<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/SSH/SSH.html">SSH Class</a></p>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/SSH/SSH.html">SSH</a></p>
 <p class="Body"><strong>Requires:</strong> LIBSSH2</p>
 <p class="Body">Initialize the underlying libssh2 library. This must be called, or executed, before using any other VIs in this toolkit. This typically initializes the cryptography library (OpenSSL), which is statically compiled with the libssh2lv shared library.</p>
-<p class="Anchor"><img src="/images/Toolkit_lvlib_SSH_lvclass_Initializec.png" alt="Initialize VI" border="0"></p>
+<p class="Anchor"><img src="/images/Toolkit/SSH/Initializec.png" alt="Initialize VI" border="0"></p>
 </div>
 
 <div id="styleDivScrolling">
 <table class="Borderless">
+
 <tr>
-<td class="Icon"><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
-<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality.</td>
+    <td class="Icon"><img src="/images/Toolkit/SSH/iToolkit_lvlib_SSHlvclass.png" alt="iToolkit_lvlib_SSHlvclass"></td>
+    <td><strong>SSH</strong> represents a libssh2-related context used to create all other libssh2 shared library objects.</td>
 </tr>
+
 <tr>
-<td class="Icon"><img src="/images/cpath.png" alt="cpath"></td>
-<td><strong>libssh2lv Shared Library</strong> is a path to the libssh2lv shared library. If <code>&lt;Not A Path&gt;</code>, then the search path will be built based on the current working directory, the source code of the project, and system-specific folders for libraries, such as the <code>/usr/lib</code> directory on Unix-like systems. If a valid, non-empty path is supplied, then the search path only includes this path and skips all other directories.</td>
+    <td class="Icon"><img src="/images/Toolkit/SSH/ierrcodeclst.png" alt="ierrcodeclst"></td>
+    <td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
+
 <tr>
-<td class="Icon"><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></td>
-<td><strong>Error Out</strong> contains error information. This output provides standard error out functionality.</td>
+    <td class="Icon"><img src="/images/Toolkit/SSH/cpath.png" alt="cpath"></td>
+    <td><strong>libssh2lv Shared Library</strong> is a path to the libssh2lv shared library to interface with a remote SSH server. If <Not A Path>, then a search path will be built based on the current working directory, the source code of the project, and system-specific folders for libraries, such as the "/usr/lib" folder on Unix-like systems. If a valid, non-empty path is supplied, then the search path only includes this path and skips all other directories.</td>
 </tr>
-<td class="Icon"><img src="/images/iToolkit_lvlib_SSHlvclass.png" alt="iToolkit_lvlib_SSHlvclass"></td>
-<td><strong>SSH</strong> is a new SSH object from the SSH LabVIEW class. This is the parent, or root, object needed to create all other objects in this toolkit.</td>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/SSH/cerrcodeclst.png" alt="cerrcodeclst"></td>
+    <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
+
 </table>
 </div>
 

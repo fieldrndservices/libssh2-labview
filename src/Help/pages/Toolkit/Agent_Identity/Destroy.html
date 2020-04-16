@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
+<html>
+<head>
+<title>Destroy VI</title>
+<meta name="author" content="Field R&D Services, LLC">
+<meta name="generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/polyviselect.js" type="text/javascript"></script>
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
+</head>
+<body bgcolor="#ffffff">
+
+<div id="styleDivTitle">
+<h1>Destroy VI</h1>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/Agent_Identity/Agent_Identity.html">Agent Identity</a></p>
+<p class="Body"><strong>Requires:</strong> LIBSSH2</p>
+<p class="Body">Deallocates, or frees, the memory allocated for the libssh2lv shared library Agent Identity struct represented by this Agent Identity object. After this is called, the object can no longer be used in the application without causing a segmentation fault, i.e. crashing LabVIEW. This VI must be called to avoid leaking memory or running Out-of-Memory (OOM) on resource-constrained systems.</p>
+<p class="Anchor"><img src="/images/Toolkit/Agent_Identity/Destroyc.png" alt="Destroy VI"></p>
+<table class="Borderless">
+<tr>
+<td>
+<select name="site" size="1" onchange="polyVISelectHandler(this)">
+<option value="">Select an instance</option>
+
+<option value="parent">Agent</option>
+
+<option value="instance1">SSH</option>
+
+</select>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="styleDivScrolling">
+
+<h2><a name="parent">Agent</a></h2>
+<p class="Body">Passes through the Agent object and destroys this Agent Identity object.</p>
+<p class="Anchor"><img src="/images/Toolkit/Agent_Identity/Destroy_to_Agentc.png" alt="Agent"></p>
+<table class="Borderless">
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Agent_Identity/iToolkit_lvlib_Agentlvclass.png" alt="iToolkit_lvlib_Agentlvclass"></td>
+<td><strong>Agent Out</strong> is the same object from <strong>Agent In</strong>.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Agent_Identity/cToolkit_lvlib_Agentlvclass.png" alt="cToolkit_lvlib_Agentlvclass"></td>
+<td><strong>Agent In</strong> represents a libssh2 shared library Agent struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Agent_Identity/cToolkit_lvlib_Agent_Identitylvclass.png" alt="cToolkit_lvlib_Agent_Identitylvclass"></td>
+<td><strong>Identity</strong> represents a libssh2 shared library Agent Identity struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Agent_Identity/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Agent_Identity/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+
+<h2><a name="instance1">SSH</a></h2>
+<p class="Body">Destroys this Agent Identity object and returns the SSH context used to originally create it.</p>
+<p class="Anchor"><img src="/images/Toolkit/Agent_Identity/Destroy_to_SSHc.png" alt="SSH"></p>
+<table class="Borderless">
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Agent_Identity/cToolkit_lvlib_Agent_Identitylvclass.png" alt="cToolkit_lvlib_Agent_Identitylvclass"></td>
+<td><strong>Identity</strong> represents a libssh2 shared library Agent Identity struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Agent_Identity/iToolkit_lvlib_SSHlvclass.png" alt="iToolkit_lvlib_SSHlvclass"></td>
+<td><strong>SSH</strong> represents the same libssh2-related context used to create the Agent Identity object from <strong>Identity</strong>.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Agent_Identity/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Agent_Identity/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>

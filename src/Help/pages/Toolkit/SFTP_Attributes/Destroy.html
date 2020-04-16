@@ -1,0 +1,171 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
+<html>
+<head>
+<title>Destroy VI</title>
+<meta name="author" content="Field R&D Services, LLC">
+<meta name="generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/polyviselect.js" type="text/javascript"></script>
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
+</head>
+<body bgcolor="#ffffff">
+
+<div id="styleDivTitle">
+<h1>Destroy VI</h1>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/SFTP_Attributes/SFTP_Attributes.html">SFTP Attributes</a></p>
+<p class="Body"><strong>Requires:</strong> LIBSSH2</p>
+<p class="Body">Deallocates, or frees, the memory allocated for the libssh2lv shared library SFTP Attributes struct represented by this SFTP Attributes object. After this is called, the object can no longer be used in the application without causing a segmentation fault, i.e. crashing LabVIEW. This VI must be called to avoid leaking memory or running Out-of-Memory (OOM) on resource-constrained systems.</p>
+<p class="Anchor"><img src="/images/Toolkit/SFTP_Attributes/Destroyc.png" alt="Destroy VI"></p>
+<table class="Borderless">
+<tr>
+<td>
+<select name="site" size="1" onchange="polyVISelectHandler(this)">
+<option value="">Select an instance</option>
+
+<option value="parent">Directory</option>
+
+<option value="instance1">File</option>
+
+<option value="instance2">SFTP</option>
+
+<option value="instance3">SSH</option>
+
+</select>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="styleDivScrolling">
+
+<h2><a name="parent">Directory</a></h2>
+<p class="Body">Passes through the SFTP Directory object and destroys the associated SFTP Attributes object.</p>
+<p class="Anchor"><img src="/images/Toolkit/SFTP_Attributes/Destroy_to_SFTP_Directoryc.png" alt="Directory"></p>
+<table class="Borderless">
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/iToolkit_lvlib_SFTP_Directorylvclass.png" alt="iToolkit_lvlib_SFTP_Directorylvclass"></td>
+<td><strong>SFTP Directory Out</strong> is the same object from <strong>SFTP Directory In</strong>.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/cToolkit_lvlib_SFTP_Directorylvclass.png" alt="cToolkit_lvlib_SFTP_Directorylvclass"></td>
+<td><strong>SFTP Directory In</strong> represents a libssh2 shared library SFTP Directory struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/cToolkit_lvlib_SFTP_Attributeslvclass.png" alt="cToolkit_lvlib_SFTP_Attributeslvclass"></td>
+<td><strong>SFTP Attributes</strong> represents a libssh2 shared library SFTP Attributes struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+
+<h2><a name="instance1">File</a></h2>
+<p class="Body">Passes through the SFTP File object and destroys the associated SFTP Attributes object.</p>
+<p class="Anchor"><img src="/images/Toolkit/SFTP_Attributes/Destroy_to_SFTP_Filec.png" alt="File"></p>
+<table class="Borderless">
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/iToolkit_lvlib_SFTP_Filelvclass.png" alt="iToolkit_lvlib_SFTP_Filelvclass"></td>
+<td><strong>SFTP File Out</strong> is the same object from <strong>SFTP File In</strong>.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/cToolkit_lvlib_SFTP_Filelvclass.png" alt="cToolkit_lvlib_SFTP_Filelvclass"></td>
+<td><strong>SFTP File In</strong> represents a libssh2 shared library SFTP File struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/cToolkit_lvlib_SFTP_Attributeslvclass.png" alt="cToolkit_lvlib_SFTP_Attributeslvclass"></td>
+<td><strong>SFTP Attributes</strong> represents a libssh2 shared library SFTP Attributes struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+
+<h2><a name="instance2">SFTP</a></h2>
+<p class="Body">Destroys this SFTP Attributes object and passes through the SFTP object.</p>
+<p class="Anchor"><img src="/images/Toolkit/SFTP_Attributes/Destroy_to_SFTPc.png" alt="SFTP"></p>
+<table class="Borderless">
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/iToolkit_lvlib_SFTPlvclass.png" alt="iToolkit_lvlib_SFTPlvclass"></td>
+<td><strong>SFTP Out</strong> is the same object from <strong>SFTP In</strong>.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/cToolkit_lvlib_SFTPlvclass.png" alt="cToolkit_lvlib_SFTPlvclass"></td>
+<td><strong>SFTP In</strong> represents a libssh2 shared library SFTP struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/cToolkit_lvlib_SFTP_Attributeslvclass.png" alt="cToolkit_lvlib_SFTP_Attributeslvclass"></td>
+<td><strong>SFTP Attributes</strong> represents a libssh2 shared library SFTP Attributes struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+
+<h2><a name="instance3">SSH</a></h2>
+<p class="Body">Destroys this SFTP Attributes object and returns the SSH context used to originally create it.</p>
+<p class="Anchor"><img src="/images/Toolkit/SFTP_Attributes/Destroy_to_SSHc.png" alt="SSH"></p>
+<table class="Borderless">
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/iToolkit_lvlib_SSHlvclass.png" alt="iToolkit_lvlib_SSHlvclass"></td>
+<td><strong>SSH</strong> represents a libssh2-related context used to create the SFTP Attributes object from <strong>SFTP Attributes</strong>.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/cToolkit_lvlib_SFTP_Attributeslvclass.png" alt="cToolkit_lvlib_SFTP_Attributeslvclass"></td>
+<td><strong>SFTP Attributes</strong> represents a libssh2 shared library SFTP Attributes struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP_Attributes/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>

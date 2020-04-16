@@ -1,0 +1,230 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
+<html>
+<head>
+<title>Create VI</title>
+<meta name="author" content="Field R&D Services, LLC">
+<meta name="generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/polyviselect.js" type="text/javascript"></script>
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
+</head>
+<body bgcolor="#ffffff">
+
+<div id="styleDivTitle">
+<h1>Create VI</h1>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/Channel/Channel.html">Channel</a></p>
+<p class="Body"><strong>Requires:</strong> LIBSSH2</p>
+<p class="Body">Creates a new Channel object that represents a libssh2lv shared library Channel struct. This VI must be called, or executed, before using any other Channel-related VIs. This VI allocates memory within the libssh2lv shared library that must be explicitly deallocated, or freed, at the end of the application using the <strong>Destroy</strong> VI to avoid memory leaks or running Out-of-Memory (OOM) on a resource contrained system.</p>
+<p class="Anchor"><img src="/images/Toolkit/Channel/Createc.png" alt="Create VI"></p>
+<table class="Borderless">
+<tr>
+<td>
+<select name="site" size="1" onchange="polyVISelectHandler(this)">
+<option value="">Select an instance</option>
+
+<option value="parent">Listener</option>
+
+<option value="instance1">Session</option>
+
+<option value="instance2">SCP Send</option>
+
+<option value="instance3">SCP Receive</option>
+
+<option value="instance4">TCP/IP</option>
+
+</select>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="styleDivScrolling">
+
+<h2><a name="parent">Listener</a></h2>
+<p class="Body">Creates a new Channel object from a Listener object.</p>
+<p class="Anchor"><img src="/images/Toolkit/Channel/Create_from_Listenerc.png" alt="Listener"></p>
+<table class="Borderless">
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/cToolkit_lvlib_Listenerlvclass.png" alt="cToolkit_lvlib_Listenerlvclass"></td>
+<td><strong>Listener</strong> represents a libssh2 shared library Listener struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/iToolkit_lvlib_Channellvclass.png" alt="iToolkit_lvlib_Channellvclass"></td>
+<td><strong>Channel</strong> represents a libssh2 shared library Channel struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+
+<h2><a name="instance1">Session</a></h2>
+<p class="Body">Creates a new Channel object from a Session object.</p>
+<p class="Anchor"><img src="/images/Toolkit/Channel/Create_from_Sessionc.png" alt="Session"></p>
+<table class="Borderless">
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/iToolkit_lvlib_Channellvclass.png" alt="iToolkit_lvlib_Channellvclass"></td>
+<td><strong>Channel</strong> represents a libssh2 shared library Channel struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/cToolkit_lvlib_Sessionlvclass.png" alt="cToolkit_lvlib_Sessionlvclass"></td>
+<td><strong>Session</strong> represents a libssh2 shared library Session struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+
+<h2><a name="instance2">SCP Send</a></h2>
+<p class="Body">Creates a new Channel object from a Session object, but configured for uploading a local file to a remote SSH server.</p>
+<p class="Anchor"><img src="/images/Toolkit/Channel/Create_from_SCP_Sendc.png" alt="SCP Send"></p>
+<table class="Borderless">
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/ci64.png" alt="ci64"></td>
+<td><strong>File Size</strong> is the number of bytes on the local machine for the filesystem entry that will be sent to the remote SSH server.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/cstr.png" alt="cstr"></td>
+<td><strong>Remote Destination Path</strong> is a path on the remote SSH server where the local filesystem entry will be sent. The entry can be either a directory, file, or symbolic link. The path separator of the remote filesystem should be used. For example, a forwardslash, "/", should be used if the remote SSH server is a UNIX-like system, while a backslash, "\", should be used if the remote SSH server is a DOS-like system.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/ccclst.png" alt="ccclst"></td>
+<td><strong>Permissions</strong> is the UNIX-like filesystem permissions, also known as the filesystem entry's "mode". A filesystem entry's permissions, or mode, are divided into three categorizes: Owner, Group, and Other, where each category can have a Read, Write, or Execute permission.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/iToolkit_lvlib_Channellvclass.png" alt="iToolkit_lvlib_Channellvclass"></td>
+<td><strong>Channel</strong> represents a libssh2 shared library Channel struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/cToolkit_lvlib_Sessionlvclass.png" alt="cToolkit_lvlib_Sessionlvclass"></td>
+<td><strong>Session</strong> represents a libssh2 shared library Session struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+
+<h2><a name="instance3">SCP Receive</a></h2>
+<p class="Body">Creates a new Channel object from a Session object but configured for downloading a file from a remote SSH server to the local machine.</p>
+<p class="Anchor"><img src="/images/Toolkit/Channel/Create_from_SCP_Receivec.png" alt="SCP Receive"></p>
+<table class="Borderless">
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/icclst.png" alt="icclst"></td>
+<td></td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/cstr.png" alt="cstr"></td>
+<td><strong>Remote Source Path</strong> is a path on the remote SSH server to an existing filesystem entry that will be sent to the local machine. The entry can be either a directory, file, or symbolic link. The path separator of the remote filesystem should be used. For example, a forwardslash, "/", should be used if the remote SSH server is a UNIX-like system, while a backslash, "\", should be used if the remote SSH server is a DOS-like system.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/iToolkit_lvlib_Channellvclass.png" alt="iToolkit_lvlib_Channellvclass"></td>
+<td><strong>Channel</strong> represents a libssh2 shared library Channel struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/cToolkit_lvlib_Sessionlvclass.png" alt="cToolkit_lvlib_Sessionlvclass"></td>
+<td><strong>Session</strong> represents a libssh2 shared library Session struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+
+<h2><a name="instance4">TCP/IP</a></h2>
+<p class="Body">Creates a new Channel object from a Session object but configured as a direct TCP/IP tunnel.</p>
+<p class="Anchor"><img src="/images/Toolkit/Channel/Create_from_TCP-IPc.png" alt="TCP/IP"></p>
+<table class="Borderless">
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/ci32.png" alt="ci32"></td>
+<td><strong>Remote Port</strong> is the TCP port of the remote SSH server.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/cstr.png" alt="cstr"></td>
+<td><strong>Remote Host</strong> is the IP address or fully qualified host name (FQHN) of the remote SSH server.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/ci32.png" alt="ci32"></td>
+<td><strong>Local Port</strong> is the TCP port for the local machine to use to create Direct TCP/IP channel.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/cstr.png" alt="cstr"></td>
+<td><strong>Local Host</strong> is the IP address or host name of the local machine that will be used to establish a Direct TCP/IP channel.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/iToolkit_lvlib_Channellvclass.png" alt="iToolkit_lvlib_Channellvclass"></td>
+<td><strong>Channel</strong> represents a libssh2 shared library Channel struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/cToolkit_lvlib_Sessionlvclass.png" alt="cToolkit_lvlib_Sessionlvclass"></td>
+<td><strong>Session</strong> represents a libssh2 shared library Session struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/Channel/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>

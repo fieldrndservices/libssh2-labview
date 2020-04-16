@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
+<html>
+<head>
+<title>Read VI</title>
+<meta name="Author" content="Field R&D Services">
+<meta name="Generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
+</head>
+<body bgcolor="#ffffff">
+
+<div id="styleDivTitle">
+<h1>Read VI</h1>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/Channel/Channel.html">Channel</a></p>
+<p class="Body"><strong>Requires:</strong> LIBSSH2</p>
+<p class="Body">Reads binary data from the SSH channel represented by this Channel object. The &lt;B&gt;Max Data Length&lt;/B&gt; must be greater than or equal to the expected data that is returned from the remote SSH server to avoid an error. However, there is a hard-coded maximum of 30KB in the libssh2 shared library. If the expected binary data is greater than 30KB, then the &lt;B&gt;Read All&lt;/B&gt; should be used.</p>
+<p class="Anchor"><img src="/images/Toolkit/Channel/Readc.png" alt="Read VI" border="0"></p>
+</div>
+
+<div id="styleDivScrolling">
+<table class="Borderless">
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/Channel/i1du8.png" alt="i1du8"></td>
+    <td><strong>Data</strong> is the byte array read from the remote SSH server.</td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/Channel/cu64.png" alt="cu64"></td>
+    <td><strong>Max Data Length</strong> is an estimation of the maximum number of bytes to read. This value must be greater than or equal to the expected number of bytes to read from the remote SSH server, but it does not have to be exact. However, there is a hard-coded maximum of 30KB in the libssh2 shared library.</td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/Channel/iToolkit_lvlib_Channellvclass.png" alt="iToolkit_lvlib_Channellvclass"></td>
+    <td><strong>Channel Out</strong> is the same object from 
+<strong>Channel In</strong>.</td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/Channel/cToolkit_lvlib_Channellvclass.png" alt="cToolkit_lvlib_Channellvclass"></td>
+    <td><strong>Channel In</strong> represents a libssh2 shared library Channel struct.</td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/Channel/ierrcodeclst.png" alt="ierrcodeclst"></td>
+    <td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/Channel/cerrcodeclst.png" alt="cerrcodeclst"></td>
+    <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+</div>
+
+</body>
+</html>

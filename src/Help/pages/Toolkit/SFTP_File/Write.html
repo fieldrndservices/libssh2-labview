@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
+<html>
+<head>
+<title>Write VI</title>
+<meta name="Author" content="Field R&D Services">
+<meta name="Generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
+</head>
+<body bgcolor="#ffffff">
+
+<div id="styleDivTitle">
+<h1>Write VI</h1>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/SFTP_File/SFTP_File.html">SFTP File</a></p>
+<p class="Body"><strong>Requires:</strong> LIBSSH2</p>
+<p class="Body">Writes a libssh2-defined maximum of 30KB to a remote SFTP file. If more the data is greater than 30kB, then the &lt;B&gt;Write All&lt;/B&gt; VI should be used.</p>
+<p class="Anchor"><img src="/images/Toolkit/SFTP_File/Writec.png" alt="Write VI" border="0"></p>
+</div>
+
+<div id="styleDivScrolling">
+<table class="Borderless">
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/SFTP_File/ii64.png" alt="ii64"></td>
+    <td><strong>Count</strong> is the number of bytes added to the SFTP File. If the operation is successful, then this value will equal to the array size of <strong>Data</strong>. If the operation fails, then this value will be less than the array size of <strong>Data</strong>.</td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/SFTP_File/c1du8.png" alt="c1du8"></td>
+    <td><strong>Data</strong> is the binary value to append to the SFTP file represented as a byte array. Any kind of data is ultimately represented as a series of bytes.</td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/SFTP_File/iToolkit_lvlib_SFTP_Filelvclass.png" alt="iToolkit_lvlib_SFTP_Filelvclass"></td>
+    <td><strong>SFTP File Out</strong> is the same object from <strong>SFTP File In</strong>.</td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/SFTP_File/ierrcodeclst.png" alt="ierrcodeclst"></td>
+    <td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/SFTP_File/cToolkit_lvlib_SFTP_Filelvclass.png" alt="cToolkit_lvlib_SFTP_Filelvclass"></td>
+    <td><strong>SFTP File In</strong> represents a libssh2 shared library SFTP file struct.</td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/SFTP_File/cerrcodeclst.png" alt="cerrcodeclst"></td>
+    <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
+<html>
+<head>
+<title>Delete Link VI</title>
+<meta name="Author" content="Field R&D Services">
+<meta name="Generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
+</head>
+<body bgcolor="#ffffff">
+
+<div id="styleDivTitle">
+<h1>Delete Link VI</h1>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/SFTP/SFTP.html">SFTP</a></p>
+<p class="Body"><strong>Requires:</strong> LIBSSH2</p>
+<p class="Body">Deletes, a.k.a. removes, a symbolic link from a remote SFTP server.</p>
+<p class="Anchor"><img src="/images/Toolkit/SFTP/Delete_Linkc.png" alt="Delete Link VI" border="0"></p>
+</div>
+
+<div id="styleDivScrolling">
+<table class="Borderless">
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/SFTP/cstr.png" alt="cstr"></td>
+    <td><strong>Remote Path</strong> is a path on the remote SSH server to an existing filesystem symbolic link. The path separator of the remote filesystem should be used. For example, a forwardslash, "/", should be used if the remote SSH server is a UNIX-like system, while a backslash, "\", should be used if the remote SSH server is a DOS-like system.</td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/SFTP/iToolkit_lvlib_SFTPlvclass.png" alt="iToolkit_lvlib_SFTPlvclass"></td>
+    <td><strong>SFTP Out</strong> is the same object from <strong>SFTP In</strong>.</td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/SFTP/cToolkit_lvlib_SFTPlvclass.png" alt="cToolkit_lvlib_SFTPlvclass"></td>
+    <td><strong>SFTP In</strong> represents a libssh2 shared library SFTP struct.</td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/SFTP/ierrcodeclst.png" alt="ierrcodeclst"></td>
+    <td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/SFTP/cerrcodeclst.png" alt="cerrcodeclst"></td>
+    <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+</div>
+
+</body>
+</html>

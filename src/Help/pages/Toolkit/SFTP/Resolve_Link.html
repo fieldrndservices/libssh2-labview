@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
+<html>
+<head>
+<title>Resolve Link VI</title>
+<meta name="author" content="Field R&D Services, LLC">
+<meta name="generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/polyviselect.js" type="text/javascript"></script>
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
+</head>
+<body bgcolor="#ffffff">
+
+<div id="styleDivTitle">
+<h1>Resolve Link VI</h1>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/SFTP/SFTP.html">SFTP</a></p>
+<p class="Body"><strong>Requires:</strong> LIBSSH2</p>
+<p class="Body">Gets the absolute path of a symbolic or real link's target, a.k.a. source.</p>
+<p class="Anchor"><img src="/images/Toolkit/SFTP/Resolve_Linkc.png" alt="Resolve Link VI"></p>
+<table class="Borderless">
+<tr>
+<td>
+<select name="site" size="1" onchange="polyVISelectHandler(this)">
+<option value="">Select an instance</option>
+
+<option value="parent">Symbolic</option>
+
+<option value="instance1">Real</option>
+
+</select>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="styleDivScrolling">
+
+<h2><a name="parent">Symbolic</a></h2>
+<p class="Body">Gets the absolute path for a symbolic link's target, or source, on a remote SFTP server.</p>
+<p class="Anchor"><img src="/images/Toolkit/SFTP/Resolve_Symbolic_Linkc.png" alt="Symbolic"></p>
+<table class="Borderless">
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP/istr.png" alt="istr"></td>
+<td><strong>Remote Source Path</strong> is a path on the remote SSH server to an existing filesystem entry that is the target of the symbolic link. The path will use the remote SSH filesystem separator.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP/ci32.png" alt="ci32"></td>
+<td><strong>Max Path Length</strong> is the estimated maximum path length that will be returned for the target, or source, of the resolved symbolic link. This must be larger than the expected target's path length as a string to avoid an error. On most systems, 255 characters, or bytes, is the maximum, but newer systems can accommedate longer paths.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP/cstr.png" alt="cstr"></td>
+<td><strong>Remote Link Path</strong> is a path on the remote SSH server to an existing symbolic link. The path separator of the remote filesystem should be used. For example, a forwardslash, "/", should be used if the remote SSH server is a UNIX-like system, while a backslash, "\", should be used if the remote SSH server is a DOS-like system.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP/iToolkit_lvlib_SFTPlvclass.png" alt="iToolkit_lvlib_SFTPlvclass"></td>
+<td><strong>SFTP Out</strong> is the same object from <strong>SFTP In</strong>.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP/cToolkit_lvlib_SFTPlvclass.png" alt="cToolkit_lvlib_SFTPlvclass"></td>
+<td><strong>SFTP In</strong> represents a libssh2 shared library SFTP struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+
+<h2><a name="instance1">Real</a></h2>
+<p class="Body">Gets the absolute path of a real link's target, or source, on the remote SFTP server.</p>
+<p class="Anchor"><img src="/images/Toolkit/SFTP/Resolve_Real_Linkc.png" alt="Real"></p>
+<table class="Borderless">
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP/istr.png" alt="istr"></td>
+<td><strong>Remote Source Path</strong> is a path on the remote SSH server to an existing filesystem entry that is the target of the symbolic link. The path will use the remote SSH filesystem separator.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP/ci32.png" alt="ci32"></td>
+<td><strong>Max Path Length</strong> is the estimated maximum path length that will be returned for the target, or source, of the resolved symbolic link. This must be larger than the expected target's path length as a string to avoid an error. On most systems, 255 characters, or bytes, is the maximum, but newer systems can accommedate longer paths.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP/cstr.png" alt="cstr"></td>
+<td><strong>Remote Link Path</strong> is a path on the remote SSH server to an existing symbolic link. The path separator of the remote filesystem should be used. For example, a forwardslash, "/", should be used if the remote SSH server is a UNIX-like system, while a backslash, "\", should be used if the remote SSH server is a DOS-like system.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP/iToolkit_lvlib_SFTPlvclass.png" alt="iToolkit_lvlib_SFTPlvclass"></td>
+<td><strong>SFTP Out</strong> is the same object from <strong>SFTP In</strong>.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP/cToolkit_lvlib_SFTPlvclass.png" alt="cToolkit_lvlib_SFTPlvclass"></td>
+<td><strong>SFTP In</strong> represents a libssh2 shared library SFTP struct.</td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+<td class="Icon"><img src="/images/Toolkit/SFTP/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Listener Controls and VIs</title>
+<meta name="author" content="Field R&D Services, LLC">
+<meta name="generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#ffffff">
+
+<h1>Listener Controls and VIs</h1>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/Listener/Listener.html">Listener</a></p>
+<p class="Body"><strong>Requires:</strong> LIBSSH2</p>
+<p class="Body">Represents a libssh2 shared library listener struct.</p>
+
+<table class="Bordered">
+<tr>
+<th class="Bordered Left-Align">Class Item</th>
+<th class="Bordered Left-Align">Description</th>
+</tr>
+
+<tr>
+<td class="Bordered"><a href="/pages/Toolkit/Listener/Utility.html">Utility</a></td>
+<td class="Bordered">Groups related files into a folder</td>
+</tr>
+
+<tr>
+<td class="Bordered"><a href="/pages/Toolkit/Listener/Create.html">Create</a></td>
+<td class="Bordered">Creates a new Listener object that represents a libssh2lv shared library Listener struct. This VI must be called, or executed, before using any other Listener-related VIs. This VI allocates memory within the libssh2lv shared library that must be explicitly deallocated, or freed, at the end of the application using the <strong>Destroy</strong> VI to avoid memory leaks or running Out-of-Memory (OOM) on a resource contrained system.
+
+A Listener object represents a callback that is executed when various SSH-related events occur.</td>
+</tr>
+
+<tr>
+<td class="Bordered"><a href="/pages/Toolkit/Listener/Destroy.html">Destroy</a></td>
+<td class="Bordered">Deallocates, or frees, the memory allocated for the libssh2lv shared library Listener struct represented by this Listener object. After this is called, the object can no longer be used in the application without causing a segmentation fault, i.e. crashing LabVIEW. This VI must be called to avoid leaking memory or running Out-of-Memory (OOM) on resource-constrained systems.</td>
+</tr>
+
+</table>
+
+</body>
+</html>

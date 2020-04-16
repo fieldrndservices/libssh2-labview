@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>SFTP Directory Controls and VIs</title>
+<meta name="author" content="Field R&D Services, LLC">
+<meta name="generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#ffffff">
+
+<h1>SFTP Directory Controls and VIs</h1>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/SFTP_Directory/SFTP_Directory.html">SFTP Directory</a></p>
+<p class="Body"><strong>Requires:</strong> LIBSSH2</p>
+<p class="Body">Represents a SFTP directory, a.k.a. folder.</p>
+
+<table class="Bordered">
+<tr>
+<th class="Bordered Left-Align">Class Item</th>
+<th class="Bordered Left-Align">Description</th>
+</tr>
+
+<tr>
+<td class="Bordered"><a href="/pages/Toolkit/SFTP_Directory/Utility.html">Utility</a></td>
+<td class="Bordered">Groups related files into a folder</td>
+</tr>
+
+<tr>
+<td class="Bordered"><a href="/pages/Toolkit/SFTP_Directory/Close.html">Close</a></td>
+<td class="Bordered">Deallocates, or frees, the memory allocated for the libssh2lv shared library SFTP Directory struct represented by this SFTP Directory object. After this is called, the object can no longer be used in the application without causing a segmentation fault, i.e. crashing LabVIEW. This VI must be called to avoid leaking memory or running Out-of-Memory (OOM) on resource-constrained systems.</td>
+</tr>
+
+<tr>
+<td class="Bordered"><a href="/pages/Toolkit/SFTP_Directory/Open.html">Open</a></td>
+<td class="Bordered">Creates a new SFTP Directory object that represents a libssh2lv shared library SFTP Directory struct. This VI must be called, or executed, before using any other SFTP Attributes-related VIs. This VI allocates memory within the libssh2lv shared library that must be explicitly deallocated, or freed, at the end of the application using the <strong>Close</strong> VI to avoid memory leaks or running Out-of-Memory (OOM) on a resource contrained system.
+
+A SFTP Directory object represents an existing directory, a.k.a. folder, on a remote SFTP filesystem.</td>
+</tr>
+
+<tr>
+<td class="Bordered"><a href="/pages/Toolkit/SFTP_Directory/Read.html">Read</a></td>
+<td class="Bordered">Reads a single remote SFTP filesystem entry from the  remote SFTP directory, including the remote filesystem entry's file status, a.k.a. attributes. Typically, this is used within a While loop to obtain an array of remote SFTP files contained within the remote SFTP directory, where the While loop is terminated when the end of the directory is TRUE.</td>
+</tr>
+
+</table>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
+<html>
+<head>
+<title>Change Receive Window Size VI</title>
+<meta name="Author" content="Field R&D Services">
+<meta name="Generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/styles/minimal.css">
+<script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/scripts/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
+</head>
+<body bgcolor="#ffffff">
+
+<div id="styleDivTitle">
+<h1>Change Receive Window Size VI</h1>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/Channel/Channel.html">Channel</a></p>
+<p class="Body"><strong>Requires:</strong> LIBSSH2</p>
+<p class="Body">Adjusts the receive window size in bytes.</p>
+<p class="Anchor"><img src="/images/Toolkit/Channel/Change_Receive_Window_Sizec.png" alt="Change Receive Window Size VI" border="0"></p>
+</div>
+
+<div id="styleDivScrolling">
+<table class="Borderless">
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/Channel/iu32.png" alt="iu32"></td>
+    <td><strong>Window</strong> is the number of bytes for the window.</td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/Channel/cu8.png" alt="cu8"></td>
+    <td><strong>Force</strong> indicates if the new size should be used for this packet or the next packet if the new size is below the channel minimum. If zero (0), the new size is queued for the next packet.</td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/Channel/cu32.png" alt="cu32"></td>
+    <td><strong>Size</strong> is the number of bytes to use for the receive window.</td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/Channel/iToolkit_lvlib_Channellvclass.png" alt="iToolkit_lvlib_Channellvclass"></td>
+    <td><strong>Channel Out</strong> is the same object from 
+<strong>Channel In</strong>.</td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/Channel/cToolkit_lvlib_Channellvclass.png" alt="cToolkit_lvlib_Channellvclass"></td>
+    <td><strong>Channel In</strong> represents a libssh2 shared library Channel struct.</td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/Channel/ierrcodeclst.png" alt="ierrcodeclst"></td>
+    <td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+<tr>
+    <td class="Icon"><img src="/images/Toolkit/Channel/cerrcodeclst.png" alt="cerrcodeclst"></td>
+    <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
+</tr>
+
+</table>
+</div>
+
+</body>
+</html>

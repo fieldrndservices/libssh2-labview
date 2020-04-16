@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
 <html>
 <head>
-<title>Authentication Schemes</title>
+<title>Authentication Schemes VI</title>
 <meta name="Author" content="Field R&D Services">
 <meta name="Generator" content="G Development Environment">
 <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
@@ -12,40 +12,50 @@
 <link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
 </head>
 <body bgcolor="#ffffff">
+
 <div id="styleDivTitle">
 <h1>Authentication Schemes VI</h1>
-<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/Session/Session.html">Session Class</a></p>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/Session/Session.html">Session</a></p>
 <p class="Body"><strong>Requires:</strong> LIBSSH2</p>
 <p class="Body">Gets a list of authentication methods supported by the remote SSH server for a user.</p>
-<p class="Anchor"><img src="/images/Toolkit_lvlib_Session_lvclass_Authentication_Schemesc.png" alt="Authentication Schemes VI"></p>
+<p class="Anchor"><img src="/images/Toolkit/Session/Authentication_Schemesc.png" alt="Authentication Schemes VI" border="0"></p>
 </div>
+
 <div id="styleDivScrolling">
 <table class="Borderless">
+
 <tr>
-<td><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
-<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality.</td>
+    <td class="Icon"><img src="/images/Toolkit/Session/i1denum.png" alt="i1denum"></td>
+    <td><strong>Supported Schemes</strong> is a list of all authentication schemes supported by the remote SSH server for the given username. Authentication schemes are listed in order of preference by the remote SSH server.</td>
 </tr>
+
 <tr>
-<td><img src="/images/cToolkit_lvlib_Sessionlvclass.png" alt="cToolkit_lvlib_Sessionlvclass"></td>
-<td><strong>Session In</strong> is the Session object representing an initialized session in the underlying libssh2 library.</td>
+    <td class="Icon"><img src="/images/Toolkit/Session/cstr.png" alt="cstr"></td>
+    <td><strong>Username</strong> is the remote SSH server username that will be used for authenication.</td>
 </tr>
+
 <tr>
-<td><img src="/images/cstr.png" alt="cstr"></td>
-<td><strong>Username</strong> is the username for the remote SSH server.</td>
+    <td class="Icon"><img src="/images/Toolkit/Session/cToolkit_lvlib_Sessionlvclass.png" alt="cToolkit_lvlib_Sessionlvclass"></td>
+    <td><strong>Session In</strong> represents a libssh2 shared library Session struct.</td>
 </tr>
+
 <tr>
-<td><img src="/images/iToolkit_lvlib_Sessionlvclass.png" alt="iToolkit_lvlib_Sessionlvclass"></td>
-<td><strong>Sesssion Out</strong> is the same Session object representing an initialized session in the underlying libssh2 library from the input.</td>
+    <td class="Icon"><img src="/images/Toolkit/Session/ierrcodeclst.png" alt="ierrcodeclst"></td>
+    <td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
+
 <tr>
-<td><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></td>
-<td><strong>Error Out</strong> contains error information. This provides standard error out functionality.</td>
+    <td class="Icon"><img src="/images/Toolkit/Session/iToolkit_lvlib_Sessionlvclass.png" alt="iToolkit_lvlib_Sessionlvclass"></td>
+    <td><strong>Session Out</strong> is the same object from <strong>Session In</strong>.</td>
 </tr>
+
 <tr>
-<td><img src="/images/i1denum.png" alt="i1denum"></td>
-<td><strong>Supported Schemes</strong> is all authentication schemes supported by the remote SSH server for the given username. Authentication schemes are listed in order of preference by the remote SSH server.</td>
+    <td class="Icon"><img src="/images/Toolkit/Session/cerrcodeclst.png" alt="cerrcodeclst"></td>
+    <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
+
 </table>
 </div>
+
 </body>
 </html>

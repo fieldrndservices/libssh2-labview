@@ -3,7 +3,9 @@
 <head>
 <title>Shutdown VI</title>
 <meta name="Author" content="Field R&D Services">
-<meta name="generator" content="G Development Environment">
+<meta name="Generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
 <link rel="stylesheet" type="text/css" href="/styles/minimal.css">
 <script src="/scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
 <script src="/scripts/cssframes.js" type="text/javascript"></script>
@@ -13,27 +15,30 @@
 
 <div id="styleDivTitle">
 <h1>Shutdown VI</h1>
-<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/SSH/SSH.html">SSH Class</a></p>
+<p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/SSH/SSH.html">SSH</a></p>
 <p class="Body"><strong>Requires:</strong> LIBSSH2</p>
-<p class="Body">Cleanly and safely shutdowns the underlying libssh2 shared library. This must be called, or executed, after all other VI within this toolkit are completed. Once this is called, no other VIs from this toolkit should be called, or executed. This frees all internal memory used by the libssh2 shared library and a segmentation fault will occur if toolkit VIs are executed after this VI is executed.</p>
-<p class="Anchor"><img src="/images/Toolkit_lvlib_SSH_lvclass_Shutdownc.png" alt="Shutdown VI"></p>
+<p class="Body">Cleanly and safely shutdowns the underlying libssh2lv shared library. This must be called, or executed, after all other VIs within this toolkit are completed. Once this is called, no other VIs from this toolkit should be called, or executed. This frees all internal memory used by the libssh2lv shared library. A segmentation fault will occur if toolkit VIs are executed after this VI is executed.</p>
+<p class="Anchor"><img src="/images/Toolkit/SSH/Shutdownc.png" alt="Shutdown VI" border="0"></p>
 </div>
 
 <div id="styleDivScrolling">
 <table class="Borderless">
+
 <tr>
-<td class="Icon"><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
-<td><strong>Error In</strong> <p>describes error conditions that occur before this node runs. With the following exception, this input provides standard error in functionality.</p>
-    <p>This node runs normally <em>even if</em> an error occurred before this node runs.</p></td>
+    <td class="Icon"><img src="/images/Toolkit/SSH/cToolkit_lvlib_SSHlvclass.png" alt="cToolkit_lvlib_SSHlvclass"></td>
+    <td><strong>SSH</strong> represents a libssh2-related context used to create all other libssh2 shared library objects.</td>
 </tr>
+
 <tr>
-<td><img src="/images/cToolkit_lvlib_SSHlvclass.png" alt="cToolkit_lvlib_SSHlvclass"></td>
-<td><strong>SSH</strong> The parent, or root, SSH object used to create all other toolkit objects.</td>
+    <td class="Icon"><img src="/images/Toolkit/SSH/ierrcodeclst.png" alt="ierrcodeclst"></td>
+    <td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
+
 <tr>
-<td><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></td>
-<td><strong>Error Out</strong> contains error information. This provides standard error out functionality.</td>
+    <td class="Icon"><img src="/images/Toolkit/SSH/cerrcodeclst.png" alt="cerrcodeclst"></td>
+    <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
+
 </table>
 </div>
 
