@@ -40,4 +40,5 @@
 	<Item Name="SFTP File.lvclass" Type="LVClass" URL="../SFTP File/SFTP File.lvclass"/>
 	<Item Name="SFTP.lvclass" Type="LVClass" URL="../SFTP/SFTP.lvclass"/>
 	<Item Name="SSH.lvclass" Type="LVClass" URL="../SSH/SSH.lvclass"/>
+	<Item Name="VI Tree.vi" Type="VI" URL="../VI Tree.vi"/>
 </Library>
