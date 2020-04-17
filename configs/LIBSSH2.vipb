@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2020-04-17 17:12:46" Creator="cfield" Comments="" ID="dd84b01271d12ce967aa05def8d039df">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2020-04-17 17:36:07" Creator="cfield" Comments="" ID="f56bfb5d7ac9d451771ac010d0d73b20">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_LIBSSH2</Package_File_Name>
-    <Library_Version>1.0.0.19</Library_Version>
+    <Library_Version>1.0.0.21</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -32,20 +32,39 @@
       <Copyright/>
       <Packager>Christopher R Field</Packager>
       <URL>http://www.fieldrndservices.com/</URL>
-      <Release_Notes>## [0.0.3] - 2020-04-02
+      <Release_Notes>## [0.1.0] - 2020-04-17
 
 ### Added
 
-- Example for executing multiple commands with multiple channels
-- Example for executing multiple commands with a single channel
+- The `Channel.lvclass:Read All Stderr.vi` and `Channel.lvclass:Write All Stderr.vi` VIs
+- Data entry limits to the `Max Data Length` and `Per Read Size` controls for the "Read" VIs in the Channel class
+- Descriptions to all VIs and type definitions for all classes
+- Descriptions to all controls and indicators for all VIs
+- Missing `Create from Listener` variant to the `Channel.lvclass:Create.vi` polymorphic VI
+- Missing `Destroy to Listener` variant to the `Channel.lvclass:Destroy.vi` polymorphic VI
+- Path for the _Help path_ field to all VI documentation
+- A relative path for the _Help tag_ field to all VI documentation
+- The `Agent Identity.lvclass:Create.vi` and `Agent Identity.lvclass:Destroy.vi` VIs to the Agent palette
+- CHM file to installable package (VIP)
+- HTML help documentation for all controls, indicators, VIs, classes, and libraries
+- Apache-2.0 License header to all block diagrams of all VIs
 
 ### Changed
 
-- Internal libssh2lv shared library from v0.2.0 to v0.2.1
-
-### Fixed
-
-- Missing session read and write timeout VIs</Release_Notes>
+- The `SFTP File.lvclass:Open.vi` to a polymorphic VI
+- The `SFTP File.lvclass:Close.vi` to a polymorphic VI
+- The `SFTP Directory.lvclass:Open.vi` to a polymorphic VI
+- The `SFTP Directory.lvclass:Close.vi` to a polymorphic VI
+- The `Channel.lvclass:Create.vi` SCP Receive instance to internally use a File Info object 
+- `Max Data Length` from 32000 to 1024 for all channel read and write examples
+- The type selector default from hidden to visible for all polymorphic VIs
+- The `Session.lvclass:Create.vi` to a polymorphic VI for API consistency
+- The `Session.lvclass:Create.vi` to a polymorphic VI for API consistency
+- The `SFTP.lvclass:Create.vi` to a polymorphic VI for API consistency
+- The `SFTP.lvclass:Destroy.vi` to a polymorphic VI for API consistency
+- The `Known Hosts.lvclass:Destroy.vi` to a polymorphic VI for API consistency
+- The `Known Hosts.lvclass:Destroy.vi` to a polymorphic VI for API consistency
+- `SFTP File.lvclass:Flags.ctl` to `SFTP File.lvclass:Options.ctl` for API naming consistency</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -435,7 +454,7 @@
         <Path>..\builds\Toolkit\VI Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FC120FC25B55D7995EE68DD196D187B7</GUID>
+      <GUID>9FE4BC016BE0829ACF547C08598FEEF2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -596,7 +615,7 @@
         <Path>..\builds\Toolkit\Agent Identity\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3940ED07C962C7CC2AB046CCFB10855D</GUID>
+      <GUID>23069ADD6F9D03931878DCE0EB768D7D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1009,7 +1028,7 @@
         <Path>..\builds\Toolkit\Channel\Write All Stderr.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>62952118BE07FC4F33747A4D8C6736D6</GUID>
+      <GUID>4A7B3A810E90E2D36F8DB064FEED1AE9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1212,7 +1231,7 @@
         <Path>..\builds\Toolkit\Session\Write Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DCF65DBCC7D15D8E6A58F5E53CF2DD6A</GUID>
+      <GUID>88538A7297B4751D545EC6097EE82D2E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1317,7 +1336,7 @@
         <Path>..\builds\Toolkit\SFTP\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D4EDC91765FA8D9F0408111C71406AA6</GUID>
+      <GUID>3B341E589D19131C27D2953A5ADCE433</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1450,7 +1469,7 @@
         <Path>..\builds\Toolkit\SFTP\Delete File.vi</Path>
         <VI_Title>Delete File</VI_Title>
       </Items_Data>
-      <GUID>45B5B3FD6AF4155A2067D94B11DED5D7</GUID>
+      <GUID>FBEEB2746B5E8E84B67BAD2EA66A286D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1639,7 +1658,7 @@
         <Path>..\builds\Toolkit\SFTP File\Write All.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>830811D7D6BEF889E8B2217E3B6D8F0F</GUID>
+      <GUID>6CFBDAB3170B08B17ADFEF0942E6B49E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1702,7 +1721,7 @@
         <Path>..\builds\Toolkit\SFTP Directory\Read.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>70D8A3C8AC6ACB4C32103305F0331A82</GUID>
+      <GUID>A0C78452EE6FE7E10FDEEBD685AE702D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1905,7 +1924,7 @@
         <Path>..\builds\Toolkit\SFTP Attributes\Read File Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>669CADFC5D1837AACBB6F40DFD6DE908</GUID>
+      <GUID>540705C051CDEBB8F90E46613B8BB46A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2010,7 +2029,7 @@
         <Path>..\builds\Toolkit\File Info\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF5877BD6ED5B086175A1199D10A42AB</GUID>
+      <GUID>8928D5B5D47756D232F0B4F9DA5C1F09</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2059,7 +2078,7 @@
         <Path>..\builds\Toolkit\API\Known Host\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E7E56CC25B2DE7C70EC83D880CA742BA</GUID>
+      <GUID>87A4F56AF8EB6ED3A99B7876B27C65B9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2178,7 +2197,7 @@
         <Path>..\builds\Toolkit\Known Hosts\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9CAAD4D0EE0E4042D020D425CD64C7DF</GUID>
+      <GUID>7D427B6C72367CFEB72E4C2124A2D228</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2283,7 +2302,7 @@
         <Path>..\builds\Toolkit\Known Host\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E25760C23AE6266D86AD381835102EE7</GUID>
+      <GUID>68A6C3A6CF10E393F734B44F72E1E748</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2332,7 +2351,7 @@
         <Path>..\builds\Toolkit\Listener\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>03E744C8891B969650E6B8AFCA4B0710</GUID>
+      <GUID>54C162A3B02676FC2B5B87EE7659EB58</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

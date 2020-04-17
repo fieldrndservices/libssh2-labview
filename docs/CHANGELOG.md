@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+## [0.1.0] - 2020-04-17
+
 ### Added
 
 - The `Channel.lvclass:Read All Stderr.vi` and `Channel.lvclass:Write All Stderr.vi` VIs
@@ -17,6 +19,7 @@ All notable changes to this project will be documented in this file, which is wr
 - The `Agent Identity.lvclass:Create.vi` and `Agent Identity.lvclass:Destroy.vi` VIs to the Agent palette
 - CHM file to installable package (VIP)
 - HTML help documentation for all controls, indicators, VIs, classes, and libraries
+- Apache-2.0 License header to all block diagrams of all VIs
 
 ### Changed
 
