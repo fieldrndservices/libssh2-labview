@@ -15,6 +15,8 @@ All notable changes to this project will be documented in this file, which is wr
 - Path for the _Help path_ field to all VI documentation
 - A relative path for the _Help tag_ field to all VI documentation
 - The `Agent Identity.lvclass:Create.vi` and `Agent Identity.lvclass:Destroy.vi` VIs to the Agent palette
+- CHM file to installable package (VIP)
+- HTML help documentation for all controls, indicators, VIs, classes, and libraries
 
 ### Changed
 
