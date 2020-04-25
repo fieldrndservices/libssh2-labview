@@ -97,7 +97,7 @@ If VIPM Pro is _not_ available, then the following steps can be executed to do e
 
 ## Documentation
 
-See the in-app LabVIEW Help system for more information and documentation about using the library after it has been installed, or (eventually) visit the [web-based documentation](https://help.fieldrndservices.com/libssh2-labview). Examples are also available within the LabVIEW development environment using the "Help->Find Examples..." menu item.
+See the in-app LabVIEW Help system for more information and documentation about using the library after it has been installed, or visit the [web-based documentation](https://help.fieldrndservices.com/libssh2-labview). Examples are also available within the LabVIEW development environment using the "Help->Find Examples..." menu item.
 
 ## Tests
 
