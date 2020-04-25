@@ -13,7 +13,6 @@
 <link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
 </head>
 <body bgcolor="#ffffff">
-
 <div id="styleDivTitle">
 <h1>Destroy VI</h1>
 <p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/Channel/Channel.html">Channel</a></p>
@@ -25,79 +24,60 @@
 <td>
 <select name="site" size="1" onchange="polyVISelectHandler(this)">
 <option value="">Select an instance</option>
-
 <option value="parent">Listener</option>
-
 <option value="instance1">Session</option>
-
 </select>
 </td>
 </tr>
 </table>
 </div>
-
 <div id="styleDivScrolling">
-
 <h2><a name="parent">Listener</a></h2>
 <p class="Body">Passes through the Listener and destroys this Channel object.</p>
 <p class="Anchor"><img src="/images/Toolkit/Channel/Destroy_to_Listenerc.png" alt="Listener"></p>
 <table class="Borderless">
-
 <tr>
 <td class="Icon"><img src="/images/Toolkit/Channel/iToolkit_lvlib_Listenerlvclass.png" alt="iToolkit_lvlib_Listenerlvclass"></td>
 <td><strong>Listener Out</strong> is the same object from <strong>Listener In</strong>.</td>
 </tr>
-
 <tr>
 <td class="Icon"><img src="/images/Toolkit/Channel/cToolkit_lvlib_Listenerlvclass.png" alt="cToolkit_lvlib_Listenerlvclass"></td>
 <td><strong>Listener In</strong> represents a libssh2 shared library Listener struct.</td>
 </tr>
-
 <tr>
 <td class="Icon"><img src="/images/Toolkit/Channel/cToolkit_lvlib_Channellvclass.png" alt="cToolkit_lvlib_Channellvclass"></td>
 <td><strong>Channel</strong> represents a libssh2 shared library Channel struct.</td>
 </tr>
-
 <tr>
 <td class="Icon"><img src="/images/Toolkit/Channel/ierrcodeclst.png" alt="ierrcodeclst"></td>
 <td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
-
 <tr>
 <td class="Icon"><img src="/images/Toolkit/Channel/cerrcodeclst.png" alt="cerrcodeclst"></td>
 <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
-
 </table>
-
 <h2><a name="instance1">Session</a></h2>
 <p class="Body">Destroys this Channel object and returns the Session object used to originally create it.</p>
 <p class="Anchor"><img src="/images/Toolkit/Channel/Destroy_to_Sessionc.png" alt="Session"></p>
 <table class="Borderless">
-
 <tr>
 <td class="Icon"><img src="/images/Toolkit/Channel/iToolkit_lvlib_Sessionlvclass.png" alt="iToolkit_lvlib_Sessionlvclass"></td>
 <td><strong>Session</strong> represents the same libssh2 library Session struct used to create this Channel object from <strong>Channel</strong>.</td>
 </tr>
-
 <tr>
 <td class="Icon"><img src="/images/Toolkit/Channel/cToolkit_lvlib_Channellvclass.png" alt="cToolkit_lvlib_Channellvclass"></td>
 <td><strong>Channel</strong> represents a libssh2 shared library Channel struct.</td>
 </tr>
-
 <tr>
 <td class="Icon"><img src="/images/Toolkit/Channel/ierrcodeclst.png" alt="ierrcodeclst"></td>
 <td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
-
 <tr>
 <td class="Icon"><img src="/images/Toolkit/Channel/cerrcodeclst.png" alt="cerrcodeclst"></td>
 <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
-
 </table>
-
 </div>
-
 </body>
 </html>

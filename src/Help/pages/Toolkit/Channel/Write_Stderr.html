@@ -12,7 +12,6 @@
 <link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
 </head>
 <body bgcolor="#ffffff">
-
 <div id="styleDivTitle">
 <h1>Write Stderr VI</h1>
 <p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/Channel/Channel.html">Channel</a></p>
@@ -20,43 +19,33 @@
 <p class="Body">Writes binary data to the STDERR stream of the SSH channel represented by this Channel object. Only the first 30KB of the binary data will be written to the remote SSH server&#39;s STDERR stream because of a hard-coded 30KB maximum data length in the libssh2 shared library. If the binary data is larger than 30KB, then this VI should be used in a While loop where multiple writes of smaller chunks, or blocks, to the STDERR stream occur until all of the binary data has been written.</p>
 <p class="Anchor"><img src="/images/Toolkit/Channel/Write_Stderrc.png" alt="Write Stderr VI" border="0"></p>
 </div>
-
 <div id="styleDivScrolling">
 <table class="Borderless">
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Channel/iu64.png" alt="iu64"></td>
     <td><strong>Write Count</strong> is the number of bytes written to the remote SSH server's STDERR stream. This value will be equal to the <strong>Data</strong> array size if no error occurred while writing to the STDERR stream.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Channel/c1du8.png" alt="c1du8"></td>
     <td><strong>Data</strong> is the byte array to write to the remote SSH server's STDERR stream.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Channel/iToolkit_lvlib_Channellvclass.png" alt="iToolkit_lvlib_Channellvclass"></td>
-    <td><strong>Channel Out</strong> is the same object from 
-<strong>Channel In</strong>.</td>
+    <td><strong>Channel Out</strong> is the same object from <strong>Channel In</strong>.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Channel/cToolkit_lvlib_Channellvclass.png" alt="cToolkit_lvlib_Channellvclass"></td>
     <td><strong>Channel In</strong> represents a libssh2 shared library Channel struct.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Channel/ierrcodeclst.png" alt="ierrcodeclst"></td>
     <td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Channel/cerrcodeclst.png" alt="cerrcodeclst"></td>
     <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
-
 </table>
 </div>
-
 </body>
 </html>

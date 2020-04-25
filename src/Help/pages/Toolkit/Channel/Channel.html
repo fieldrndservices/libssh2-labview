@@ -11,171 +11,136 @@
 <script src="/scripts/cssframes.js" type="text/javascript"></script>
 </head>
 <body bgcolor="#ffffff">
-
 <h1>Channel Controls and VIs</h1>
 <p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/Channel/Channel.html">Channel</a></p>
 <p class="Body"><strong>Requires:</strong> LIBSSH2</p>
 <p class="Body">Represents a SSH channel. A SSH channel is a bidirectional communication connection between two computers. The SSH channel is created after a SSH session has been established and the user has been authenticated. Note, multiple channels can exist for a single SSH session.</p>
-
 <table class="Bordered">
 <tr>
 <th class="Bordered Left-Align">Class Item</th>
 <th class="Bordered Left-Align">Description</th>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Type_Definitions.html">Type Definitions</a></td>
 <td class="Bordered">Groups related files into a folder</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Write_Terminal.html">Write Terminal</a></td>
 <td class="Bordered">Sets the kind of terminal to use with a Shell-style channel.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Write_Terminal_Size.html">Write Terminal Size</a></td>
 <td class="Bordered">Sets the terminal size in pixels (px).</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Read_End-of-File.html">Read End-of-File</a></td>
 <td class="Bordered">Determines if the remote SSH server is at the End-of-File (EOF).</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Read_Exit_Status.html">Read Exit Status</a></td>
 <td class="Bordered">Gets the exit status code for an Exec-style channel.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Write_Ignore_Mode.html">Write Ignore Mode</a></td>
 <td class="Bordered">Sets the kind of ignore response for this channel.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Write_Mode.html">Write Mode</a></td>
 <td class="Bordered">Sets the type communication for this channel.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Read_Window_Read_Size.html">Read Window Read Size</a></td>
 <td class="Bordered">Gets the window read size in bytes (B).</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Read_Window_Write_Size.html">Read Window Write Size</a></td>
 <td class="Bordered">Gets the window write size in bytes (B).</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Write_X11.html">Write X11</a></td>
 <td class="Bordered">Selects the screen on the remote SSH server to use when X11 forwarding.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Change_Receive_Window_Size.html">Change Receive Window Size</a></td>
 <td class="Bordered">Adjusts the receive window size in bytes.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Create.html">Create</a></td>
 <td class="Bordered">Creates a new Channel object that represents a libssh2lv shared library Channel struct. This VI must be called, or executed, before using any other Channel-related VIs. This VI allocates memory within the libssh2lv shared library that must be explicitly deallocated, or freed, at the end of the application using the <strong>Destroy</strong> VI to avoid memory leaks or running Out-of-Memory (OOM) on a resource contrained system.
-
 A Channel object represents a bi-directional stream of communication with a remote SSH server.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Destroy.html">Destroy</a></td>
 <td class="Bordered">Deallocates, or frees, the memory allocated for the libssh2lv shared library Channel struct represented by this Channel object. After this is called, the object can no longer be used in the application without causing a segmentation fault, i.e. crashing LabVIEW. This VI must be called to avoid leaking memory or running Out-of-Memory (OOM) on resource-constrained systems.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Execute.html">Execute</a></td>
 <td class="Bordered">Creates a single execution context for a SSH channel. To execute multiple commands, either this channel needs to be destroyed and new channel created, or a Shell channel should be used instead.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Flush.html">Flush</a></td>
 <td class="Bordered">Forces the internal libssh2 shared library write buffer to send all binary data to the remote SSH server within the SSH channel.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Read_All_Stderr.html">Read All Stderr</a></td>
 <td class="Bordered">Reads binary data from the STDERR stream of a SSH channel represented by this Channel object in chunks, or blocks, until the total read size is reached. This VI should be used if the <strong>Total Read Size</strong> is greater than 30KB because of a hard-coded per-read maximum of 30KB defined in the libssh2 shared library. </td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Read_All.html">Read All</a></td>
 <td class="Bordered">Reads binary data from a SSH channel represented by this Channel object in chunks, or blocks, until the total read size is reached. This VI should be used if the <strong>Total Read Size</strong> is greater than 30KB because of a hard-coded per-read maximum of 30KB set in the libssh2 shared library. </td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Read_Stderr.html">Read Stderr</a></td>
 <td class="Bordered">Reads binary data from the remote SSH server's STDERR stream through the SSH channel represented by this Channel object.  The <strong>Max Data Length</strong> must be greater than or equal to the expected data that is returned from the remote SSH server to avoid an error. Note, there is a hard-coded maximum of 30KB in the libssh2 shared library. If the expected data is greater than 30KB, then this VI should be executed in a loop that accummlates the <strong>Data</strong> array size for each execution and stops when the total binary data size has been reached.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Read.html">Read</a></td>
 <td class="Bordered">Reads binary data from the SSH channel represented by this Channel object. The <strong>Max Data Length</strong> must be greater than or equal to the expected data that is returned from the remote SSH server to avoid an error. However, there is a hard-coded maximum of 30KB in the libssh2 shared library. If the expected binary data is greater than 30KB, then the <strong>Read All</strong> should be used.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Send_Done.html">Send Done</a></td>
 <td class="Bordered">Sends a signal to the remote SSH server that no more data will be sent. It is generally good practice to send this signal before destroying the SSh channel.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Send_End-of-File.html">Send End-of-File</a></td>
 <td class="Bordered">Sends the End-of-File (EOF) signal to the remote SSH server indicating all of the bytes from a file has been sent.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Set_Environment_Variable.html">Set Environment Variable</a></td>
 <td class="Bordered">Sets the value for an environment variable for a Shell channel.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Shell.html">Shell</a></td>
 <td class="Bordered">Creates a Shell channel for bidirectional communication with a STDIN, STDOUT, and STDERR streams.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Subsystem.html">Subsystem</a></td>
 <td class="Bordered">Creates a Subsystem SSH channel.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Wait_for_Done.html">Wait for Done</a></td>
 <td class="Bordered">Waits for the remote SSH/SFTP server sends acknowledgement that no more data will be sent from the local machine to the server.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Wait_for_End-of-File.html">Wait for End-of-File</a></td>
 <td class="Bordered">Waits until the End-of-File (EOF) is received from the remote SSH/SFTP server. This is always a blocking operation.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Write_All_Stderr.html">Write All Stderr</a></td>
 <td class="Bordered">Writes binary data to the STDERR stream of the SSH channel represented by this Channel object until all of the data (bytes) are written. If the binary data is larger than 30KB, then the data is written in 30KB chunks, or blocks, until the <strong>Write Count</strong> equals the <strong>Data</strong> array size.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Write_All.html">Write All</a></td>
 <td class="Bordered">Writes binary data to the SSH channel represented by this Channel object until all of the data (bytes) are written. If the binary data is larger than 30KB, then the data is written in 30KB chunks, or blocks, until the <strong>Write Count</strong> equals the <strong>Data</strong> array size.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Write_Stderr.html">Write Stderr</a></td>
 <td class="Bordered">Writes binary data to the STDERR stream of the SSH channel represented by this Channel object. Only the first 30KB of the binary data will be written to the remote SSH server's STDERR stream because of a hard-coded 30KB maximum data length in the libssh2 shared library. If the binary data is larger than 30KB, then this VI should be used in a While loop where multiple writes of smaller chunks, or blocks, to the STDERR stream occur until all of the binary data has been written.</td>
 </tr>
-
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Write.html">Write</a></td>
 <td class="Bordered">Writes binary data to the SSH channel represented by this Channel object. Only the first 30KB of the binary data will be written to the remote SSH server because of a hard-coded 30KB maximum data length in the libssh2 shared library. For binary data greater than 30KB, the <strong>Write All</strong> VI should be used instead.</td>
 </tr>
-
 </table>
-
 </body>
 </html>
