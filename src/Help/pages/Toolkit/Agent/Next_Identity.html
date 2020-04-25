@@ -12,7 +12,6 @@
 <link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
 </head>
 <body bgcolor="#ffffff">
-
 <div id="styleDivTitle">
 <h1>Next Identity VI</h1>
 <p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/Agent/Agent.html">Agent</a></p>
@@ -20,60 +19,45 @@
 <p class="Body">Gets the next identity in the internal libssh2lv shared library linked list of identities obtained from a SSH-agent application. Identities are obtained as a libssh2lv shared library internal linked list. This VI should be called after the first identity is retrieved, but it is safe to call in a loop to obtain all of the identities.</p>
 <p class="Anchor"><img src="/images/Toolkit/Agent/Next_Identityc.png" alt="Next Identity VI" border="0"></p>
 </div>
-
 <div id="styleDivScrolling">
 <table class="Borderless">
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Agent/iToolkit_lvlib_Agent_Identitylvclass.png" alt="iToolkit_lvlib_Agent_Identitylvclass"></td>
-    <td><strong>Previous Out</strong> is the same object from 
-<strong>Previous In</strong>.</td>
+    <td><strong>Previous Out</strong> is the same object from <strong>Previous In</strong>.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Agent/cToolkit_lvlib_Agent_Identitylvclass.png" alt="cToolkit_lvlib_Agent_Identitylvclass"></td>
     <td><strong>Previous In</strong> represents a libssh2 shared library Agent Identity struct.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Agent/iToolkit_lvlib_Agent_Identitylvclass.png" alt="iToolkit_lvlib_Agent_Identitylvclass"></td>
-    <td><strong>Next Out</strong> is the same object from 
-<strong>Next In</strong>.</td>
+    <td><strong>Next Out</strong> is the same object from <strong>Next In</strong>.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Agent/cToolkit_lvlib_Agent_Identitylvclass.png" alt="cToolkit_lvlib_Agent_Identitylvclass"></td>
     <td><strong>Next In</strong> represents a libssh2 shared library Agent Identity struct.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Agent/iToolkit_lvlib_Agentlvclass.png" alt="iToolkit_lvlib_Agentlvclass"></td>
-    <td><strong>Agent Out</strong> is the same object from 
-<strong>Agent In</strong>.</td>
+    <td><strong>Agent Out</strong> is the same object from <strong>Agent In</strong>.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Agent/ii32.png" alt="ii32"></td>
     <td><strong>Result</strong> is the result obtained after transversing an internal linked list representation of the agents in a SSH-agent application.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Agent/cToolkit_lvlib_Agentlvclass.png" alt="cToolkit_lvlib_Agentlvclass"></td>
-    <td><strong>Agent In</strong> represents a libssh2 shared library Agent struct.</td>
+    <td><strong>Agent In</strong> represents a libssh2lv shared library Agent struct.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Agent/ierrcodeclst.png" alt="ierrcodeclst"></td>
     <td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Agent/cerrcodeclst.png" alt="cerrcodeclst"></td>
     <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
-
 </table>
 </div>
-
 </body>
 </html>
