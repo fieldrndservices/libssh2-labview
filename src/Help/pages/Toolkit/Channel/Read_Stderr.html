@@ -16,7 +16,7 @@
 <h1>Read Stderr VI</h1>
 <p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/Channel/Channel.html">Channel</a></p>
 <p class="Body"><strong>Requires:</strong> LIBSSH2</p>
-<p class="Body">Reads binary data from the remote SSH server&#39;s STDERR stream through the SSH channel represented by this Channel object.  The <strong>Max Data Length</strong> must be greater than or equal to the expected data that is returned from the remote SSH server to avoid an error. Note, there is a hard-coded maximum of 30KB in the libssh2 shared library. If the expected data is greater than 30KB, then this VI should be executed in a loop that accummlates the <strong>Data</strong> array size for each execution and stops when the total binary data size has been reached.</p>
+<p class="Body">Reads binary data from the remote SSH server&#39;s STDERR stream through the SSH channel represented by this Channel object.  The <strong>Max Data Length</strong> must be greater than or equal to the expected data that is returned from the remote SSH server to avoid an error. Note, there is a hard-coded maximum of 30KB in the libssh2lv shared library. If the expected data is greater than 30KB, then this VI should be executed in a loop that accummlates the <strong>Data</strong> array size for each execution and stops when the total binary data size has been reached.</p>
 <p class="Anchor"><img src="/images/Toolkit/Channel/Read_Stderrc.png" alt="Read Stderr VI" border="0"></p>
 </div>
 <div id="styleDivScrolling">
@@ -27,7 +27,7 @@
 </tr>
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Channel/ci32.png" alt="ci32"></td>
-    <td><strong>Max Data Length</strong> is an estimation of the maximum number of bytes that are present in the STDERR stream on the remote SSH server. This value must be larger than the expected data size in the STDERR stream, but it does not need to be exact. Note, there is a hard-coded, per-read maximum of 30KB in the libssh2 shared library.</td>
+    <td><strong>Max Data Length</strong> is an estimation of the maximum number of bytes that are present in the STDERR stream on the remote SSH server. This value must be larger than the expected data size in the STDERR stream, but it does not need to be exact. Note, there is a hard-coded, per-read maximum of 30KB in the libssh2lv shared library.</td>
 </tr>
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Channel/iToolkit_lvlib_Channellvclass.png" alt="iToolkit_lvlib_Channellvclass"></td>
@@ -35,7 +35,7 @@
 </tr>
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Channel/cToolkit_lvlib_Channellvclass.png" alt="cToolkit_lvlib_Channellvclass"></td>
-    <td><strong>Channel In</strong> represents a libssh2 shared library Channel struct.</td>
+    <td><strong>Channel In</strong> represents a libssh2lv shared library Channel struct.</td>
 </tr>
 <tr>
     <td class="Icon"><img src="/images/Toolkit/Channel/ierrcodeclst.png" alt="ierrcodeclst"></td>

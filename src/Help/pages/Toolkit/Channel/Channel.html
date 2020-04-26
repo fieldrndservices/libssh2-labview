@@ -79,23 +79,23 @@ A Channel object represents a bi-directional stream of communication with a remo
 </tr>
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Flush.html">Flush</a></td>
-<td class="Bordered">Forces the internal libssh2 shared library write buffer to send all binary data to the remote SSH server within the SSH channel.</td>
+<td class="Bordered">Forces the internal libssh2lv shared library write buffer to send all binary data to the remote SSH server within the SSH channel.</td>
 </tr>
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Read_All_Stderr.html">Read All Stderr</a></td>
-<td class="Bordered">Reads binary data from the STDERR stream of a SSH channel represented by this Channel object in chunks, or blocks, until the total read size is reached. This VI should be used if the <strong>Total Read Size</strong> is greater than 30KB because of a hard-coded per-read maximum of 30KB defined in the libssh2 shared library. </td>
+<td class="Bordered">Reads binary data from the STDERR stream of a SSH channel represented by this Channel object in chunks, or blocks, until the total read size is reached. This VI should be used if the <strong>Total Read Size</strong> is greater than 30KB because of a hard-coded per-read maximum of 30KB defined in the libssh2lv shared library. </td>
 </tr>
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Read_All.html">Read All</a></td>
-<td class="Bordered">Reads binary data from a SSH channel represented by this Channel object in chunks, or blocks, until the total read size is reached. This VI should be used if the <strong>Total Read Size</strong> is greater than 30KB because of a hard-coded per-read maximum of 30KB set in the libssh2 shared library. </td>
+<td class="Bordered">Reads binary data from a SSH channel represented by this Channel object in chunks, or blocks, until the total read size is reached. This VI should be used if the <strong>Total Read Size</strong> is greater than 30KB because of a hard-coded per-read maximum of 30KB set in the libssh2lv shared library. </td>
 </tr>
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Read_Stderr.html">Read Stderr</a></td>
-<td class="Bordered">Reads binary data from the remote SSH server's STDERR stream through the SSH channel represented by this Channel object.  The <strong>Max Data Length</strong> must be greater than or equal to the expected data that is returned from the remote SSH server to avoid an error. Note, there is a hard-coded maximum of 30KB in the libssh2 shared library. If the expected data is greater than 30KB, then this VI should be executed in a loop that accummlates the <strong>Data</strong> array size for each execution and stops when the total binary data size has been reached.</td>
+<td class="Bordered">Reads binary data from the remote SSH server's STDERR stream through the SSH channel represented by this Channel object.  The <strong>Max Data Length</strong> must be greater than or equal to the expected data that is returned from the remote SSH server to avoid an error. Note, there is a hard-coded maximum of 30KB in the libssh2lv shared library. If the expected data is greater than 30KB, then this VI should be executed in a loop that accummlates the <strong>Data</strong> array size for each execution and stops when the total binary data size has been reached.</td>
 </tr>
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Read.html">Read</a></td>
-<td class="Bordered">Reads binary data from the SSH channel represented by this Channel object. The <strong>Max Data Length</strong> must be greater than or equal to the expected data that is returned from the remote SSH server to avoid an error. However, there is a hard-coded maximum of 30KB in the libssh2 shared library. If the expected binary data is greater than 30KB, then the <strong>Read All</strong> should be used.</td>
+<td class="Bordered">Reads binary data from the SSH channel represented by this Channel object. The <strong>Max Data Length</strong> must be greater than or equal to the expected data that is returned from the remote SSH server to avoid an error. However, there is a hard-coded maximum of 30KB in the libssh2lv shared library. If the expected binary data is greater than 30KB, then the <strong>Read All</strong> should be used.</td>
 </tr>
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Send_Done.html">Send Done</a></td>
@@ -135,11 +135,11 @@ A Channel object represents a bi-directional stream of communication with a remo
 </tr>
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Write_Stderr.html">Write Stderr</a></td>
-<td class="Bordered">Writes binary data to the STDERR stream of the SSH channel represented by this Channel object. Only the first 30KB of the binary data will be written to the remote SSH server's STDERR stream because of a hard-coded 30KB maximum data length in the libssh2 shared library. If the binary data is larger than 30KB, then this VI should be used in a While loop where multiple writes of smaller chunks, or blocks, to the STDERR stream occur until all of the binary data has been written.</td>
+<td class="Bordered">Writes binary data to the STDERR stream of the SSH channel represented by this Channel object. Only the first 30KB of the binary data will be written to the remote SSH server's STDERR stream because of a hard-coded 30KB maximum data length in the libssh2lv shared library. If the binary data is larger than 30KB, then this VI should be used in a While loop where multiple writes of smaller chunks, or blocks, to the STDERR stream occur until all of the binary data has been written.</td>
 </tr>
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel/Write.html">Write</a></td>
-<td class="Bordered">Writes binary data to the SSH channel represented by this Channel object. Only the first 30KB of the binary data will be written to the remote SSH server because of a hard-coded 30KB maximum data length in the libssh2 shared library. For binary data greater than 30KB, the <strong>Write All</strong> VI should be used instead.</td>
+<td class="Bordered">Writes binary data to the SSH channel represented by this Channel object. Only the first 30KB of the binary data will be written to the remote SSH server because of a hard-coded 30KB maximum data length in the libssh2lv shared library. For binary data greater than 30KB, the <strong>Write All</strong> VI should be used instead.</td>
 </tr>
 </table>
 </body>
