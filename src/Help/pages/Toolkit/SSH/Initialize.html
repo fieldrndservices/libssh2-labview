@@ -12,7 +12,6 @@
 <link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
 </head>
 <body bgcolor="#ffffff">
-
 <div id="styleDivTitle">
 <h1>Initialize VI</h1>
 <p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/SSH/SSH.html">SSH</a></p>
@@ -20,32 +19,25 @@
 <p class="Body">Initialize the underlying libssh2 library. This must be called, or executed, before using any other VIs in this toolkit. This typically initializes the cryptography library (OpenSSL), which is statically compiled with the libssh2lv shared library.</p>
 <p class="Anchor"><img src="/images/Toolkit/SSH/Initializec.png" alt="Initialize VI" border="0"></p>
 </div>
-
 <div id="styleDivScrolling">
 <table class="Borderless">
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/SSH/iToolkit_lvlib_SSHlvclass.png" alt="iToolkit_lvlib_SSHlvclass"></td>
     <td><strong>SSH</strong> represents a libssh2-related context used to create all other libssh2 shared library objects.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/SSH/ierrcodeclst.png" alt="ierrcodeclst"></td>
     <td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/SSH/cpath.png" alt="cpath"></td>
     <td><strong>libssh2lv Shared Library</strong> is a path to the libssh2lv shared library to interface with a remote SSH server. If <Not A Path>, then a search path will be built based on the current working directory, the source code of the project, and system-specific folders for libraries, such as the "/usr/lib" folder on Unix-like systems. If a valid, non-empty path is supplied, then the search path only includes this path and skips all other directories.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/SSH/cerrcodeclst.png" alt="cerrcodeclst"></td>
     <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
-
 </table>
 </div>
-
 </body>
 </html>

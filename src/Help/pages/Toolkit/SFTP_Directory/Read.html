@@ -12,7 +12,6 @@
 <link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
 </head>
 <body bgcolor="#ffffff">
-
 <div id="styleDivTitle">
 <h1>Read VI</h1>
 <p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/SFTP_Directory/SFTP_Directory.html">SFTP Directory</a></p>
@@ -20,57 +19,45 @@
 <p class="Body">Reads a single remote SFTP filesystem entry from the  remote SFTP directory, including the remote filesystem entry&#39;s file status, a.k.a. attributes. Typically, this is used within a While loop to obtain an array of remote SFTP files contained within the remote SFTP directory, where the While loop is terminated when the end of the directory is TRUE.</p>
 <p class="Anchor"><img src="/images/Toolkit/SFTP_Directory/Readc.png" alt="Read VI" border="0"></p>
 </div>
-
 <div id="styleDivScrolling">
 <table class="Borderless">
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/SFTP_Directory/istr.png" alt="istr"></td>
     <td><strong>File Name</strong> is the name of a filesystem file within the SFTP directory.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/SFTP_Directory/iToolkit_lvlib_SFTP_Attributeslvclass.png" alt="iToolkit_lvlib_SFTP_Attributeslvclass"></td>
     <td><strong>Attributes Out</strong> is the same object from <strong>Attributes In</strong>.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/SFTP_Directory/cToolkit_lvlib_SFTP_Attributeslvclass.png" alt="cToolkit_lvlib_SFTP_Attributeslvclass"></td>
     <td><strong>Attributes In</strong> represents a libssh2 shared library SFTP attributes struct.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/SFTP_Directory/iToolkit_lvlib_SFTP_Directorylvclass.png" alt="iToolkit_lvlib_SFTP_Directorylvclass"></td>
     <td><strong>SFTP Directory Out</strong> is the same object from <strong>SFTP Directory In</strong>.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/SFTP_Directory/cToolkit_lvlib_SFTP_Directorylvclass.png" alt="cToolkit_lvlib_SFTP_Directorylvclass"></td>
     <td><strong>SFTP Directory In</strong> represents a libssh2 shared library SFTP directory struct.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/SFTP_Directory/ibool.png" alt="ibool"></td>
     <td><strong>End-of-Directory?</strong> is TRUE if the last filesystem file within the SFTP directory has been read and there are no more files to read.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/SFTP_Directory/ci32.png" alt="ci32"></td>
     <td><strong>Max Data Length</strong> is the estimated maximum number of bytes for all data associated with a filesystem entry within the SFTP directory.</td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/SFTP_Directory/ierrcodeclst.png" alt="ierrcodeclst"></td>
     <td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
-
 <tr>
     <td class="Icon"><img src="/images/Toolkit/SFTP_Directory/cerrcodeclst.png" alt="cerrcodeclst"></td>
     <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
-
 </table>
 </div>
-
 </body>
 </html>
