@@ -60,7 +60,7 @@ The Caraya, JKI State Machine, OpenG Array Library, OpenG File Library, and VIPM
 A [VI Package (VIP)](https://www.vipm.io/package/field_rnd_services_libssh2/) is available at [VIPM.io](https://www.vipm.io). The recommended installation instruction is to:
 
 1. Navigate to the [LIBSSH2 for LabVIEW package](https://www.vipm.io/package/field_rnd_services_libssh2/) at [VIPM.io](https://www.vipm.io/).
-2. Click on the _Install_ button to the right. The [VI Package Manager (VIPM)](https://www.vipm.io/download/) (freely available from [JKI](https://jki.net) will automatically start.
+2. Click on the _Install_ button to the right. The [VI Package Manager (VIPM)](https://www.vipm.io/download/) (freely available from [JKI](https://jki.net)) will start automatically.
 3. Follow the on-screen instructions to complete the installation.
 
 Alternatively, the toolkit can be installed by: (i) downloading the source code and building the VIP, (ii) downloading a VIP from the [releases](https://github.com/fieldrndservices/libssh2-labview/releases) section of this project, or (iii) manually copying the VIs from the source code into a project.
