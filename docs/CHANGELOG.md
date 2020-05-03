@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+### Changed
+
+- Package version number to match release version number
+- Package name from `LIBSSH2` to `LIBSSH2 for LabVIEW` to further differentiate from the libssh2.org project
+- Installation instructions to use VIPM.io links and procedures
+
 ## [0.1.0] - 2020-04-17
 
 ### Added
