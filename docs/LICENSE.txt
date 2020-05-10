@@ -1,6 +1,6 @@
 LIBSSH2-LabVIEW: A LabVIEW add-on and toolkit for SSH client support via the libssh2 library
 
-LIBSSH2-LabVIEW is dual licensed under the MIT and Apache-2.0 licenses and includes binary distributions of the libssh2 and OpenSSL projects, which are licensed under the MIT and Apache-2.0 licenses, respectively. Please see the LICENSE-libssh2.txt and LICENSE-openssl.txt files for more information.
+LIBSSH2-LabVIEW is dual licensed under the BSD-3-Clause and Apache-2.0 licenses and includes binary distributions of the libssh2 and OpenSSL projects, which are licensed under the MIT and Apache-2.0 licenses, respectively. Please see the LICENSE-libssh2.txt and LICENSE-openssl.txt files for more information.
 
                               The 3-Clause BSD License
 
