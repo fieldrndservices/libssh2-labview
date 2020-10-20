@@ -73,7 +73,7 @@ Alternatively, the toolkit can be installed by: (i) downloading the source code 
 
 ### Real-Time Target <a name="dependencies-installation-crio"/>
 
-Communication from a CompactRIO or PXI controller running the NI Linux Real-Time (RT) Operating System (OS) to a remote SSH or SFTP server or a real-time application is possible, but several dependencies must be installed _on the RT target_ in order to work.
+Communication from a CompactRIO or PXI controller running the NI Linux Real-Time (RT) Operating System (OS) to a remote SSH or SFTP server for a real-time application is possible, but several dependencies must be installed _on the RT target_ in order to work.
 
 1. Follow the [Quick Start](https://github.com/fieldrndservices/libssh2-nilrt-ipk#quick-start) instructions for installing the libssh2 shared object (SO) onto the CompactRIO. This will place the `libssh2.so` file in the correct location on the CompactRIO. This SO is needed for the `libssh2lv.so` file.
 2. Follow the [Quick Start](https://github.com/fieldrndservices/libssh2lv-nilrt-ipk#quick-start) instructions for installing the libssh2lv shared object (SO) onto the CompactRIO. This will place the `libssh2lv.so` file in the correct location on the CompactRIO. This SO is needed for this LabVIEW toolkit's VIs to work.
