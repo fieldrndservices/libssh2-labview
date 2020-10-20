@@ -9,6 +9,8 @@ A [LabVIEW](http://www.ni.com/labview) add-on and toolkit for communicating with
 - [Example Usage](#example-usage)
 - [Dependencies](#dependencies) 
   - [Installation](#dependencies-installation)
+    - [Desktop](#dependencies-installation-desktop)
+    - [CompactRIO](#dependencies-installation-crio)
   - [Development](#dependencies-development)
 - [Installation](#installation) 
 - [Build](#build) 
@@ -59,6 +61,8 @@ The Caraya, JKI State Machine, OpenG Array Library, OpenG File Library, and VIPM
 
 ## Installation
 
+### Desktop <a name="dependencies-installation-desktop/>
+
 A [VI Package (VIP)](https://www.vipm.io/package/field_rnd_services_libssh2/) is available at [VIPM.io](https://www.vipm.io). The recommended installation instructions are to:
 
 1. Navigate to the [LIBSSH2 for LabVIEW package](https://www.vipm.io/package/field_rnd_services_libssh2/) at [VIPM.io](https://www.vipm.io/).
@@ -66,6 +70,14 @@ A [VI Package (VIP)](https://www.vipm.io/package/field_rnd_services_libssh2/) is
 3. Follow the on-screen instructions to complete the installation.
 
 Alternatively, the toolkit can be installed by: (i) downloading the source code and building the VIP, (ii) downloading a VIP from the [releases](https://github.com/fieldrndservices/libssh2-labview/releases) section of this project, or (iii) manually copying the VIs from the source code into a project.
+
+### Real-Time Target <a name="dependencies-installation-crio"/>
+
+Communication from a CompactRIO or PXI controller running the NI Linux Real-Time (RT) Operating System (OS) to a remote SSH or SFTP server or a real-time application is possible, but several dependencies must be installed _on the RT target_ in order to work.
+
+1. Follow the [Quick Start](https://github.com/fieldrndservices/libssh2-nilrt-ipk#quick-start) instructions for installing the libssh2 shared object (SO) onto the CompactRIO. This will place the `libssh2.so` file in the correct location on the CompactRIO. This SO is needed for the `libssh2lv.so` file.
+2. Follow the [Quick Start](https://github.com/fieldrndservices/libssh2lv-nilrt-ipk#quick-start) instructions for installing the libssh2lv shared object (SO) onto the CompactRIO. This will place the `libssh2lv.so` file in the correct location on the CompactRIO. This SO is needed for this LabVIEW toolkit's VIs to work.
+3. Install the [VIP](https://www.vipm.io/package/field_rnd_services_libssh2/) according to the [Desktop installation](#dependencies-installation-desktop) instructions. This will ensure the VIs are available for development. The VIs will be automatically deployed to the CompactRIO when the real-time application is either built and deployed as an RT executable or when running from within the development environment.
 
 ## Build
 
