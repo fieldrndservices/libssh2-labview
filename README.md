@@ -61,7 +61,7 @@ The Caraya, JKI State Machine, OpenG Array Library, OpenG File Library, and VIPM
 
 ## Installation
 
-### Desktop <a name="dependencies-installation-desktop/>
+### Desktop <a name="dependencies-installation-desktop"/>
 
 A [VI Package (VIP)](https://www.vipm.io/package/field_rnd_services_libssh2/) is available at [VIPM.io](https://www.vipm.io). The recommended installation instructions are to:
 
