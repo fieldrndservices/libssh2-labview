@@ -4,11 +4,20 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+### Added
+
+- Read-Execute-Print-Loop (REPL) example using a Raspberry Pi as the remote SSH server
+- Example for sending multiple commands to a Raspberry Pi
+
 ### Changed
 
 - Package version number to match release version number
 - Package name from `LIBSSH2` to `LIBSSH2 for LabVIEW` to further differentiate from the libssh2.org project
 - Installation instructions to use VIPM.io links and procedures
+
+### Fixed
+
+- Typos in VI descriptions that appear in help context window
 
 ## [0.1.0] - 2020-04-17
 
