@@ -24,6 +24,7 @@ All notable changes to this project will be documented in this file, which is wr
 ### Fixed
 
 - The "Execute Multiple Commands with a Single Channel with a Raspberry Pi" example
+- The "Execute Multiple Commands with a Single Channel" example
 - Typos in VI descriptions that appear in help context window
 
 ## [0.1.0] - 2020-04-17
