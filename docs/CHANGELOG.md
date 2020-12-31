@@ -8,15 +8,22 @@ All notable changes to this project will be documented in this file, which is wr
 
 - Read-Execute-Print-Loop (REPL) example using a Raspberry Pi as the remote SSH server
 - Example for sending multiple commands to a Raspberry Pi
+- Timeout indicator to Read All VI
+- Timeout indicator to Read All Stderr VI
+- Timeout indicator to Write All VI
+- Timeout indicator to Write All Stderr VI
+- Default terminal size width and height to 80x24 for the VI
 
 ### Changed
 
+- Error -8140 (Execute Again Error, LIBSSH2_ERROR_EAGAIN) to a Warning 5040
 - Package version number to match release version number
 - Package name from `LIBSSH2` to `LIBSSH2 for LabVIEW` to further differentiate from the libssh2.org project
 - Installation instructions to use VIPM.io links and procedures
 
 ### Fixed
 
+- The "Execute Multiple Commands with a Single Channel with a Raspberry Pi" example
 - Typos in VI descriptions that appear in help context window
 
 ## [0.1.0] - 2020-04-17
