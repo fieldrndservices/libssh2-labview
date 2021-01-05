@@ -13,6 +13,7 @@
 <link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
 </head>
 <body bgcolor="#ffffff">
+
 <div id="styleDivTitle">
 <h1>Create VI</h1>
 <p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/File_Info/File_Info.html">File Info</a></p>
@@ -24,60 +25,80 @@
 <td>
 <select name="site" size="1" onchange="polyVISelectHandler(this)">
 <option value="">Select an instance</option>
+
 <option value="parent">Session</option>
+
 <option value="instance1">SSH</option>
+
 </select>
 </td>
 </tr>
 </table>
 </div>
+
 <div id="styleDivScrolling">
+
 <h2><a name="parent">Session</a></h2>
 <p class="Body">Passes through the Session object but obtains the SSH context for the Session object to create a new File Info object.</p>
 <p class="Anchor"><img src="/images/Toolkit/File_Info/Create_from_Sessionc.png" alt="Session"></p>
 <table class="Borderless">
+
 <tr>
 <td class="Icon"><img src="/images/Toolkit/File_Info/iToolkit_lvlib_Sessionlvclass.png" alt="iToolkit_lvlib_Sessionlvclass"></td>
-<td><strong>Session Out</strong> is the same object from <strong>Session In</strong>.</td>
+<td><strong>Session Out</strong> is the same object from 
+<strong>Session In</strong>.</td>
 </tr>
+
 <tr>
 <td class="Icon"><img src="/images/Toolkit/File_Info/cToolkit_lvlib_Sessionlvclass.png" alt="cToolkit_lvlib_Sessionlvclass"></td>
-<td><strong>Session In</strong> represents a libssh2lv shared library session struct.</td>
+<td><strong>Session In</strong> represents a libssh2 shared library session struct.</td>
 </tr>
+
 <tr>
 <td class="Icon"><img src="/images/Toolkit/File_Info/iToolkit_lvlib_File_Infolvclass.png" alt="iToolkit_lvlib_File_Infolvclass"></td>
-<td><strong>File Info</strong> represents a libssh2lv shared library File Information struct.</td>
+<td><strong>File Info</strong> represents a libssh2 shared library File Information struct.</td>
 </tr>
+
 <tr>
 <td class="Icon"><img src="/images/Toolkit/File_Info/ierrcodeclst.png" alt="ierrcodeclst"></td>
 <td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
+
 <tr>
 <td class="Icon"><img src="/images/Toolkit/File_Info/cerrcodeclst.png" alt="cerrcodeclst"></td>
 <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
+
 </table>
+
 <h2><a name="instance1">SSH</a></h2>
 <p class="Body">Creates a new File Info object from a SSH context.</p>
 <p class="Anchor"><img src="/images/Toolkit/File_Info/Create_from_SSHc.png" alt="SSH"></p>
 <table class="Borderless">
+
 <tr>
 <td class="Icon"><img src="/images/Toolkit/File_Info/cToolkit_lvlib_SSHlvclass.png" alt="cToolkit_lvlib_SSHlvclass"></td>
-<td><strong>SSH</strong> represents a libssh2lv-related context used to create all other libssh2lv shared library objects.</td>
+<td><strong>SSH</strong> represents a libssh2-related context used to create all other libssh2 shared library objects.</td>
 </tr>
+
 <tr>
 <td class="Icon"><img src="/images/Toolkit/File_Info/iToolkit_lvlib_File_Infolvclass.png" alt="iToolkit_lvlib_File_Infolvclass"></td>
-<td><strong>Known Host</strong> represents a libssh2lv shared library File Information struct.</td>
+<td><strong>Known Host</strong> represents a libssh2 shared library File Information struct.</td>
 </tr>
+
 <tr>
 <td class="Icon"><img src="/images/Toolkit/File_Info/ierrcodeclst.png" alt="ierrcodeclst"></td>
 <td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
+
 <tr>
 <td class="Icon"><img src="/images/Toolkit/File_Info/cerrcodeclst.png" alt="cerrcodeclst"></td>
 <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
+
 </table>
+
 </div>
+
 </body>
 </html>

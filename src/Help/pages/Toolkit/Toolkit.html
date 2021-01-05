@@ -11,72 +11,96 @@
 <script src="/scripts/cssframes.js" type="text/javascript"></script>
 </head>
 <body bgcolor="#ffffff">
+
 <h1>Toolkit Controls and VIs</h1>
 <p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/Toolkit.html">Toolkit</a></p>
 <p class="Body"><strong>Requires:</strong> LIBSSH2</p>
 <p class="Body">The classes, controls, and VIs that are the Application Programming Interface (API) for the LIBSSH2 toolkit.</p>
+
 <table class="Bordered">
 <tr>
 <th class="Bordered Left-Align">Library Item</th>
 <th class="Bordered Left-Align">Description</th>
 </tr>
+
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Type_Definitions.html">Type Definitions</a></td>
 <td class="Bordered">Groups related files into a folder</td>
 </tr>
+
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Agent_Identity.html">Agent Identity</a></td>
 <td class="Bordered">Represents an identity stored in a SSH agent application. A SSH agent application stores usernames, public/private key pairs, and passwords/passphrases to make managing and using multiple "identities" for multiple remote SSH servers.</td>
 </tr>
+
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Agent.html">Agent</a></td>
 <td class="Bordered">Represents a connection to a SSH agent application. A SSH agent application stores usernames, public/private key pairs, and passwords/passphrases to make managing and using multiple "identities" for multiple remote SSH servers.
+
 Identities are stored in memory as a linked list. This class provides functionality for obtaining the linked list and transversing the linked list of identities.</td>
 </tr>
+
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Channel.html">Channel</a></td>
 <td class="Bordered">Represents a SSH channel. A SSH channel is a bidirectional communication connection between two computers. The SSH channel is created after a SSH session has been established and the user has been authenticated. Note, multiple channels can exist for a single SSH session.</td>
 </tr>
+
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/File_Info.html">File Info</a></td>
-<td class="Bordered">Represents a libssh2lv shared library File Info struct.</td>
+<td class="Bordered">Represents a libssh2 shared library File Info struct.</td>
 </tr>
+
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Known_Host.html">Known Host</a></td>
-<td class="Bordered">Represents a libssh2lv shared library Known Host struct.</td>
+<td class="Bordered">Represents a libssh2 shared library Known Host struct.</td>
 </tr>
+
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Known_Hosts.html">Known Hosts</a></td>
-<td class="Bordered">Represents a libssh2lv shared library Known Hosts struct.</td>
+<td class="Bordered">Represents a libssh2 shared library Known Hosts struct.</td>
 </tr>
+
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Listener.html">Listener</a></td>
-<td class="Bordered">Represents a libssh2lv shared library listener struct.</td>
+<td class="Bordered">Represents a libssh2 shared library listener struct.</td>
 </tr>
+
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/Session.html">Session</a></td>
-<td class="Bordered">Represents the underlying session resource for the libssh2lv shared library.</td>
+<td class="Bordered">Represents the underlying session resource for the libssh2 shared library.</td>
 </tr>
+
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/SFTP_Attributes.html">SFTP Attributes</a></td>
 <td class="Bordered">A container class for file or directory attributes, or metadata, such as permissions and time stamps.</td>
 </tr>
+
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/SFTP_Directory.html">SFTP Directory</a></td>
 <td class="Bordered">Represents a SFTP directory, a.k.a. folder.</td>
 </tr>
+
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/SFTP_File.html">SFTP File</a></td>
 <td class="Bordered">Represents a SFTP file.</td>
 </tr>
+
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/SFTP.html">SFTP</a></td>
 <td class="Bordered">An object representing a connection to a remote SFTP server. This is the parent class used to create all other SFTP-related objects.</td>
 </tr>
+
 <tr>
 <td class="Bordered"><a href="/pages/Toolkit/SSH.html">SSH</a></td>
 <td class="Bordered">Represents a libssh2-related context that is used by all other classes to communicate with a remote SSH server.</td>
 </tr>
+
+<tr>
+<td class="Bordered"><a href="/pages/Toolkit/VI_Tree.html">VI Tree</a></td>
+<td class="Bordered">Shows all of the public VIs for the toolkit grouped by LabVIEW class in the block diagram.</td>
+</tr>
+
 </table>
+
 </body>
 </html>

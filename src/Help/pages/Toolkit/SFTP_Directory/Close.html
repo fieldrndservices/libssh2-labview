@@ -13,6 +13,7 @@
 <link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
 </head>
 <body bgcolor="#ffffff">
+
 <div id="styleDivTitle">
 <h1>Close VI</h1>
 <p class="Body"><strong>Owning Palette:</strong> <a href="/pages/Toolkit/SFTP_Directory/SFTP_Directory.html">SFTP Directory</a></p>
@@ -24,38 +25,50 @@
 <td>
 <select name="site" size="1" onchange="polyVISelectHandler(this)">
 <option value="">Select an instance</option>
+
 <option value="parent">SFTP</option>
+
 </select>
 </td>
 </tr>
 </table>
 </div>
+
 <div id="styleDivScrolling">
+
 <h2><a name="parent">SFTP</a></h2>
 <p class="Body">Destroys this SFTP Directory object and returns the SFTP object used to create it.</p>
 <p class="Anchor"><img src="/images/Toolkit/SFTP_Directory/Close_to_SFTPc.png" alt="SFTP"></p>
 <table class="Borderless">
+
 <tr>
 <td class="Icon"><img src="/images/Toolkit/SFTP_Directory/istr.png" alt="istr"></td>
 <td><strong>Remote Path</strong> is a path on the remote SSH server to the existing directory that was closed. The path separator of the remote filesystem should be used. For example, a forwardslash, "/", should be used if the remote SSH server is a UNIX-like system, while a backslash, "\", should be used if the remote SSH server is a DOS-like system.</td>
 </tr>
+
 <tr>
 <td class="Icon"><img src="/images/Toolkit/SFTP_Directory/iToolkit_lvlib_SFTPlvclass.png" alt="iToolkit_lvlib_SFTPlvclass"></td>
 <td><strong>SFTP</strong> represents the same SFTP object that was used to create the SFTP Directory libssh2 library struct from <strong>SFTP Directory</strong>.</td>
 </tr>
+
 <tr>
 <td class="Icon"><img src="/images/Toolkit/SFTP_Directory/cToolkit_lvlib_SFTP_Directorylvclass.png" alt="cToolkit_lvlib_SFTP_Directorylvclass"></td>
-<td><strong>SFTP Directory</strong> represents a libssh2lv shared library SFTP directory struct.</td>
+<td><strong>SFTP Directory</strong> represents a libssh2 shared library SFTP directory struct.</td>
 </tr>
+
 <tr>
 <td class="Icon"><img src="/images/Toolkit/SFTP_Directory/ierrcodeclst.png" alt="ierrcodeclst"></td>
 <td><strong>Error Out</strong> contains error information. This provides standard error out functionality.<p>Right-click the <strong>Error Out</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
+
 <tr>
 <td class="Icon"><img src="/images/Toolkit/SFTP_Directory/cerrcodeclst.png" alt="cerrcodeclst"></td>
 <td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. <p>Right-click the <strong>Error In</strong> indicator on the front panel and select <strong>Explain Error</strong> or <strong>Explain Warning</strong> from the shortcut menu for more information about the error.</p></td>
 </tr>
+
 </table>
+
 </div>
+
 </body>
 </html>
