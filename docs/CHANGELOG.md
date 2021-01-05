@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+## [1.1.0] - 2021-01-05
+
 ### Added
 
 - Read-Execute-Print-Loop (REPL) example using a Raspberry Pi as the remote SSH server
