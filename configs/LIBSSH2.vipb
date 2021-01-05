@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2020-05-03 15:12:24" Creator="cfield" Comments="" ID="a836de48a27f987fd3a78483e1546ab0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2021-01-05 11:31:03" Creator="cfield" Comments="" ID="ec5d64bdd09d20ce0189c7e32896dbeb">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_LIBSSH2</Package_File_Name>
-    <Library_Version>0.1.0.21</Library_Version>
+    <Library_Version>1.1.0.21</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds</Library_Source_Folder>
     <Library_Output_Folder>..\packages</Library_Output_Folder>
@@ -31,40 +31,25 @@
       <Description>Adds SSH client support to LabVIEW using the libssh2 library</Description>
       <Copyright/>
       <Packager>Christopher R Field</Packager>
-      <URL>http://www.fieldrndservices.com/</URL>
-      <Release_Notes>## [0.1.0] - 2020-04-17
+      <URL>https://github.com/fieldrndservices/libssh2-labview</URL>
+      <Release_Notes>## [1.1.0] - 2021-01-05
 
 ### Added
 
-- The `Channel.lvclass:Read All Stderr.vi` and `Channel.lvclass:Write All Stderr.vi` VIs
-- Data entry limits to the `Max Data Length` and `Per Read Size` controls for the "Read" VIs in the Channel class
-- Descriptions to all VIs and type definitions for all classes
-- Descriptions to all controls and indicators for all VIs
-- Missing `Create from Listener` variant to the `Channel.lvclass:Create.vi` polymorphic VI
-- Missing `Destroy to Listener` variant to the `Channel.lvclass:Destroy.vi` polymorphic VI
-- Path for the _Help path_ field to all VI documentation
-- A relative path for the _Help tag_ field to all VI documentation
-- The `Agent Identity.lvclass:Create.vi` and `Agent Identity.lvclass:Destroy.vi` VIs to the Agent palette
-- CHM file to installable package (VIP)
-- HTML help documentation for all controls, indicators, VIs, classes, and libraries
-- Apache-2.0 License header to all block diagrams of all VIs
+- Read-Execute-Print-Loop (REPL) example using a Raspberry Pi as the remote SSH server
+- Example for sending multiple commands to a Raspberry Pi
+- Timeout indicator to Read All VI
+- Timeout indicator to Read All Stderr VI
+- Timeout indicator to Write All VI
+- Timeout indicator to Write All Stderr VI
+- Default terminal size width and height to 80x24 for the VI
 
 ### Changed
 
-- The `SFTP File.lvclass:Open.vi` to a polymorphic VI
-- The `SFTP File.lvclass:Close.vi` to a polymorphic VI
-- The `SFTP Directory.lvclass:Open.vi` to a polymorphic VI
-- The `SFTP Directory.lvclass:Close.vi` to a polymorphic VI
-- The `Channel.lvclass:Create.vi` SCP Receive instance to internally use a File Info object 
-- `Max Data Length` from 32000 to 1024 for all channel read and write examples
-- The type selector default from hidden to visible for all polymorphic VIs
-- The `Session.lvclass:Create.vi` to a polymorphic VI for API consistency
-- The `Session.lvclass:Create.vi` to a polymorphic VI for API consistency
-- The `SFTP.lvclass:Create.vi` to a polymorphic VI for API consistency
-- The `SFTP.lvclass:Destroy.vi` to a polymorphic VI for API consistency
-- The `Known Hosts.lvclass:Destroy.vi` to a polymorphic VI for API consistency
-- The `Known Hosts.lvclass:Destroy.vi` to a polymorphic VI for API consistency
-- `SFTP File.lvclass:Flags.ctl` to `SFTP File.lvclass:Options.ctl` for API naming consistency</Release_Notes>
+- Error -8140 (Execute Again Error, LIBSSH2_ERROR_EAGAIN) to a Warning 5040
+- Package version number to match release version number
+- Package name from `LIBSSH2` to `LIBSSH2 for LabVIEW` to further differentiate from the libssh2.org project
+- Installation instructions to use VIPM.io links and procedures</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -454,7 +439,7 @@
         <Path>..\builds\Toolkit\VI Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F412A3EF230BA979BBC211942AFEEEA5</GUID>
+      <GUID>6C3088813794507DF16FA44E3B8028A2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -615,7 +600,7 @@
         <Path>..\builds\Toolkit\Agent Identity\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>672425457FA32F45243247D00C551B9B</GUID>
+      <GUID>14AEB53C46BFB6671BE5845074D758EC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1028,7 +1013,7 @@
         <Path>..\builds\Toolkit\Channel\Write All Stderr.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0306F819119FDDD5674563422E24B655</GUID>
+      <GUID>3A3E3B570BDDC7CF9CA169A2D4066FE9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1231,7 +1216,7 @@
         <Path>..\builds\Toolkit\Session\Write Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24951A8974013173065607C3884C86F8</GUID>
+      <GUID>991D41A60CE8B3CD18F338BDA29B8997</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1336,7 +1321,7 @@
         <Path>..\builds\Toolkit\SFTP\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9FFAFACDD429BE6FAC4B7BAA207FD8A8</GUID>
+      <GUID>49B29FA34AD8C9E99E02A90569E73A40</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1469,7 +1454,7 @@
         <Path>..\builds\Toolkit\SFTP\Delete File.vi</Path>
         <VI_Title>Delete File</VI_Title>
       </Items_Data>
-      <GUID>B65A7DA439D74E45D903D1D5CDF99AAC</GUID>
+      <GUID>2E683DEF37926886122728010C793643</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1658,7 +1643,7 @@
         <Path>..\builds\Toolkit\SFTP File\Write All.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3279B54206B9F7627EEC541B5F3E0C3D</GUID>
+      <GUID>E59892CA67AEAC514BE3CF25606A1F01</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1721,7 +1706,7 @@
         <Path>..\builds\Toolkit\SFTP Directory\Read.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43BF30B31A453E5680F32A1664650954</GUID>
+      <GUID>1AB84105D5E47D8271A95BCB3CA6BF22</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1924,7 +1909,7 @@
         <Path>..\builds\Toolkit\SFTP Attributes\Read File Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A68E605466CD8B034862FEDF3377BA65</GUID>
+      <GUID>9D9A17A3E663EE0DB01315D03CB1B532</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2029,7 +2014,7 @@
         <Path>..\builds\Toolkit\File Info\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D66658D6CFE2BCD56B42B3E0B965DF7A</GUID>
+      <GUID>041224D3031C8A4E97CE84F43F89A740</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2078,7 +2063,7 @@
         <Path>..\builds\Toolkit\API\Known Host\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A2B70FAE9FCA05134BA13F26CA954018</GUID>
+      <GUID>5DA96C39B25A75BE721C29E9D24DE7F6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2197,7 +2182,7 @@
         <Path>..\builds\Toolkit\Known Hosts\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C778515AFD9E8D02EF893486C853EA76</GUID>
+      <GUID>DAC7B91A4B6A6B090E87CAA996A7FCF1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2302,7 +2287,7 @@
         <Path>..\builds\Toolkit\Known Host\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>90876A263234A683B26C84590DE73893</GUID>
+      <GUID>1A887C8BA7FAF4C92206254683F24F95</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2351,7 +2336,7 @@
         <Path>..\builds\Toolkit\Listener\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>580F3C2E1B1F842814003E9EBA2F52C1</GUID>
+      <GUID>01BF22E368B6E527A653156B0846DA5D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
