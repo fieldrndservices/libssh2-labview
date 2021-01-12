@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+## [1.1.1] - 2021-01-11
+
+### Fixed
+
+- Search path for dynamic library to account for package name change
+
 ## [1.1.0] - 2021-01-05
 
 ### Added
