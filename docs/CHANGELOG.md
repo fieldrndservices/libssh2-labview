@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+### Added
+
+- Example of uploading a small file using SFTP
+- Example of downloading a small file using SFTP
+
 ## [1.1.1] - 2021-01-11
 
 ### Fixed

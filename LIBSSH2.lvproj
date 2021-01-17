@@ -44,6 +44,7 @@
 			<Item Name="Simple SCP File Download.vi" Type="VI" URL="../src/Examples/Simple SCP File Download.vi"/>
 			<Item Name="Simple SCP File Upload.vi" Type="VI" URL="../src/Examples/Simple SCP File Upload.vi"/>
 			<Item Name="Simple SFTP File Download.vi" Type="VI" URL="../src/Examples/Simple SFTP File Download.vi"/>
+			<Item Name="Simple SFTP File Upload.vi" Type="VI" URL="../src/Examples/Simple SFTP File Upload.vi"/>
 			<Item Name="Single Command Execution.vi" Type="VI" URL="../src/Examples/Single Command Execution.vi"/>
 		</Item>
 		<Item Name="Scripts.lvlib" Type="Library" URL="../src/Scripts/Scripts.lvlib"/>
