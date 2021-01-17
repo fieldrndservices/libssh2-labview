@@ -166,6 +166,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
 	</Item>
+	<Item Name="Read All.vi" Type="VI" URL="../Read All.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;N!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!5!"1!!%E"!!!(`````!!5%2'&amp;U91!!/%"Q!"Y!!#%.6'^P&lt;'NJ&gt;#ZM&gt;GRJ9B&amp;42F21)%:J&lt;'5O&lt;(:D&lt;'&amp;T=Q!.5U:55#"';7RF)%^V&gt;!!41!A!$6"F=C"3:7&amp;E)&amp;.J?G5!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!".!#!!.47&amp;Y)&amp;*F971A5WF[:1!Y1(!!(A!!)1V5&lt;W^M;WFU,GRW&lt;'FC%6.'6&amp;!A2GFM:3ZM&gt;G.M98.T!!R42F21)%:J&lt;'5A37Y!!'%!]!!-!!-!"!!'!!=!"!!%!!A!"!!*!!1!#A!,!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
 	<Item Name="Read Status.vi" Type="VI" URL="../Read Status.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'P!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!%"!=!!?!!!H$62P&lt;WRL;81O&lt;(:M;7)85U:55#""&gt;(2S;7*V&gt;'6T,GRW9WRB=X-!$E&amp;U&gt;(*J9H6U:8-A4X6U!!!Y1(!!(A!!)1V5&lt;W^M;WFU,GRW&lt;'FC%6.'6&amp;!A2GFM:3ZM&gt;G.M98.T!!V42F21)%:J&lt;'5A4X6U!":!5!!$!!!!!1!##%6S=G^S)%FO!!!_1(!!(A!!*QV5&lt;W^M;WFU,GRW&lt;'FC&amp;V.'6&amp;!A182U=GFC&gt;82F=SZM&gt;G.M98.T!!V"&gt;(2S;7*V&gt;'6T)%FO!$B!=!!?!!!B$62P&lt;WRL;81O&lt;(:M;7)25U:55#"';7RF,GRW9WRB=X-!$&amp;.'6&amp;!A2GFM:3"*&lt;A!!9A$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!)!!E$!!"Y!!!.#!!!!!!!!!U+!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%!!!!")!!!Y!!!M!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
