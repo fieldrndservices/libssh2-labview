@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Added
 
+- The `Read All` VI to the SFTP File class API
 - Example of uploading a small file using SFTP
 - Example of downloading a small file using SFTP
 
