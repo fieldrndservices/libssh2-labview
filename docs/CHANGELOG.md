@@ -6,10 +6,16 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Added
 
+- Connection timeout input to connecting a new session
 - The `Read All` VI to the SFTP File class API
 - Example of uploading a small file using SFTP
 - Example of downloading a small file using SFTP
 - Example of using multiple, parallel sessions with a Raspberry Pi
+
+### Remove
+
+- Property definition for Session's `Connect.vi`
+- Property definition for Session's `Disconnect.vi`
 
 ## [1.1.1] - 2021-01-11
 
