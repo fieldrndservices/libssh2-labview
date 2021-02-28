@@ -38,6 +38,7 @@
 			<Item Name="Execute Multiple Commands with a Single Channel with a Raspberry Pi.vi" Type="VI" URL="../src/Examples/Execute Multiple Commands with a Single Channel with a Raspberry Pi.vi"/>
 			<Item Name="Execute Multiple Commands with a Single Channel.vi" Type="VI" URL="../src/Examples/Execute Multiple Commands with a Single Channel.vi"/>
 			<Item Name="Execute Multiple Commands with Multiple Channels.vi" Type="VI" URL="../src/Examples/Execute Multiple Commands with Multiple Channels.vi"/>
+			<Item Name="Multiple Sessions with a Raspberry Pi.vi" Type="VI" URL="../src/Examples/Multiple Sessions with a Raspberry Pi.vi"/>
 			<Item Name="Password Authentication.vi" Type="VI" URL="../src/Examples/Password Authentication.vi"/>
 			<Item Name="Public Key File Authentication.vi" Type="VI" URL="../src/Examples/Public Key File Authentication.vi"/>
 			<Item Name="Read-Execute-Print-Loop with a Raspberry Pi.vi" Type="VI" URL="../src/Examples/Read-Execute-Print-Loop with a Raspberry Pi.vi"/>
