@@ -17,6 +17,10 @@ All notable changes to this project will be documented in this file, which is wr
 - Property definition for Session's `Connect.vi`
 - Property definition for Session's `Disconnect.vi`
 
+### Fixed
+
+- Prepending array or string size to SCP and SFTP download examples
+
 ## [1.1.1] - 2021-01-11
 
 ### Fixed
