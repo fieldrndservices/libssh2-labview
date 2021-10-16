@@ -14,6 +14,10 @@ All notable changes to this project will be documented in this file, which is wr
 - Example of downloading a small file using SFTP
 - Example of using multiple, parallel sessions with a Raspberry Pi
 
+### Changed
+
+- The libssh2lv shared libraries to v0.2.2 
+
 ### Remove
 
 - Property definition for Session's `Connect.vi`

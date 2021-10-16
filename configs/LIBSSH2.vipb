@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2021-10-16 11:09:24" Creator="cfield" Comments="" ID="f1c9d3094805abae68442e013805d69a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-07-05 09:51:50" Modified_Date="2021-10-16 11:14:54" Creator="cfield" Comments="" ID="a91412aae4ba17a2fdc5d69aecbc5c0c">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_LIBSSH2</Package_File_Name>
     <Library_Version>1.2.0.26</Library_Version>
@@ -41,6 +41,10 @@
 - Example of uploading a small file using SFTP
 - Example of downloading a small file using SFTP
 - Example of using multiple, parallel sessions with a Raspberry Pi
+
+### Changed
+
+- The libssh2lv shared libraries to v0.2.2
 
 ### Remove
 
@@ -476,7 +480,7 @@
         <Path>..\builds\Toolkit\VI Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FF374369AA66D7DD2FB406437DC848DF</GUID>
+      <GUID>1F33DEDCC9DF41DC53243C03E716A60C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -637,7 +641,7 @@
         <Path>..\builds\Toolkit\Agent Identity\Create.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A1A2659F6785887B6F38E472CBAC2ECF</GUID>
+      <GUID>BE2C7C7503E269CF0DFF592A29C6F230</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1050,7 +1054,7 @@
         <Path>..\builds\Toolkit\Channel\Flush.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>166EBE42A180A7DD555A0DA52EC2B460</GUID>
+      <GUID>7B0B36A9B2B63AE81D110A6CF974AD45</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1253,7 +1257,7 @@
         <Path>..\builds\Toolkit\Session\Write Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>55666498852DB5171134AA193A6B35DB</GUID>
+      <GUID>C224621912A756BFEC00010608EFF09D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1358,7 +1362,7 @@
         <Path>..\builds\Toolkit\SFTP\Create.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>69B9D1C17D08B7C65A7AE02612A4F961</GUID>
+      <GUID>7AE6AA426E71CA5BF5B778D4419CC760</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1491,7 +1495,7 @@
         <Path>..\builds\Toolkit\SFTP\Link Status.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3588174BD5C7B75E33899DB2924BB31F</GUID>
+      <GUID>3B868A98079FB84442B0A80D72BEEC75</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1694,7 +1698,7 @@
         <Path>..\builds\Toolkit\SFTP File\Read All.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AC1965A5357EAD8E767FA89AC4B8BE74</GUID>
+      <GUID>E5E069354CCE57CE05FBBCE49822F121</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1757,7 +1761,7 @@
         <Path>..\builds\Toolkit\SFTP Directory\Read.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7D433ACB9DDBF81726448E0C2DC85B78</GUID>
+      <GUID>9F64DCCD83B11E7B844ACA06AE7A7AD0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1960,7 +1964,7 @@
         <Path>..\builds\Toolkit\SFTP Attributes\Read Flags.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CDFEF4EFE3EAA0EE5E33B9FBA9606DB1</GUID>
+      <GUID>2D08B9939C859E5C4686383917105A9E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2065,7 +2069,7 @@
         <Path>..\builds\Toolkit\File Info\Read Modified Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F5C83222D0DF1C206B475E9A8C53FAD7</GUID>
+      <GUID>74DDA1EFAF6894B0A09F51EF80EF62DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2114,7 +2118,7 @@
         <Path>..\builds\Toolkit\API\Known Host\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2A38E254087E954BCF68908F57488AAA</GUID>
+      <GUID>568FA7157C0655FFE42008AF2DE1BB1C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2233,7 +2237,7 @@
         <Path>..\builds\Toolkit\Known Hosts\First.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>60783D5E4545405479022AD3FF12F8FF</GUID>
+      <GUID>47C89BDB6204F4E371369A15328A2804</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2338,7 +2342,7 @@
         <Path>..\builds\Toolkit\Known Host\Read Magic.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DCD941B3BAB4386DC482EC3D972C24B4</GUID>
+      <GUID>EB30F02FAC921822282D96D5BA8C7418</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2387,7 +2391,7 @@
         <Path>..\builds\Toolkit\Listener\Create.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27FBE90D5D94B69A6892E09501EC660B</GUID>
+      <GUID>8D1EBC08597BC6D27AB5C77B3F023B93</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
