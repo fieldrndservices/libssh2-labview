@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+## [1.2.0] - 2021-10-16
+
 ### Added
 
 - Connection timeout input to connecting a new session
