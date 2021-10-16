@@ -19,6 +19,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Fixed
 
+- Prepending array or string size to SCP download VI snippet in README
 - Prepending array or string size to SCP and SFTP download examples
 
 ## [1.1.1] - 2021-01-11
