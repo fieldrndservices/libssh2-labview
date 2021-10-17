@@ -2,7 +2,9 @@
 
 A [LabVIEW](http://www.ni.com/labview) add-on and toolkit for communicating with a [SSH](https://en.wikipedia.org/wiki/Secure_Shell) server. This adds SSH client support to LabVIEW by using the [libssh2](http://www.libssh2.org) library and a LabVIEW-friendly wrapper library, [libssh2lv](https://github.com/fieldrndservices/libssh2lv). This only adds client-side SSH support. It does _not_ add SSH server support.
 
-[![GitHub Release](https://img.shields.io/github/release/fieldrndservices/libssh2-labview.svg)](https://github.com/fieldrndservices/libssh2-labview/releases)
+[![GitHub issues](https://img.shields.io/github/issues/fieldrndservices/libssh2-labview)](https://github.com/fieldrndservices/libssh2-labview/issues)
+[![GitHub forks](https://img.shields.io/github/forks/fieldrndservices/libssh2-labview)](https://github.com/fieldrndservices/libssh2-labview/network)
+[![GitHub stars](https://img.shields.io/github/stars/fieldrndservices/libssh2-labview)](https://github.com/fieldrndservices/libssh2-labview/stargazers)
 
 ## Table of Contents
 
