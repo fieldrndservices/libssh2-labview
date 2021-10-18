@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+## [1.2.1] - 2021-10-18
+
 ### Fixed
 
 - Error 56 during connection because of zero timeout default
