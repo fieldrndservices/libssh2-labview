@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+## [1.2.2] - 2021-10-19
+
+### Changed
+
+- Shared library version to v0.2.3
+
+### Fixed
+
+- Error 1097 occurring when repeatedly connecting to a server
+
 ## [1.2.1] - 2021-10-18
 
 ### Fixed
