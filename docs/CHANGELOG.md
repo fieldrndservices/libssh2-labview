@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+### Fixed
+
+- Improper usage of SFTP Attribute API in the "Simple SFTP File Download" example
+
 ## [1.2.2] - 2021-10-19
 
 ### Changed
