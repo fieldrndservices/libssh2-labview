@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+### Changed
+
+- The "Simple SFTP File Downalod" example to use a simpler VI
+
 ### Fixed
 
 - Improper usage of SFTP Attribute API in the "Simple SFTP File Download" example
