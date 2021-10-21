@@ -8,3 +8,4 @@ Names are listed alphabetically by given (first) name.
 Alberto Arnolfi
 Aleksander Paulsen <https://github.com/Clio75>
 Christopher R. Field <chris@fieldrndservices.com>
+Niels Goran Blume <https://github.com/ngblume>
