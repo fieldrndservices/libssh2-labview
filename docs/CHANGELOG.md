@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+### Added
+
+- Optional TCP Port for connecting to a remote SSH server
+
 ### Changed
 
 - The "Simple SFTP File Downalod" example to use a simpler VI
