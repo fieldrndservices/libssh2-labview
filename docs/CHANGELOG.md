@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+## [1.2.3] - 2021-12-11
+
 ### Added
 
 - Optional TCP Port for connecting to a remote SSH server
