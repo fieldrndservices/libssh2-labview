@@ -12,7 +12,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Changed
 
-- The "Simple SFTP File Downalod" example to use a simpler VI
+- The "Simple SFTP File Download" example to use a simpler VI
 
 ### Fixed
 
