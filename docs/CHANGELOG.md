@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased]
 
+## [1.2.4] - 2022-03-12
+
+### Changed
+
+- libssh2lv dependency from v0.2.3 to v0.2.4
+
 ## [1.2.3] - 2021-12-11
 
 ### Added
