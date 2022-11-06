@@ -3,6 +3,7 @@
 A [LabVIEW](http://www.ni.com/labview) add-on and toolkit for communicating with a [SSH](https://en.wikipedia.org/wiki/Secure_Shell) server. This adds SSH client support to LabVIEW by using the [libssh2](http://www.libssh2.org) library and a LabVIEW-friendly wrapper library, [libssh2lv](https://github.com/fieldrndservices/libssh2lv). This only adds client-side SSH support. It does _not_ add SSH server support.
 
 [![VIPM installs](https://www.vipm.io/package/field_rnd_services_libssh2/badge.svg?metric=installs&icon=white&left_color=darkgray&right_color=green)](https://www.vipm.io/package/field_rnd_services_libssh2/)
+[![VIPM stars](https://www.vipm.io/package/field_rnd_services_libssh2/badge.svg?metric=stars&icon=white&left_color=darkgray&right_color=green)](https://www.vipm.io/package/field_rnd_services_libssh2/)
 [![GitHub issues](https://img.shields.io/github/issues/fieldrndservices/libssh2-labview)](https://github.com/fieldrndservices/libssh2-labview/issues)
 [![GitHub forks](https://img.shields.io/github/forks/fieldrndservices/libssh2-labview)](https://github.com/fieldrndservices/libssh2-labview/network)
 [![GitHub stars](https://img.shields.io/github/stars/fieldrndservices/libssh2-labview)](https://github.com/fieldrndservices/libssh2-labview/stargazers)
